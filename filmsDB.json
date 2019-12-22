@@ -1,0 +1,6239 @@
+{
+	"countries": [
+		{
+			"id": 0,
+			"label": "США",
+			"slug": "ssha"
+		},
+		{
+			"id": 1,
+			"label": "Великобритания",
+			"slug": "velikobritaniya"
+		},
+		{
+			"id": 2,
+			"label": "Италия",
+			"slug": "italiya"
+		},
+		{
+			"id": 3,
+			"label": "Аргентина",
+			"slug": "argentina"
+		},
+		{
+			"id": 4,
+			"label": "Корея Южная",
+			"slug": "koreya_yuzhnaya"
+		},
+		{
+			"id": 5,
+			"label": "Япония",
+			"slug": "yaponiya"
+		},
+		{
+			"id": 6,
+			"label": "Китай",
+			"slug": "kitay"
+		},
+		{
+			"id": 7,
+			"label": "Франция",
+			"slug": "franciya"
+		},
+		{
+			"id": 8,
+			"label": "Германия",
+			"slug": "germaniya"
+		},
+		{
+			"id": 9,
+			"label": "Канада",
+			"slug": "kanada"
+		},
+		{
+			"id": 10,
+			"label": "Россия",
+			"slug": "rossiya"
+		},
+		{
+			"id": 11,
+			"label": "Тайвань",
+			"slug": "tayvan"
+		},
+		{
+			"id": 12,
+			"label": "Испания",
+			"slug": "ispaniya"
+		},
+		{
+			"id": 13,
+			"label": "Норвегия",
+			"slug": "norvegiya"
+		},
+		{
+			"id": 14,
+			"label": "Бразилия",
+			"slug": "braziliya"
+		},
+		{
+			"id": 15,
+			"label": "Индия",
+			"slug": "indiya"
+		},
+		{
+			"id": 16,
+			"label": "Румыния",
+			"slug": "rumyniya"
+		},
+		{
+			"id": 17,
+			"label": "Пуэрто Рико",
+			"slug": "puerto_riko"
+		},
+		{
+			"id": 18,
+			"label": "Мексика",
+			"slug": "meksika"
+		},
+		{
+			"id": 19,
+			"label": "Австралия",
+			"slug": "avstraliya"
+		},
+		{
+			"id": 20,
+			"label": "Ирландия",
+			"slug": "irlandiya"
+		},
+		{
+			"id": 21,
+			"label": "Новая Зеландия",
+			"slug": "novaya_zelandiya"
+		},
+		{
+			"id": 22,
+			"label": "Сербия",
+			"slug": "serbiya"
+		},
+		{
+			"id": 23,
+			"label": "Доминикана",
+			"slug": "dominikana"
+		},
+		{
+			"id": 24,
+			"label": "Люксембург",
+			"slug": "lyuksemburg"
+		},
+		{
+			"id": 25,
+			"label": "Бельгия",
+			"slug": "belgiya"
+		},
+		{
+			"id": 26,
+			"label": "Колумбия",
+			"slug": "kolumbiya"
+		},
+		{
+			"id": 27,
+			"label": "Нидерланды",
+			"slug": "niderlandy"
+		},
+		{
+			"id": 28,
+			"label": "Швеция",
+			"slug": "shveciya"
+		},
+		{
+			"id": 29,
+			"label": "Уругвай",
+			"slug": "urugvay"
+		},
+		{
+			"id": 30,
+			"label": "Швейцария",
+			"slug": "shveycariya"
+		},
+		{
+			"id": 31,
+			"label": "Дания",
+			"slug": "daniya"
+		},
+		{
+			"id": 32,
+			"label": "Филиппины",
+			"slug": "filippiny"
+		},
+		{
+			"id": 33,
+			"label": "Гонконг",
+			"slug": "gonkong"
+		},
+		{
+			"id": 34,
+			"label": "Польша",
+			"slug": "polsha"
+		},
+		{
+			"id": 35,
+			"label": "Австрия",
+			"slug": "avstriya"
+		},
+		{
+			"id": 36,
+			"label": "Казахстан",
+			"slug": "kazahstan"
+		},
+		{
+			"id": 37,
+			"label": "Армения",
+			"slug": "armeniya"
+		},
+		{
+			"id": 38,
+			"label": "Украина",
+			"slug": "ukraina"
+		}
+	],
+	"genres": [
+		{
+			"id": 0,
+			"label": "фантастика",
+			"slug": "fantastika"
+		},
+		{
+			"id": 1,
+			"label": "фэнтези",
+			"slug": "fentezi"
+		},
+		{
+			"id": 2,
+			"label": "боевик",
+			"slug": "boevik"
+		},
+		{
+			"id": 3,
+			"label": "приключения",
+			"slug": "priklyucheniya"
+		},
+		{
+			"id": 4,
+			"label": "мелодрама",
+			"slug": "melodrama"
+		},
+		{
+			"id": 5,
+			"label": "драма",
+			"slug": "drama"
+		},
+		{
+			"id": 6,
+			"label": "биография",
+			"slug": "biografiya"
+		},
+		{
+			"id": 7,
+			"label": "комедия",
+			"slug": "komediya"
+		},
+		{
+			"id": 8,
+			"label": "детектив",
+			"slug": "detektiv"
+		},
+		{
+			"id": 9,
+			"label": "криминал",
+			"slug": "kriminal"
+		},
+		{
+			"id": 10,
+			"label": "триллер",
+			"slug": "triller"
+		},
+		{
+			"id": 11,
+			"label": "ужасы",
+			"slug": "uzhasy"
+		},
+		{
+			"id": 12,
+			"label": "семейный",
+			"slug": "semeynyy"
+		},
+		{
+			"id": 13,
+			"label": "история",
+			"slug": "istoriya"
+		},
+		{
+			"id": 14,
+			"label": "короткометражка",
+			"slug": "korotkometrazhka"
+		},
+		{
+			"id": 15,
+			"label": "музыка",
+			"slug": "muzyka"
+		},
+		{
+			"id": 16,
+			"label": "спорт",
+			"slug": "sport"
+		},
+		{
+			"id": 17,
+			"label": "фильм-нуар",
+			"slug": "film-nuar"
+		},
+		{
+			"id": 18,
+			"label": "вестерн",
+			"slug": "vestern"
+		},
+		{
+			"id": 19,
+			"label": "военный",
+			"slug": "voennyy"
+		},
+		{
+			"id": 20,
+			"label": "документальный",
+			"slug": "dokumentalnyy"
+		},
+		{
+			"id": 21,
+			"label": "мюзикл",
+			"slug": "myuzikl"
+		}
+	],
+	"directors": [
+		{
+			"id": 0,
+			"name": "Джей Джей Абрамс",
+			"slug": "dzhey_dzhey_abrams"
+		},
+		{
+			"id": 1,
+			"name": "Том Харпер",
+			"slug": "tom_harper"
+		},
+		{
+			"id": 2,
+			"name": "Фернанду Мейреллиш",
+			"slug": "fernandu_meyrellish"
+		},
+		{
+			"id": 3,
+			"name": "Блейк Дж. Харрис",
+			"slug": "bleyk_dzh._harris"
+		},
+		{
+			"id": 4,
+			"name": "Крис Бушар",
+			"slug": "kris_bushar"
+		},
+		{
+			"id": 5,
+			"name": "Ли Джон-хо",
+			"slug": "li_dzhon-ho"
+		},
+		{
+			"id": 6,
+			"name": "Такаси Миике",
+			"slug": "takasi_miike"
+		},
+		{
+			"id": 7,
+			"name": "Ко Джон-ук",
+			"slug": "ko_dzhon-uk"
+		},
+		{
+			"id": 8,
+			"name": "Ноа Баумбак",
+			"slug": "noa_baumbak"
+		},
+		{
+			"id": 9,
+			"name": "Энг Ли",
+			"slug": "eng_li"
+		},
+		{
+			"id": 10,
+			"name": "Рубен Фляйшер",
+			"slug": "ruben_flyaysher"
+		},
+		{
+			"id": 11,
+			"name": "Дэвид Хэмилтон",
+			"slug": "devid_hemilton"
+		},
+		{
+			"id": 12,
+			"name": "Ванесса Фильо",
+			"slug": "vanessa_filo"
+		},
+		{
+			"id": 13,
+			"name": "Оливье Барру",
+			"slug": "olive_barru"
+		},
+		{
+			"id": 14,
+			"name": "Дяо Инань",
+			"slug": "dyao_inan"
+		},
+		{
+			"id": 15,
+			"name": "Александра Бойд",
+			"slug": "aleksandra_boyd"
+		},
+		{
+			"id": 16,
+			"name": "Уильям Кауфман",
+			"slug": "uilyam_kaufman"
+		},
+		{
+			"id": 17,
+			"name": "Юрий Нойман",
+			"slug": "yuriy_noyman"
+		},
+		{
+			"id": 18,
+			"name": "Кирк Харрис",
+			"slug": "kirk_harris"
+		},
+		{
+			"id": 19,
+			"name": "Colin Jeffrey",
+			"slug": "colin_jeffrey"
+		},
+		{
+			"id": 20,
+			"name": "Mark White",
+			"slug": "mark_white"
+		},
+		{
+			"id": 21,
+			"name": "Катрин Дадли-Роуз",
+			"slug": "katrin_dadli-rouz"
+		},
+		{
+			"id": 22,
+			"name": "Лаура Мадалиньский",
+			"slug": "laura_madalinskiy"
+		},
+		{
+			"id": 23,
+			"name": "Андрей Кончаловский",
+			"slug": "andrey_konchalovskiy"
+		},
+		{
+			"id": 24,
+			"name": "Алексей Бажанов",
+			"slug": "aleksey_bazhanov"
+		},
+		{
+			"id": 25,
+			"name": "Наталья Назарова",
+			"slug": "natalya_nazarova"
+		},
+		{
+			"id": 26,
+			"name": "Райан Принц",
+			"slug": "rayan_princ"
+		},
+		{
+			"id": 27,
+			"name": "Paul Anthony Rogers",
+			"slug": "paul_anthony_rogers"
+		},
+		{
+			"id": 28,
+			"name": "Джейсон Бурк",
+			"slug": "dzheyson_burk"
+		},
+		{
+			"id": 29,
+			"name": "Тристан Дюбуа",
+			"slug": "tristan_dyubua"
+		},
+		{
+			"id": 30,
+			"name": "Майкл Д. Селлерс",
+			"slug": "maykl_d._sellers"
+		},
+		{
+			"id": 31,
+			"name": "Bosede Williams",
+			"slug": "bosede_williams"
+		},
+		{
+			"id": 32,
+			"name": "Кэтрин Киран",
+			"slug": "ketrin_kiran"
+		},
+		{
+			"id": 33,
+			"name": "Камилль Браун",
+			"slug": "kamill_braun"
+		},
+		{
+			"id": 34,
+			"name": "Майкл Скотт",
+			"slug": "maykl_skott"
+		},
+		{
+			"id": 35,
+			"name": "Рене Лю",
+			"slug": "rene_lyu"
+		},
+		{
+			"id": 36,
+			"name": "Тодд Филлипс",
+			"slug": "todd_fillips"
+		},
+		{
+			"id": 37,
+			"name": "Элис Вэддингтон",
+			"slug": "elis_veddington"
+		},
+		{
+			"id": 38,
+			"name": "Мариус Хольст",
+			"slug": "marius_holst"
+		},
+		{
+			"id": 39,
+			"name": "Бен Сэфди",
+			"slug": "ben_sefdi"
+		},
+		{
+			"id": 40,
+			"name": "Джошуа Сэфди",
+			"slug": "dzhoshua_sefdi"
+		},
+		{
+			"id": 41,
+			"name": "Ноа Хоули",
+			"slug": "noa_houli"
+		},
+		{
+			"id": 42,
+			"name": "Саймон Кокс",
+			"slug": "saymon_koks"
+		},
+		{
+			"id": 43,
+			"name": "Брюс Смит",
+			"slug": "bryus_smit"
+		},
+		{
+			"id": 44,
+			"name": "Julien Abraham",
+			"slug": "julien_abraham"
+		},
+		{
+			"id": 45,
+			"name": "Rodrigo Van Der Put",
+			"slug": "rodrigo_van_der_put"
+		},
+		{
+			"id": 46,
+			"name": "Самит Басу",
+			"slug": "samit_basu"
+		},
+		{
+			"id": 47,
+			"name": "Шашанка Гхош",
+			"slug": "shashanka_ghosh"
+		},
+		{
+			"id": 48,
+			"name": "Роуэн Этейл",
+			"slug": "rouen_eteyl"
+		},
+		{
+			"id": 49,
+			"name": "Эрни Барбараш",
+			"slug": "erni_barbarash"
+		},
+		{
+			"id": 50,
+			"name": "Илья Куликов",
+			"slug": "ilya_kulikov"
+		},
+		{
+			"id": 51,
+			"name": "Нигина Сайфуллаева",
+			"slug": "nigina_sayfullaeva"
+		},
+		{
+			"id": 52,
+			"name": "Артём Темников",
+			"slug": "artyom_temnikov"
+		},
+		{
+			"id": 53,
+			"name": "Майкл Дамиан",
+			"slug": "maykl_damian"
+		},
+		{
+			"id": 54,
+			"name": "Элизабет Блейк-Томас",
+			"slug": "elizabet_bleyk-tomas"
+		},
+		{
+			"id": 55,
+			"name": "Eduardo Ortíz",
+			"slug": "eduardo_ortiz"
+		},
+		{
+			"id": 56,
+			"name": "Клэй Кэйтис",
+			"slug": "kley_keytis"
+		},
+		{
+			"id": 57,
+			"name": "Джон Шульц",
+			"slug": "dzhon_shulc"
+		},
+		{
+			"id": 58,
+			"name": "Би Гань",
+			"slug": "bi_gan"
+		},
+		{
+			"id": 59,
+			"name": "Алехандро Спрингаль",
+			"slug": "alehandro_springal"
+		},
+		{
+			"id": 60,
+			"name": "Дэнни А. Абекейзер",
+			"slug": "denni_a._abekeyzer"
+		},
+		{
+			"id": 61,
+			"name": "Стивен Люк",
+			"slug": "stiven_lyuk"
+		},
+		{
+			"id": 62,
+			"name": "Уэс Миллер",
+			"slug": "ues_miller"
+		},
+		{
+			"id": 63,
+			"name": "Миккель Бренне Сандемусе",
+			"slug": "mikkel_brenne_sandemuse"
+		},
+		{
+			"id": 64,
+			"name": "Сюй Сянюнь",
+			"slug": "syuy_syanyun"
+		},
+		{
+			"id": 65,
+			"name": "Вуди Аллен",
+			"slug": "vudi_allen"
+		},
+		{
+			"id": 66,
+			"name": "Джефф Чан",
+			"slug": "dzheff_chan"
+		},
+		{
+			"id": 67,
+			"name": "Игорь Копылов",
+			"slug": "igor_kopylov"
+		},
+		{
+			"id": 68,
+			"name": "Дэн Берк",
+			"slug": "den_berk"
+		},
+		{
+			"id": 69,
+			"name": "Роберт Ольсен",
+			"slug": "robert_olsen"
+		},
+		{
+			"id": 70,
+			"name": "Пупи Авати",
+			"slug": "pupi_avati"
+		},
+		{
+			"id": 71,
+			"name": "Рохит Карн Батра",
+			"slug": "rohit_karn_batra"
+		},
+		{
+			"id": 72,
+			"name": "Том Куинн",
+			"slug": "tom_kuinn"
+		},
+		{
+			"id": 73,
+			"name": "Софи Хайд",
+			"slug": "sofi_hayd"
+		},
+		{
+			"id": 74,
+			"name": "Стивен Херек",
+			"slug": "stiven_herek"
+		},
+		{
+			"id": 75,
+			"name": "Константин Худяков",
+			"slug": "konstantin_hudyakov"
+		},
+		{
+			"id": 76,
+			"name": "Шонали Бозе",
+			"slug": "shonali_boze"
+		},
+		{
+			"id": 77,
+			"name": "Жаргал Бадмацыренов",
+			"slug": "zhargal_badmacyrenov"
+		},
+		{
+			"id": 78,
+			"name": "Александр Кузьминов",
+			"slug": "aleksandr_kuzminov"
+		},
+		{
+			"id": 79,
+			"name": "Абхишек Шарма",
+			"slug": "abhishek_sharma"
+		},
+		{
+			"id": 80,
+			"name": "Stallone Vaiaoga-Ioasa",
+			"slug": "stallone_vaiaoga-ioasa"
+		},
+		{
+			"id": 81,
+			"name": "Фред Олен Рэй",
+			"slug": "fred_olen_rey"
+		},
+		{
+			"id": 82,
+			"name": "Джаред Кон",
+			"slug": "dzhared_kon"
+		},
+		{
+			"id": 83,
+			"name": "Элиза Аморузо",
+			"slug": "eliza_amoruzo"
+		},
+		{
+			"id": 84,
+			"name": "Дэниэл Тененбаум",
+			"slug": "deniel_tenenbaum"
+		},
+		{
+			"id": 85,
+			"name": "Ремо Пини",
+			"slug": "remo_pini"
+		},
+		{
+			"id": 86,
+			"name": "Сэм Ирвин",
+			"slug": "sem_irvin"
+		},
+		{
+			"id": 87,
+			"name": "Аллан Хэрмон",
+			"slug": "allan_hermon"
+		},
+		{
+			"id": 88,
+			"name": "Милош Аврамович",
+			"slug": "milosh_avramovich"
+		},
+		{
+			"id": 89,
+			"name": "Елена Коссон",
+			"slug": "elena_kosson"
+		},
+		{
+			"id": 90,
+			"name": "Хо Джун-хён",
+			"slug": "ho_dzhun-hyon"
+		},
+		{
+			"id": 91,
+			"name": "Jermaine Quick",
+			"slug": "jermaine_quick"
+		},
+		{
+			"id": 92,
+			"name": "Pavan Kumar",
+			"slug": "pavan_kumar"
+		},
+		{
+			"id": 93,
+			"name": "Михаэль Штурмингер",
+			"slug": "mihael_shturminger"
+		},
+		{
+			"id": 94,
+			"name": "Vilan Trub",
+			"slug": "vilan_trub"
+		},
+		{
+			"id": 95,
+			"name": "Рёта Накано",
+			"slug": "ryota_nakano"
+		},
+		{
+			"id": 96,
+			"name": "Шеннон Флинн",
+			"slug": "shennon_flinn"
+		},
+		{
+			"id": 97,
+			"name": "Эрик Клоуз",
+			"slug": "erik_klouz"
+		},
+		{
+			"id": 98,
+			"name": "Брайан Херцлингер",
+			"slug": "brayan_herclinger"
+		},
+		{
+			"id": 99,
+			"name": "Гари Вилер",
+			"slug": "gari_viler"
+		},
+		{
+			"id": 100,
+			"name": "Роберто Анхель Сальседо",
+			"slug": "roberto_anhel_salsedo"
+		},
+		{
+			"id": 101,
+			"name": "Ронда Барака",
+			"slug": "ronda_baraka"
+		},
+		{
+			"id": 102,
+			"name": "Джефф Бисли",
+			"slug": "dzheff_bisli"
+		},
+		{
+			"id": 103,
+			"name": "Дуан Пул",
+			"slug": "duan_pul"
+		},
+		{
+			"id": 104,
+			"name": "Шон МакНамара",
+			"slug": "shon_maknamara"
+		},
+		{
+			"id": 105,
+			"name": "Майкл Бэй",
+			"slug": "maykl_bey"
+		},
+		{
+			"id": 106,
+			"name": "Кристиан Волькман",
+			"slug": "kristian_volkman"
+		},
+		{
+			"id": 107,
+			"name": "Руперт Гулд",
+			"slug": "rupert_guld"
+		},
+		{
+			"id": 108,
+			"name": "Дэнни Бойл",
+			"slug": "denni_boyl"
+		},
+		{
+			"id": 109,
+			"name": "Девин Зиммерман",
+			"slug": "devin_zimmerman"
+		},
+		{
+			"id": 110,
+			"name": "Райан Джонсон",
+			"slug": "rayan_dzhonson"
+		},
+		{
+			"id": 111,
+			"name": "Фрэнк Сабателла",
+			"slug": "frenk_sabatella"
+		},
+		{
+			"id": 112,
+			"name": "Джорджо Бруно",
+			"slug": "dzhordzho_bruno"
+		},
+		{
+			"id": 113,
+			"name": "Роберто Де Фео",
+			"slug": "roberto_de_feo"
+		},
+		{
+			"id": 114,
+			"name": "Джастин Дек",
+			"slug": "dzhastin_dek"
+		},
+		{
+			"id": 115,
+			"name": "Уэйн Робертс",
+			"slug": "ueyn_roberts"
+		},
+		{
+			"id": 116,
+			"name": "Чарли Бин",
+			"slug": "charli_bin"
+		},
+		{
+			"id": 117,
+			"name": "Мариэль Хеллер",
+			"slug": "mariel_heller"
+		},
+		{
+			"id": 118,
+			"name": "Minhal Baig",
+			"slug": "minhal_baig"
+		},
+		{
+			"id": 119,
+			"name": "Алехандро Ландес",
+			"slug": "alehandro_landes"
+		},
+		{
+			"id": 120,
+			"name": "Крис Александр",
+			"slug": "kris_aleksandr"
+		},
+		{
+			"id": 121,
+			"name": "Юго Желен",
+			"slug": "yugo_zhelen"
+		},
+		{
+			"id": 122,
+			"name": "Ли Вон-тхэ",
+			"slug": "li_von-the"
+		},
+		{
+			"id": 123,
+			"name": "Райли Стернс",
+			"slug": "rayli_sterns"
+		},
+		{
+			"id": 124,
+			"name": "Сарик Андреасян",
+			"slug": "sarik_andreasyan"
+		},
+		{
+			"id": 125,
+			"name": "Алексис Кехилл",
+			"slug": "aleksis_kehill"
+		},
+		{
+			"id": 126,
+			"name": "Alexis Sweet Cahill",
+			"slug": "alexis_sweet_cahill"
+		},
+		{
+			"id": 127,
+			"name": "Brigitte Drodthoff",
+			"slug": "brigitte_drodthoff"
+		},
+		{
+			"id": 128,
+			"name": "Дэвид Уиннинг",
+			"slug": "devid_uinning"
+		},
+		{
+			"id": 129,
+			"name": "Фархад Манн",
+			"slug": "farhad_mann"
+		},
+		{
+			"id": 130,
+			"name": "Кевин Игнатиус",
+			"slug": "kevin_ignatius"
+		},
+		{
+			"id": 131,
+			"name": "Джонатан Райт",
+			"slug": "dzhonatan_rayt"
+		},
+		{
+			"id": 132,
+			"name": "Сэм Бойд",
+			"slug": "sem_boyd"
+		},
+		{
+			"id": 133,
+			"name": "Сэм Тейлор-Джонсон",
+			"slug": "sem_teylor-dzhonson"
+		},
+		{
+			"id": 134,
+			"name": "Ям Ларанас",
+			"slug": "yam_laranas"
+		},
+		{
+			"id": 135,
+			"name": "Stéphan Archinard",
+			"slug": "stephan_archinard"
+		},
+		{
+			"id": 136,
+			"name": "François Prévôt-Leygonie",
+			"slug": "francois_prevot-leygonie"
+		},
+		{
+			"id": 137,
+			"name": "Кристина Каллас",
+			"slug": "kristina_kallas"
+		},
+		{
+			"id": 138,
+			"name": "Лим Джин-сын",
+			"slug": "lim_dzhin-syn"
+		},
+		{
+			"id": 139,
+			"name": "Кадзуя Сираиси",
+			"slug": "kadzuya_siraisi"
+		},
+		{
+			"id": 140,
+			"name": "Эд Бай",
+			"slug": "ed_bay"
+		},
+		{
+			"id": 141,
+			"name": "Марк А. Льюис",
+			"slug": "mark_a._lyuis"
+		},
+		{
+			"id": 142,
+			"name": "Yann Labry",
+			"slug": "yann_labry"
+		},
+		{
+			"id": 143,
+			"name": "Vincent Lenk",
+			"slug": "vincent_lenk"
+		},
+		{
+			"id": 144,
+			"name": "Lisa Ossowski",
+			"slug": "lisa_ossowski"
+		},
+		{
+			"id": 145,
+			"name": "Тэннер Смит",
+			"slug": "tenner_smit"
+		},
+		{
+			"id": 146,
+			"name": "Craig McCourry",
+			"slug": "craig_mccourry"
+		},
+		{
+			"id": 147,
+			"name": "Майк Флэнеган",
+			"slug": "mayk_flenegan"
+		},
+		{
+			"id": 148,
+			"name": "Омри Дурани",
+			"slug": "omri_durani"
+		},
+		{
+			"id": 149,
+			"name": "Марк Хэмпсон",
+			"slug": "mark_hempson"
+		},
+		{
+			"id": 150,
+			"name": "Jakub Nurzynski",
+			"slug": "jakub_nurzynski"
+		},
+		{
+			"id": 151,
+			"name": "Грант Мохрман",
+			"slug": "grant_mohrman"
+		},
+		{
+			"id": 152,
+			"name": "Джессика Хауснер",
+			"slug": "dzhessika_hausner"
+		},
+		{
+			"id": 153,
+			"name": "Гэвин Худ",
+			"slug": "gevin_hud"
+		},
+		{
+			"id": 154,
+			"name": "Брэд Фурман",
+			"slug": "bred_furman"
+		},
+		{
+			"id": 155,
+			"name": "Габриэль Жюльен-Лаферье",
+			"slug": "gabriel_zhyulen-lafere"
+		},
+		{
+			"id": 156,
+			"name": "Сантьяго Сегура",
+			"slug": "santyago_segura"
+		},
+		{
+			"id": 157,
+			"name": "Пол Мангер",
+			"slug": "pol_manger"
+		},
+		{
+			"id": 158,
+			"name": "Жулиано Дорнель",
+			"slug": "zhuliano_dornel"
+		},
+		{
+			"id": 159,
+			"name": "Клебер Мендонса Фильо",
+			"slug": "kleber_mendonsa_filo"
+		},
+		{
+			"id": 160,
+			"name": "Эндрю Ренци",
+			"slug": "endryu_renci"
+		},
+		{
+			"id": 161,
+			"name": "Кэролайн Лабреш",
+			"slug": "kerolayn_labresh"
+		},
+		{
+			"id": 162,
+			"name": "Andrew Onwubolu",
+			"slug": "andrew_onwubolu"
+		},
+		{
+			"id": 163,
+			"name": "Aaron Schimberg",
+			"slug": "aaron_schimberg"
+		},
+		{
+			"id": 164,
+			"name": "Дэвид Уивер",
+			"slug": "devid_uiver"
+		},
+		{
+			"id": 165,
+			"name": "Гари Йэтс",
+			"slug": "gari_yets"
+		},
+		{
+			"id": 166,
+			"name": "Willy Biondani",
+			"slug": "willy_biondani"
+		},
+		{
+			"id": 167,
+			"name": "Джейк Кэздан",
+			"slug": "dzheyk_kezdan"
+		},
+		{
+			"id": 168,
+			"name": "Брайан Кирк",
+			"slug": "brayan_kirk"
+		},
+		{
+			"id": 169,
+			"name": "Генри Джейкобсон",
+			"slug": "genri_dzheykobson"
+		},
+		{
+			"id": 170,
+			"name": "Чан Джэ-хён",
+			"slug": "chan_dzhe-hyon"
+		},
+		{
+			"id": 171,
+			"name": "У Мин-хо",
+			"slug": "u_min-ho"
+		},
+		{
+			"id": 172,
+			"name": "Эисукэ Наито",
+			"slug": "eisuke_naito"
+		},
+		{
+			"id": 173,
+			"name": "Александр Лунгин",
+			"slug": "aleksandr_lungin"
+		},
+		{
+			"id": 174,
+			"name": "Ким До-ён",
+			"slug": "kim_do-yon"
+		},
+		{
+			"id": 175,
+			"name": "Тодд Хейнс",
+			"slug": "todd_heyns"
+		},
+		{
+			"id": 176,
+			"name": "Мэтт Эскандари",
+			"slug": "mett_eskandari"
+		},
+		{
+			"id": 177,
+			"name": "Пэдрейг Рейнольдс",
+			"slug": "pedreyg_reynolds"
+		},
+		{
+			"id": 178,
+			"name": "Стивен С. Кампанелли",
+			"slug": "stiven_s._kampanelli"
+		},
+		{
+			"id": 179,
+			"name": "Кевин Гетц",
+			"slug": "kevin_getc"
+		},
+		{
+			"id": 180,
+			"name": "Майкл Гетц",
+			"slug": "maykl_getc"
+		},
+		{
+			"id": 181,
+			"name": "Роджер Эвери",
+			"slug": "rodzher_everi"
+		},
+		{
+			"id": 182,
+			"name": "Джеймс Каллен Брэссак",
+			"slug": "dzheyms_kallen_bressak"
+		},
+		{
+			"id": 183,
+			"name": "Пол Фиг",
+			"slug": "pol_fig"
+		},
+		{
+			"id": 184,
+			"name": "Гилберт Джон",
+			"slug": "gilbert_dzhon"
+		},
+		{
+			"id": 185,
+			"name": "Ли Сон-тхэ",
+			"slug": "li_son-the"
+		},
+		{
+			"id": 186,
+			"name": "Дженнифер Ридер",
+			"slug": "dzhennifer_rider"
+		},
+		{
+			"id": 187,
+			"name": "Дэниэл Шехтер",
+			"slug": "deniel_shehter"
+		},
+		{
+			"id": 188,
+			"name": "Александр Аванчини",
+			"slug": "aleksandr_avanchini"
+		},
+		{
+			"id": 189,
+			"name": "Михаил Ред",
+			"slug": "mihail_red"
+		},
+		{
+			"id": 190,
+			"name": "Едил Амандыков",
+			"slug": "edil_amandykov"
+		},
+		{
+			"id": 191,
+			"name": "Моусес",
+			"slug": "mouses"
+		},
+		{
+			"id": 192,
+			"name": "Джерри Чиккоритти",
+			"slug": "dzherri_chikkoritti"
+		},
+		{
+			"id": 193,
+			"name": "Ник Лион",
+			"slug": "nik_lion"
+		},
+		{
+			"id": 194,
+			"name": "Рон Оливер",
+			"slug": "ron_oliver"
+		},
+		{
+			"id": 195,
+			"name": "Тхирумала Кишор",
+			"slug": "thirumala_kishor"
+		},
+		{
+			"id": 196,
+			"name": "Уош Уэстмоленд",
+			"slug": "uosh_uestmolend"
+		},
+		{
+			"id": 197,
+			"name": "Монс Морлинд",
+			"slug": "mons_morlind"
+		},
+		{
+			"id": 198,
+			"name": "Бьёрн Стейн",
+			"slug": "byorn_steyn"
+		},
+		{
+			"id": 199,
+			"name": "Ричард Шепард",
+			"slug": "richard_shepard"
+		},
+		{
+			"id": 200,
+			"name": "Августин Фриззелл",
+			"slug": "avgustin_frizzell"
+		},
+		{
+			"id": 201,
+			"name": "Маири Камерон",
+			"slug": "mairi_kameron"
+		},
+		{
+			"id": 202,
+			"name": "Ли Сок-кын",
+			"slug": "li_sok-kyn"
+		},
+		{
+			"id": 203,
+			"name": "Трэвис Миллс",
+			"slug": "trevis_mills"
+		},
+		{
+			"id": 204,
+			"name": "Максим Айрапетов",
+			"slug": "maksim_ayrapetov"
+		},
+		{
+			"id": 205,
+			"name": "Андрей Троицкий",
+			"slug": "andrey_troickiy"
+		},
+		{
+			"id": 206,
+			"name": "Владимир Мирзоев",
+			"slug": "vladimir_mirzoev"
+		},
+		{
+			"id": 207,
+			"name": "Инна Щербань",
+			"slug": "inna_shcherban"
+		},
+		{
+			"id": 208,
+			"name": "Адам Рэндолл",
+			"slug": "adam_rendoll"
+		},
+		{
+			"id": 209,
+			"name": "Джеймс Грэй",
+			"slug": "dzheyms_grey"
+		},
+		{
+			"id": 210,
+			"name": "Тайлер Нилсон",
+			"slug": "tayler_nilson"
+		},
+		{
+			"id": 211,
+			"name": "Майк Шварц",
+			"slug": "mayk_shvarc"
+		},
+		{
+			"id": 212,
+			"name": "Хантер Дж. Уильямс",
+			"slug": "hanter_dzh._uilyams"
+		},
+		{
+			"id": 213,
+			"name": "Garo Setian",
+			"slug": "garo_setian"
+		},
+		{
+			"id": 214,
+			"name": "Кевин Смит",
+			"slug": "kevin_smit"
+		},
+		{
+			"id": 215,
+			"name": "Erik Flynn Patton",
+			"slug": "erik_flynn_patton"
+		},
+		{
+			"id": 216,
+			"name": "Адам Иджипт Мортимер",
+			"slug": "adam_idzhipt_mortimer"
+		},
+		{
+			"id": 217,
+			"name": "Александр Черняев",
+			"slug": "aleksandr_chernyaev"
+		},
+		{
+			"id": 218,
+			"name": "Зак Хилдитч",
+			"slug": "zak_hilditch"
+		},
+		{
+			"id": 219,
+			"name": "Emiliano Ranzani",
+			"slug": "emiliano_ranzani"
+		},
+		{
+			"id": 220,
+			"name": "Ли Хэ-ён",
+			"slug": "li_he-yon"
+		},
+		{
+			"id": 221,
+			"name": "Янь Цзя",
+			"slug": "yan_czya"
+		},
+		{
+			"id": 222,
+			"name": "Ханна Перл Атт",
+			"slug": "hanna_perl_att"
+		},
+		{
+			"id": 223,
+			"name": "Фрэнк Пелусо",
+			"slug": "frenk_peluso"
+		},
+		{
+			"id": 224,
+			"name": "Арно Меркадье",
+			"slug": "arno_merkade"
+		},
+		{
+			"id": 225,
+			"name": "Гаррет Бэтти",
+			"slug": "garret_betti"
+		},
+		{
+			"id": 226,
+			"name": "Adam Marino",
+			"slug": "adam_marino"
+		},
+		{
+			"id": 227,
+			"name": "Бэрри В. Леви",
+			"slug": "berri_v._levi"
+		},
+		{
+			"id": 228,
+			"name": "Antonio Pantoja",
+			"slug": "antonio_pantoja"
+		},
+		{
+			"id": 229,
+			"name": "Ольга Городецкая",
+			"slug": "olga_gorodeckaya"
+		},
+		{
+			"id": 230,
+			"name": "Адриан Грюнберг",
+			"slug": "adrian_gryunberg"
+		},
+		{
+			"id": 231,
+			"name": "Пол Кампф",
+			"slug": "pol_kampf"
+		},
+		{
+			"id": 232,
+			"name": "Моника Митчелл",
+			"slug": "monika_mitchell"
+		},
+		{
+			"id": 233,
+			"name": "Кэтлин Хепберн",
+			"slug": "ketlin_hepbern"
+		},
+		{
+			"id": 234,
+			"name": "Elle-Máijá Tailfeathers",
+			"slug": "elle-maija_tailfeathers"
+		},
+		{
+			"id": 235,
+			"name": "Франсуа Дезанья",
+			"slug": "fransua_dezanya"
+		},
+		{
+			"id": 236,
+			"name": "Джулия Камара",
+			"slug": "dzhuliya_kamara"
+		},
+		{
+			"id": 237,
+			"name": "Василий Чигинский",
+			"slug": "vasiliy_chiginskiy"
+		},
+		{
+			"id": 238,
+			"name": "Derrick Fury",
+			"slug": "derrick_fury"
+		},
+		{
+			"id": 239,
+			"name": "Gabriel Martins",
+			"slug": "gabriel_martins"
+		},
+		{
+			"id": 240,
+			"name": "Maurílio Martins",
+			"slug": "maurilio_martins"
+		},
+		{
+			"id": 241,
+			"name": "Simon Coldrick",
+			"slug": "simon_coldrick"
+		},
+		{
+			"id": 242,
+			"name": "Charlotte Purdy",
+			"slug": "charlotte_purdy"
+		},
+		{
+			"id": 243,
+			"name": "Джон Стимпсон",
+			"slug": "dzhon_stimpson"
+		},
+		{
+			"id": 244,
+			"name": "Хади Хаджэйг",
+			"slug": "hadi_hadzheyg"
+		},
+		{
+			"id": 245,
+			"name": "Максим Ксенда",
+			"slug": "maksim_ksenda"
+		},
+		{
+			"id": 246,
+			"name": "Уэйн Слейтен",
+			"slug": "ueyn_sleyten"
+		},
+		{
+			"id": 247,
+			"name": "Рейчел Хиронс",
+			"slug": "reychel_hirons"
+		},
+		{
+			"id": 248,
+			"name": "Кевин Бэрри",
+			"slug": "kevin_berri"
+		},
+		{
+			"id": 249,
+			"name": "Mark Saunders",
+			"slug": "mark_saunders"
+		},
+		{
+			"id": 250,
+			"name": "Чон Ге-су",
+			"slug": "chon_ge-su"
+		},
+		{
+			"id": 251,
+			"name": "Ким Джэ-хан",
+			"slug": "kim_dzhe-han"
+		}
+	],
+	"films": [
+		{
+			"title": "Звёздные войны: Скайуокер. Восход ",
+			"subtitle": "Star Wars: Episode IX - The Rise of Skywalker",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576977261_f42b76d.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=718222",
+			"description": "Фильм завершает невероятную историю семьи Скайуокеров, длящуюся уже более сорока лет, и обещает дать ответы на все загадки из предыдущих серий. Зрителя ожидают старые и новые герои, уникальные миры, увлекательные путешествия на край Галактики и грандиозный финал фантастической саги.",
+			"rating": 7,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				0,
+				1,
+				2,
+				3
+			],
+			"directors": [
+				0
+			]
+		},
+		{
+			"title": "Аэронавты",
+			"subtitle": "The Aeronauts",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1573715366_95a5f7c.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1108495",
+			"description": "Лондон. 1862 год. Она — очаровательная богатая молодая женщина, увлеченная управлением воздушных шаров. Он — исследователь метеоролог, готовый на все, чтобы совершить научный прорыв. Самой судьбой им было предназначено взлететь выше, чем кто-либо в истории. Вдвоем они отправятся в отчаянное путешествие на аэростате, через бури и грозы на край неизведанного мира, где воздух разряжен, а шансы на выживание невелики...",
+			"rating": 6.6,
+			"year": 2019,
+			"countries": [
+				1,
+				0
+			],
+			"genres": [
+				3,
+				4,
+				5,
+				6
+			],
+			"directors": [
+				1
+			]
+		},
+		{
+			"title": "Два Папы",
+			"subtitle": "The Two Popes",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576977064_86fe838.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1151327",
+			"description": "История духовного пути и избрания Папы Римского Франциска, который в 2013 году неохотно сменил в Ватикане отрекшегося Папу Бенедикта XVI. Два самых влиятельных лидера католической церкви пытаются каждый по-своему укрепить в вере современный мир и самих себя.",
+			"rating": 7.7,
+			"year": 2019,
+			"countries": [
+				1,
+				2,
+				3,
+				0
+			],
+			"genres": [
+				5,
+				7,
+				6
+			],
+			"directors": [
+				2
+			]
+		},
+		{
+			"title": "Рассказы Русалочки",
+			"subtitle": "The Little Mermaid",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576976969_40eb16a.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=963388",
+			"description": "Бабушка рассказывает внучкам сказку о русалочке. Девочки не верят в сказки, и тогда бабушка поведала им историю, которая произошла с ней на самом деле. Когда-то давно молодой журналист Кэм Харрисон отправился в бродячий цирк со своей младшей сестрой Элли. Там им демонстрировали настоящую русалку, живущую в резервуаре с водой, и этот феномен потряс их воображение. Но еще больше они удивились, когда русалочка предстала перед ними на двух ногах. Кэм и Элли узнают о ее судьбе и злом волшебнике, который хочет захватить ее доброе сердце, и становятся участниками невероятных приключений.",
+			"rating": 4.2,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				1,
+				5,
+				4,
+				3
+			],
+			"directors": [
+				3,
+				4
+			]
+		},
+		{
+			"title": "Зверь",
+			"subtitle": "Biseuteu",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576976876_5e013ca.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1197742",
+			"description": "Двум детективам, которые терпеть друг друга не могут, приходится действовать сообща, чтобы расследовать шокирующее убийство.",
+			"rating": 5.2,
+			"year": 2019,
+			"countries": [
+				4
+			],
+			"genres": [
+				8,
+				2,
+				9,
+				10
+			],
+			"directors": [
+				5
+			]
+		},
+		{
+			"title": "Первая любовь",
+			"subtitle": "Hatsukoi",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576976782_58ecfad.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1261612",
+			"description": "Рео и Моника — боксер со смертельным диагнозом и проститутка-наркоманка, влипшая в долги... Любовь, первая любовь настигает их внезапно. Но их чувство и жизнь под угрозой: за парочкой гонятся якудза, продажный коп, киллерша, посланная китайской триадой, и даже призрак в белой простыне... Безумная ночь в безумном Токио.",
+			"rating": 7.2,
+			"year": 2019,
+			"countries": [
+				5,
+				1
+			],
+			"genres": [
+				9,
+				4,
+				2
+			],
+			"directors": [
+				6
+			]
+		},
+		{
+			"title": "Настоящий преступник",
+			"subtitle": "Jinbeom",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576976686_ad809e0.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1118419",
+			"description": "У Ён-хуна трагедия — кто-то убил его жену. Полиция сработала оперативно и сразу же поймала подозреваемого. Но жена бедолаги Та-ён категорически не согласна с виновностью мужа, настолько не согласна, что вламывается на поминки с мольбами о помощи. У Ён-хуна тоже есть сомнения, и теперь они вместе начинают собственное расследование, чтобы выяснить — кто же настоящий преступник.",
+			"rating": 5.9,
+			"year": 2019,
+			"countries": [
+				4
+			],
+			"genres": [
+				10,
+				8,
+				9
+			],
+			"directors": [
+				7
+			]
+		},
+		{
+			"title": "Брачная история",
+			"subtitle": "Marriage Story",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575900382_e890acb.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1115486",
+			"description": "Театральный режиссёр и его жена-актриса проходят через мучительный развод и борьбу за опеку над ребёнком. Эти переживания подталкивают их к крайностям как в жизни, так и в творчестве.",
+			"rating": 8.2,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				4,
+				7
+			],
+			"directors": [
+				8
+			]
+		},
+		{
+			"title": "Гемини ",
+			"subtitle": "Gemini Man",
+			"preview": "http://ex-fs.net/uploads/posts/2019-10/1570447925_96720fb.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=462851",
+			"description": "Генри Броган, первоклассный киллер, становится мишенью таинственного оперативника, который, кажется, знает каждый его шаг наперед...",
+			"rating": 5.7,
+			"year": 2019,
+			"countries": [
+				6,
+				0
+			],
+			"genres": [
+				0,
+				2,
+				10,
+				5
+			],
+			"directors": [
+				9
+			]
+		},
+		{
+			"title": "Zомбилэнд: Контрольный выстрел",
+			"subtitle": "Zombieland: Double Tap",
+			"preview": "http://ex-fs.net/uploads/posts/2019-10/1571159420_74afce4.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=489414",
+			"description": "Беспощадная и бесстрашная четверка охотников на зомби продолжает свое путешествие в глубь страны. На этот раз им предстоит сразиться не только с новыми видами живых мертвецов, но и вступить в схватку с другими выжившими, которые настроены совсем не дружелюбно. Кроме того, в собственных рядах охотников намечается серьезный разлад.",
+			"rating": 7.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				2,
+				7
+			],
+			"directors": [
+				10
+			]
+		},
+		{
+			"title": "Где-то во времени",
+			"subtitle": "The Fare",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576855245_2ba5b38.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1094601",
+			"description": "Очаровательная пассажирка по имени Пенни садится в такси к Харрису. Машина движется по безлюдной темной трассе, и таксист начинает беседу с девушкой. Внезапно она исчезает с заднего сиденья автомобиля, не оставив и следа. Харрис сбрасывает счетчик километров... и перемещается во времени назад, в тот самый момент, когда таинственная пассажирка открывает дверь машины. Харрис и Пенни оказываются во временной ловушке, но эта бесконечная поездка снимет покров с тайн и изменит их жизни навсегда.",
+			"rating": 5.7,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				4,
+				8
+			],
+			"directors": [
+				11
+			]
+		},
+		{
+			"title": "Ангельское личико",
+			"subtitle": "Gueule d'ange",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576855080_9bab718.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1049758",
+			"description": "Мать-одиночка Марлин живёт с 8-летней дочкой Элли в небольшом городке близ Лазурного Берега. Однажды она решает оставить ребенка ради мужчины, с которым познакомилась во время очередного загула по клубам. Теперь Элли должна вернуть себе мать и заставить её разобраться с собственными внутренними демонами.",
+			"rating": 6,
+			"year": 2018,
+			"countries": [
+				7
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				12
+			]
+		},
+		{
+			"title": "Красавчик со стажем",
+			"subtitle": "Just a Gigolo",
+			"preview": "http://ex-fs.net/uploads/posts/2019-07/1563262638_dfe10f9.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1190636",
+			"description": "Встречайте мужчину мечты! Он знает секреты обольщения и вовсю этим пользуется, чтобы жить в свое удовольствие. Возможно, опытный мачо уже немного растерял обаяние, но отказываться от роскошной жизни не входит в его планы. Применяя весь свой арсенал, он вновь готов вернуться в игру.",
+			"rating": 5.4,
+			"year": 2019,
+			"countries": [
+				7
+			],
+			"genres": [
+				7
+			],
+			"directors": [
+				13
+			]
+		},
+		{
+			"title": "Озеро диких гусей",
+			"subtitle": "Nan fang che zhan de ju hui",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576854921_165cb35.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1236072",
+			"description": "Чжоу Цзэнун — лидер небольшой банды, которая занимается кражей мотоциклов. Во время одной из разборок он случайно убивает полицейского и становится целью номер один для полиции и властей. В бегах Чжоу встретит проститутку Лю Айай — оба загнаны в тупик и ищут выход.",
+			"rating": 6.8,
+			"year": 2019,
+			"countries": [
+				6,
+				7
+			],
+			"genres": [
+				5,
+				9
+			],
+			"directors": [
+				14
+			]
+		},
+		{
+			"title": "Вдова",
+			"subtitle": "Widow's Walk",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576854826_072fc4a.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=969681",
+			"description": "Муж Евы погибает в Афганистане. Чтобы остаться наедине со скорбью она берет своего сына и едет в Саффолк, в дом на берегу Северного Моря. Однако оказывается, что это место имеет свои тайны.",
+			"rating": 5,
+			"year": 2019,
+			"countries": [
+				1
+			],
+			"genres": [
+				11,
+				5
+			],
+			"directors": [
+				15
+			]
+		},
+		{
+			"title": "Последний бросок / Лазарат",
+			"subtitle": "Lazarat",
+			"preview": "http://ex-fs.net/uploads/posts/2019-06/1559736039_5a931f3.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=981200",
+			"description": "Действие триллера, основанного на реальных событиях, разворачивается в самом сердце Албании. Перед зрителем предстает мир, полный наркотиков, преступности, обмана, позора и опасности, скрывающихся на каждом углу.В центре сюжета — история реального противостояния местных жителей и полиции, которая пыталась ограничить бурную деятельность селян, связанную с производству наркотиков.",
+			"rating": 5.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2,
+				10,
+				9
+			],
+			"directors": [
+				16
+			]
+		},
+		{
+			"title": "Поцелуй для шеф-повара",
+			"subtitle": "Meine Mutter ist unmöglich",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576854700_dd10410.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1138878",
+			"description": "Когда в путеводителе для гурманов из-за одинакового названия было перепутано местоположение ресторана высокого класса с кафе, оба владельца пребывают в шоке. Бывший звездный шеф-повар Руфус боится, что он потеряет всю свою клиентуру и престижный статус, в то время как Тони, владелица обычного кафе для работяг, боится, что потеряет своих клиентов, поскольку их может отпугнуть наплыв высокомерных гурманов. Чтобы вернуть к себе интерес шикарной публики, Руфус предлагает Тони участвовать в конкурсе на лучшего повара.",
+			"rating": 5.8,
+			"year": 2018,
+			"countries": [
+				8
+			],
+			"genres": [
+				4,
+				7
+			],
+			"directors": [
+				17
+			]
+		},
+		{
+			"title": "Дельфин Берни 2",
+			"subtitle": "Bernie the Dolphin 2",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576854605_0199a98.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1202494",
+			"description": "Дети очень рады, что Берни вернулся. Но вместе с Берни появился и коварный Уинстон, который хочет похитить талантливого дельфина. Кевин и Холли должны спасти морского друга, пока ещё не поздно.",
+			"rating": 4.5,
+			"year": 2019,
+			"countries": [
+				9,
+				0
+			],
+			"genres": [
+				2,
+				7,
+				12
+			],
+			"directors": [
+				18
+			]
+		},
+		{
+			"title": "Гномилость",
+			"subtitle": "Gnomercy",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576976714_5658765.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=870386",
+			"description": "Летняя поездка в лесной коттедж оборачивается резней, когда группу выпускников настигает незваный гость.",
+			"rating": 2.4,
+			"year": 2019,
+			"countries": [
+				9
+			],
+			"genres": [
+				11,
+				7
+			],
+			"directors": [
+				19,
+				20
+			]
+		},
+		{
+			"title": "Параллельные аккорды",
+			"subtitle": "Parallel Chords",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576976607_parallel-chords.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1024872",
+			"description": "Жаклин мечтает играть в театре, но ей не повезло родиться в семье гениального пианиста. Отец видит свою дочь только знаменитой скрипачкой и заставляет неустанно работать над собой, не замечая каким деспотичным он становится к родной дочери. А она понимает, что загнана в угол и решается на то, к чему её всегда считали неспособной - импровизацию.",
+			"rating": 5.3,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				21
+			]
+		},
+		{
+			"title": "Лучшее — враг хорошего: История любви",
+			"subtitle": "2 in the Bush: A Love Story",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576976465_2-in-the-bush-a-love-story.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1166320",
+			"description": "\"Лучшее — враг хорошего: История любви\" - это нетрадиционная романтическая комедия о подземельях, рыбке по имени Архимед и о любви, которая может принимать разные формы.",
+			"rating": 5,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				4,
+				7
+			],
+			"directors": [
+				22
+			]
+		},
+		{
+			"title": "Грех",
+			"subtitle": "Il Peccato",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576976293_af6f686.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1034860",
+			"description": "Картина рассказывает об испытаниях на творческом пути гениального художника и скульптора Микеланджело Буонарроти, за преданность которого борются два самых могущественных семейства.",
+			"rating": 7.1,
+			"year": 2019,
+			"countries": [
+				10,
+				2
+			],
+			"genres": [
+				5,
+				6,
+				13
+			],
+			"directors": [
+				23
+			]
+		},
+		{
+			"title": "До Нового года осталось…",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576976112_4b312aa.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1187890",
+			"description": "Новый год — это своеобразный рубеж, момент подведения итогов, принятия решений. Новый год — новое начало, время мечтать, загадывать желания и ждать чудес... Пока вся Москва скупает подарки и наряжает ёлки, Денис отчаянно старается успеть открыть бар к 31 декабря и доказать отцу свою состоятельность. Ирина всё больше погружается в работу, стараясь не замечать ни украшенного офиса, ни приближения праздников, ни собственного одиночества. Настя — студентка-первокурсница, совсем одна в чужой для нее Москве, скучает по маме, работает в кафе и, улыбаясь из последних сил, несёт людям радость и кофе. Света — Снегурочка, и кому, как не ей радоваться Новому году и дарить окружающим праздничное настроение, но и у нее не всё гладко: любимый муж полностью погружен в мир компьютерных игр и не замечает, ни сына, ни Свету, ни реальность. А всё это время Александр и Александра снимают кино про настоящую любовь, стараясь не думать о том, что их личная история не имеет ни малейшего шанса на счастливый финал. Пять чудесных историй, случившихся с совершенно разными людьми в канун Нового года на фоне заснеженного Старого Арбата.",
+			"rating": 0,
+			"year": 2019,
+			"countries": [
+				10
+			],
+			"genres": [
+				4,
+				7
+			],
+			"directors": [
+				24
+			]
+		},
+		{
+			"title": "Простой карандаш",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576854282_c940c95.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1103916",
+			"description": "В размеренную жизнь провинциального городка врывается Антонина — гордая, красивая, смелая. Устроившись на работу школьной учительницей рисования, она узнает, что весь город держат в страхе местный хулиган и его старший брат, опасный преступник. Жители делают вид, что их жизнь такая, какой и должна быть, стараясь не высовываться, чтобы не нарваться на неприятности. Но Антонина не готова мириться с таким положением дел в городе.",
+			"rating": 5.3,
+			"year": 2019,
+			"countries": [
+				10
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				25
+			]
+		},
+		{
+			"title": "Последний уровень: Побег из Ранкалы",
+			"subtitle": "The Final Level: Escaping Rancala",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576854151_the-final-level-escaping-rancala.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1328477",
+			"description": "Когда Сара узнает, что ее брат попал в видеоигру, она и два ее подруги отправляются за ним в виртуальный мир, чтобы сразиться с опасными существами и королем, который не остановится ни перед чем, чтобы удержать их в игре и заставить стать частью его армии.",
+			"rating": 4.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2
+			],
+			"directors": [
+				26
+			]
+		},
+		{
+			"title": "Скрытный",
+			"subtitle": "Crypsis",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576854083_crypsis.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1305211",
+			"description": "Группа друзей делает ставки, кто из них сможет продержаться целую ночь на мрачном необитаемом острове, не наложив при этом в штаны. Думая, что стали жертвами своих дурацких розыгрышей, ребята и не подозревают, что на них открыл охоту местный монстр, который не остановится ни перед чем, чтобы прогнать незваных гостей из своего обиталища.",
+			"rating": 2.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				11
+			],
+			"directors": [
+				27
+			]
+		},
+		{
+			"title": "Тайная жизнь моей жены",
+			"subtitle": "My Wife's Secret Life",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576853916_my-wifes-secret-life.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1269884",
+			"description": "Брак Лорел и Джеймса того и гляди лопнет по швам. Желая забыться, Лорел изменяет мужу со своим новым знакомым, обаятельным Кентом. То что задумывалось как маленькая интрижка запускает целый ряд событий.",
+			"rating": 5.8,
+			"year": 2019,
+			"countries": [
+				9
+			],
+			"genres": [
+				10
+			],
+			"directors": [
+				28
+			]
+		},
+		{
+			"title": "Падение Спарты",
+			"subtitle": "La chute de Sparte",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576853208_la-chute-de-sparte.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1041056",
+			"description": "История о подростке и о трудностях, с которыми ему пришлось столкнутся в выпускном классе.",
+			"rating": 6.1,
+			"year": 2018,
+			"countries": [
+				9
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				29
+			]
+		},
+		{
+			"title": "Рождественская стрела купидона",
+			"subtitle": "Christmas Cupid's Arrow",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576853692_christmas-cupids-arrow.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1178931",
+			"description": "Холли, одинокая преподавательница университета, регистрируется на сайте знакомств. Встреча с одним из своих новых знакомых приводит девушку в недоумение, ведь его поступки ничуть не совпадают со словами...",
+			"rating": 4.5,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				30
+			]
+		},
+		{
+			"title": "Рождество с Лиддлами",
+			"subtitle": "Merry Liddle Christmas",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576853631_merry-liddle-christmas.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1303555",
+			"description": "История о женщине, пытающейся заставить свою не слишком идеальную семью выглядеть безупречно ради рождественских праздников. Посреди всей суматохи у нее даже выходит влюбиться в своего соседа...",
+			"rating": 5.8,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				4
+			],
+			"directors": [
+				31
+			]
+		},
+		{
+			"title": "Возвращение на Рождество",
+			"subtitle": "A Homecoming for the Holidays",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576853471_a-homecoming-for-the-holidays.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1319174",
+			"description": "Кантри-певица Шарлотта, ее брат Эрик и его друг Мэтт, бывший военный, приехали в Каньон Пасс на рождественские праздники. Шарлотта пишет новый альбом и параллельно с этим помогает Мэтту строить дом от лица волонтерской организации для ветеранов. Совместная работа сближает молодых людей, но на этом пути не обходится без трудностей.",
+			"rating": 7,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				12
+			],
+			"directors": [
+				32
+			]
+		},
+		{
+			"title": "Рождественская песня",
+			"subtitle": "Winter Song",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576853434_winter-song.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1266387",
+			"description": "Клио подружилась с Фредом, бывшим джазовым певцом, которого когда-то покинула удача. Фреда и Клио тесно связывает музыка. Девушка потеряла своего отца, и в самый канун Рождества помогает Фреду наладить отношения с дочерью.",
+			"rating": 6.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				33
+			]
+		},
+		{
+			"title": "Рождество на Холли-лэйн",
+			"subtitle": "Christmas on Holly Lane",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576853292_christmas-on-holly-lane.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1163037",
+			"description": "Три школьные подруги Сара, Райли и Кэт в детстве вместе праздновали рождество и теперь снова собрались в старом доме Сары. Они надеются отпраздновать здесь еще ни один праздник вместе.",
+			"rating": 6.2,
+			"year": 2018,
+			"countries": [
+				9
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				34
+			]
+		},
+		{
+			"title": "Мы и они",
+			"subtitle": "Hou lai de wo men",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576854401_1405306.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1112547",
+			"description": "В 2007 году парень и девушка встретились в поезде по пути домой на празднование Нового года. Несмотря на то, что у молодых людей было много общего, их пути все-таки разошлись. Когда через 12 лет судьба сведет бывших влюбленных снова, обоим придется переоценить значение друг друга в собственных жизнях.",
+			"rating": 7.3,
+			"year": 2018,
+			"countries": [
+				6,
+				11
+			],
+			"genres": [
+				4,
+				5
+			],
+			"directors": [
+				35
+			]
+		},
+		{
+			"title": "Джокер ",
+			"subtitle": "Joker",
+			"preview": "http://ex-fs.net/uploads/posts/2019-10/1570271496_aa22918.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1048334",
+			"description": "Готэм, начало 1980-х годов. Комик Артур Флек живет с больной матерью, которая с детства учит его «ходить с улыбкой». Пытаясь нести в мир хорошее и дарить людям радость, Артур сталкивается с человеческой жестокостью и постепенно приходит к выводу, что этот мир получит от него не добрую улыбку, а ухмылку злодея Джокера.",
+			"rating": 8.7,
+			"year": 2019,
+			"countries": [
+				9,
+				0
+			],
+			"genres": [
+				10,
+				5,
+				9
+			],
+			"directors": [
+				36
+			]
+		},
+		{
+			"title": "Райские холмы",
+			"subtitle": "Paradise Hills",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576684265_1097391.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1097391",
+			"description": "Добро пожаловать в дивный новый мир. Здесь создан высокотехнологичный остров, имя которому «Райские холмы». Богатые семьи отправляют сюда «несовершенных» дочерей, чтобы преобразить их по своему подобию. Ведь если ты принадлежишь к высшему обществу, даже в далеком будущем брак по любви — непозволительная роскошь. Красота, покорность и непорочность — вот путь к новой жизни. И тебя ждет прекрасное будущее, но только если ты готова подчиняться правилам...",
+			"rating": 6,
+			"year": 2019,
+			"countries": [
+				12
+			],
+			"genres": [
+				1
+			],
+			"directors": [
+				37
+			]
+		},
+		{
+			"title": "Опасная миссия",
+			"subtitle": "Mordene i Kongo",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575896632_6f66bfe.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1065958",
+			"description": "Весной 2009 года Френч и Моланд отправились в Конго. Это путешествие стало для них фатальным, явившись отправной точкой в цепочке необратимых событий. По пути они были арестованы властями по обвинению в убийстве своего водителя. Что же на самом деле случилось в тот роковой день, который изменил всю их жизнь? Были ли они обычными путешественниками или перед нами хладнокровные убийцы, которые связаны с большой шпионской игрой? Это предстоит выяснить следствию и вынести обвиняемым приговор.",
+			"rating": 6.1,
+			"year": 2018,
+			"countries": [
+				13
+			],
+			"genres": [
+				5,
+				9
+			],
+			"directors": [
+				38
+			]
+		},
+		{
+			"title": "Неогранённые драгоценности",
+			"subtitle": "Uncut Gems",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576684033_65c3f5c.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1076152",
+			"description": "Говард Ратнер владеет ювелирным магазином. Чтобы сохранить бизнес, он влезает в долги, которые обязан погасить в короткие сроки.",
+			"rating": 8.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				5,
+				7,
+				9,
+				8
+			],
+			"directors": [
+				39,
+				40
+			]
+		},
+		{
+			"title": "Люси в небесах",
+			"subtitle": "Lucy in the Sky",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576683947_1bcc6a6.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1111893",
+			"description": "Пробыв несколько дней на орбите, астронавт Люси Кола возвращается на Землю к любящему мужу и племяннице. Все обычные вещи кажутся женщине мелкими и незначительными, и теперь единственное, чего она хочет больше всего на свете — это снова отправиться в космос. Люси становится участницей подготовки к следующей миссии NASA и усердно старается попасть в команду.",
+			"rating": 4.4,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				6
+			],
+			"directors": [
+				41
+			]
+		},
+		{
+			"title": "Вторжение: Планета Земля",
+			"subtitle": "Invasion Planet Earth",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576683882_invasion-planet-earth.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=867088",
+			"description": "После смерти своей маленькой дочери Томас Данн, доктор из Англии, теряет веру. И в день, когда он узнаёт, что его жена беременна, начинается инопланетное вторжение.",
+			"rating": 2.4,
+			"year": 2019,
+			"countries": [
+				1,
+				7
+			],
+			"genres": [
+				0,
+				2,
+				3
+			],
+			"directors": [
+				42
+			]
+		},
+		{
+			"title": "Чеснок и порох",
+			"subtitle": "Garlic & Gunpowder",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576683585_4a748e9.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=807791",
+			"description": "Сонни и Арчи - два умника, которые работают на мафию. Они собирают деньги за крышу и выполняют различные \"контракты\" своего босса - Мамы. СМИ сообщают, что скоро на Землю упадёт комета, которая уничтожит всю жизнь на планете. Несмотря на то, что НАСА опровергло эту информацию, самые богатые люди начинают готовиться к этому событию, а мафия, как и многие другие, хочет воспользоваться этой ситуацией.",
+			"rating": 4.6,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				7
+			],
+			"directors": [
+				43
+			]
+		},
+		{
+			"title": "Братья",
+			"subtitle": "Mon frère",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576683498_mon-frre.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1205036",
+			"description": "Сюжет вращается вокруг Тедди, который обвиняется в убийстве своего жестокого отца, когда пытается защитить от него своего младшего брата. Тедди отправляется в закрытый образовательный центр, ожидая суда над ним.",
+			"rating": 6.6,
+			"year": 2019,
+			"countries": [
+				7
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				44
+			]
+		},
+		{
+			"title": "Первое искушение Христа",
+			"subtitle": "A Primeira Tentação de Cristo",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576683455_a-primeira-tentao-de-cristo.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1322739",
+			"description": "После сорокадневного пребывания в пустыне, Иисус Христос возвращается домой с другом, не подозревая, что родные устроили праздник в его честь.",
+			"rating": 4.3,
+			"year": 2019,
+			"countries": [
+				14
+			],
+			"genres": [
+				14,
+				7
+			],
+			"directors": [
+				45
+			]
+		},
+		{
+			"title": "Домашний арест",
+			"subtitle": "House Arrest",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576683303_house-arrest.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1314739",
+			"description": "Самоналоженное домашнее заключение утомленного мира становится комедией ошибок с одновременным прибытием необычной посылки и любопытного журналиста.",
+			"rating": 5.6,
+			"year": 2019,
+			"countries": [
+				15
+			],
+			"genres": [
+				7,
+				4
+			],
+			"directors": [
+				46,
+				47
+			]
+		},
+		{
+			"title": "Рожденный после смерти",
+			"subtitle": "Strange But True",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576336368_c6df6e3.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=760861",
+			"description": "Спустя пять лет после гибели старшеклассника Ронни Чейза, который разбился на машине в выпускной вечер, к его матери и брату приходит его школьная подруга Мелисса. Она уверяет, что ждёт ребенка от Ронни. Недоверчивые родственники пытаются выяснить правду, которая оказывается страшнее всех предположений.",
+			"rating": 5.7,
+			"year": 2019,
+			"countries": [
+				9
+			],
+			"genres": [
+				10
+			],
+			"directors": [
+				48
+			]
+		},
+		{
+			"title": "Похищение",
+			"subtitle": "Abduction",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576614651_abduction.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1112408",
+			"description": "Куинн выходит из фонтана в парке во Вьетнаме, не помня, кто он и откуда. Он начинает блуждать по городу и вскоре в его памяти всплывают фрагменты прошлого: его дочь Люси похитили неизвестные люди из другого измерения. Чтобы найти ее, потребуется вступить в смертельную схватку с могущественными злодеями.",
+			"rating": 5.9,
+			"year": 2019,
+			"countries": [
+				6
+			],
+			"genres": [
+				0,
+				2
+			],
+			"directors": [
+				49
+			]
+		},
+		{
+			"title": "Полицейский с Рублевки. Новогодний беспредел 2",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576614419_fe1b2f8.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1255106",
+			"description": "Близится новый год, и сотрудники отдела полиции Барвихи планируют праздновать его за городом в тёплой компании старых друзей и коллег. Но непредвиденные обстоятельства в лице преступников, ограбивших крупное ювелирное предприятие, ставят праздник под угрозу. Смогут ли рублёвские полицейские вернуть украденные драгоценные камни стоимостью миллионы долларов и спасти свой праздник до того, как часы пробьют полночь?",
+			"rating": 0,
+			"year": 2019,
+			"countries": [
+				10
+			],
+			"genres": [
+				7,
+				3
+			],
+			"directors": [
+				50
+			]
+		},
+		{
+			"title": "Верность",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1573548393_3ebff35.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1261581",
+			"description": "Лена — талантливая акушер-гинеколог, её муж Серёжа — артист провинциального драмтеатра. Близость и нежность у них есть, секса — нет. Лена подозревает, что Серёжа завёл роман на стороне, но она мучается молча и не выдаёт свою ревность. Вместо того чтобы выяснить отношения с мужем, Лена сама начинает изменять ему со случайными мужчинами. Она, конечно, не думала, что её параллельная жизнь окажется не менее подлинной, чем основная. И не менее реальной. И настолько опасной.",
+			"rating": 6,
+			"year": 2019,
+			"countries": [
+				10
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				51
+			]
+		},
+		{
+			"title": "Кровь",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576614260_241ce85.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1115018",
+			"description": "Современная притча о двух братьях, преодолевающих сложный духовный путь навстречу друг другу, разворачивается в центре современной Москвы. Валера Ромеев — молодой художник, вынужденный работать уличным портретистом. Проведя безмятежное детство в шахтерском городке на Востоке Украины, Валера изо всех сил пытается найти себя в жестоком мегаполисе. В надежде на поддержку, Ромеев разыскивает старшего брата Вадима — успешного бизнесмена, давно оставившего отчий дом и утратившего связь с семьей. Сильный, независимый Вадим, отказывает младшему брату в помощи. Загнанный в угол обстоятельствами, подстёгиваемый ревностью и досадой, Валерий решается на отчаянный шаг...",
+			"rating": 0,
+			"year": 2018,
+			"countries": [
+				10
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				52
+			]
+		},
+		{
+			"title": "Нью-Йоркская Академия современного танца",
+			"subtitle": "Free Dance",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576614009_de72371.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1079144",
+			"description": "Молодой хореограф ставит новую постановку, и судьба его знакомит с талантливой танцовщицей и новатором-пианистом для самого ожидаемого бродвейского шоу в Нью-Йорке.",
+			"rating": 5.9,
+			"year": 2018,
+			"countries": [
+				16,
+				0
+			],
+			"genres": [
+				4,
+				15
+			],
+			"directors": [
+				53
+			]
+		},
+		{
+			"title": "Лига хранителей легенд: Тени",
+			"subtitle": "The League of Legend Keepers: Shadows",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576613428_the-league-of-legend-keepers-shadows.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1034337",
+			"description": "Семья археологов нашла пятый кулон, который люди искали веками веками. К сожалению, этот кулон искали не только люди, но и злой дух. Как только все кулоны были собраны вместе, тени из прошлого вернулись в наш мир. Сможет ли Софи, дочь археологов, спасти свой город от теней?",
+			"rating": 6.3,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				12
+			],
+			"directors": [
+				54
+			]
+		},
+		{
+			"title": "Домириканцы 2",
+			"subtitle": "Los Domirriqueños 2",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576613267_los-domirriqueos-2.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1039797",
+			"description": "Доминиканцы и пуэрто-риканцы объединяются и создают собственный цирк для того, чтобы расплатиться с долгами.",
+			"rating": 5.5,
+			"year": 2019,
+			"countries": [
+				17
+			],
+			"genres": [
+				7,
+				16
+			],
+			"directors": [
+				55
+			]
+		},
+		{
+			"title": "Рождественские хроники",
+			"subtitle": "The Christmas Chronicles",
+			"preview": "http://ex-fs.net/uploads/posts/2018-11/1542909100_2b38d27.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=772380",
+			"description": "В канун Рождества брат с сестрой — Кейт и Тедди Пирс — собираются заснять на видео появление Санты. Дерзкий замысел выливается в необыкновенное приключение, о котором дети не могли даже мечтать. Вместе с преданными эльфами и волшебными летающими оленями они помогают Санте спасти всеми любимый праздник.",
+			"rating": 7.1,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				1,
+				7,
+				3,
+				12
+			],
+			"directors": [
+				56
+			]
+		},
+		{
+			"title": "Рождественский принц: Королевская свадьба",
+			"subtitle": "A Christmas Prince: The Royal Wedding",
+			"preview": "http://ex-fs.net/uploads/posts/2018-12/1543689893_8773d46.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1173715",
+			"description": "Через год после того, как Эмбер помогла Ричарду закрепить королевскую власть, эти двое настроены связать себя узами на Королевской рождественской свадьбе, но их планы ставятся под угрозу, когда Эмбер начинает сомневаться, сможет ли она быть королевой, а Ричард сталкивается с политическим кризисом, который угрожает запятнать не только праздники, но и будущее королевства.",
+			"rating": 5.2,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				57
+			]
+		},
+		{
+			"title": "Долгий день уходит в ночь",
+			"subtitle": "Di qiu zui hou de ye wan",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575578137_f407936.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1115622",
+			"description": "Ло Иву возвращается в родной город на похороны отца. 12 лет назад у него здесь был роман с девушкой друга, и с тех пор она поселилась в его воспоминаниях, желаниях и даже кошмарах. Теперь для Иву в поисках той женщины прошлое смешивается с настоящим, а реальность — с вымыслом.",
+			"rating": 7.2,
+			"year": 2018,
+			"countries": [
+				6,
+				7
+			],
+			"genres": [
+				4,
+				17,
+				8,
+				5
+			],
+			"directors": [
+				58
+			]
+		},
+		{
+			"title": "Сонора: Дьявольское шоссе",
+			"subtitle": "Sonora",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576612005_sonora.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1094031",
+			"description": "1931 год, год национализма и эксцессов: китайцы изгнаны из Соноры; США депортируют мексиканцев и закрывают свои границы. Двенадцать отчаявшихся людей пересекают пустыню Сонора в Крайслере 1929 года, надеясь найти мир в Нижней Калифорнии. Поскольку их пребывание раскрывает все лучшее и худшее из человеческой натуры, расизм, жадность и паранойя оказываются такими же смертоносными, как и беспощадный пейзаж вокруг них.",
+			"rating": 6.2,
+			"year": 2018,
+			"countries": [
+				18
+			],
+			"genres": [
+				10,
+				5,
+				18
+			],
+			"directors": [
+				59
+			]
+		},
+		{
+			"title": "Город банд",
+			"subtitle": "Mob Town",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576524103_d5a5692.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1174355",
+			"description": "История о встрече главарей мафии в 1957 году в городе Апалачайн, во главе с мафиози итальянского происхождения Вито Дженовезе.",
+			"rating": 5.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				60
+			]
+		},
+		{
+			"title": "Первая мировая",
+			"subtitle": "The Great War",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576524040_659e757.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1037867",
+			"description": "Последние дни Первой мировой войны. Группа американских солдат получает приказ: зайти на вражескую территорию и спасти потерявшийся отряд.",
+			"rating": 3.5,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				19,
+				13
+			],
+			"directors": [
+				61
+			]
+		},
+		{
+			"title": "Ад на границе",
+			"subtitle": "Hell on the Border",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576523981_61ed558.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1176055",
+			"description": "Фильм основан на жизни Басса Ривза, легендарного афроамериканского ковбоя. Басс Ривз был первым чернокожим заместителем маршала США к западу от реки Миссисипи. За его долгую карьеру ему приписали арест более 3000 уголовников.",
+			"rating": 4.6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				3,
+				18,
+				6
+			],
+			"directors": [
+				62
+			]
+		},
+		{
+			"title": "Эспен в поисках  Золотого замка",
+			"subtitle": "Askeladden - I Soria Moria slott",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576523803_174f7e8.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1179577",
+			"description": "Король и королева отравлены. Единственный шанс на спасение — живая вода, спрятанная на краю света в стенах таинственного Золотого замка. Эспен с принцессой Кристин отправляются в путешествие, полное опасностей и приключений.",
+			"rating": 6.5,
+			"year": 2019,
+			"countries": [
+				13
+			],
+			"genres": [
+				1,
+				3
+			],
+			"directors": [
+				63
+			]
+		},
+		{
+			"title": "Кровавая маргаритка",
+			"subtitle": "Zhui xiong shi jiu nian",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576523591_210b111.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1314956",
+			"description": "На протяжении 20 лет полицейский пытается вычислить маньяка, который, убивая женщин, оставляет на их теле ожог в виде цветка.",
+			"rating": 3.9,
+			"year": 2019,
+			"countries": [
+				6
+			],
+			"genres": [
+				8,
+				9
+			],
+			"directors": [
+				64
+			]
+		},
+		{
+			"title": "Дождливый день в Нью-Йорке",
+			"subtitle": "A Rainy Day in New York",
+			"preview": "http://ex-fs.net/uploads/posts/2019-10/1571159115_8333e2d.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1047626",
+			"description": "Он — из состоятельной семьи Нью-Йорка, она — из небольшого городка в Аризоне. Выросший на Манхэттене юноша мечтает показать ей свой любимый город. Судьба дает ему шанс, когда девушку отправляют взять интервью у известного режиссера. Однако этот дождливый день изменит их жизнь навсегда. В проливной суете мегаполиса он встретит свою давнюю подругу, а девушку затянет в мир звездной богемы...",
+			"rating": 6.8,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				4,
+				7
+			],
+			"directors": [
+				65
+			]
+		},
+		{
+			"title": "Код 8",
+			"subtitle": "Code 8",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576238024_code8.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1017338",
+			"description": "В недалеком будущем существует небольшой процент населения Земли, обладающего сверхспособностями. Власти пытаются контролировать особенных людей, а остальные боятся их и презирают. Добродушный парень, обладающий способностью генерировать в себе энергию огромной мощности, отчаянно пытается перестать быть изгоем и встроиться в общество.",
+			"rating": 6.4,
+			"year": 2019,
+			"countries": [
+				9
+			],
+			"genres": [
+				0,
+				2
+			],
+			"directors": [
+				66
+			]
+		},
+		{
+			"title": "Ржев",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576523067_593eb90.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1313591",
+			"description": "1942 год. Ржевская битва. После боев под селом Овсянниково от роты советских солдат осталась только треть. Бойцы пытаются продержаться до прихода подкрепления. Но из штаба поступает приказ удержать деревню любой ценой. Значит, отступать нельзя... Каждый из героев понимает, что живыми из этого переплета выбраться почти невозможно. В этот момент в Овсянниково, едва не погибнув под вражеским обстрелом, прибывает младший лейтенант — начальник особого отдела, который должен найти и разоблачить предателей среди своих. Лейтенант уверен, что только так можно приблизить победу. События приобретают непредсказуемый оборот.",
+			"rating": 0,
+			"year": 2019,
+			"countries": [
+				10
+			],
+			"genres": [
+				19,
+				5,
+				13
+			],
+			"directors": [
+				67
+			]
+		},
+		{
+			"title": "Злодеи",
+			"subtitle": "Villains",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576522820_6632906.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1115111",
+			"description": "Молодая пара грабителей Микки и Джули проникает в уединенный загородный дом. Его владельцы оказываются тайными садистами, которые держат в подвале маленькую пленницу, и они пойдут на всё, лишь бы их секрет оставался сокрытым за стенами дома. Грабителям не повезло.",
+			"rating": 6.4,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				10,
+				5,
+				7
+			],
+			"directors": [
+				68,
+				69
+			]
+		},
+		{
+			"title": "Господин Дьявол",
+			"subtitle": "Il signor Diavolo",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576521919_f40f7b9.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1172468",
+			"description": "Молодой офицер полиции Фурио Моменте отправлен в регион Венето для расследования мистического и шокирующего преступления: подросток убил одного из своих сверстников, утверждая что он убил самого дьявола.",
+			"rating": 6.2,
+			"year": 2019,
+			"countries": [
+				2
+			],
+			"genres": [
+				11,
+				10,
+				8
+			],
+			"directors": [
+				70
+			]
+		},
+		{
+			"title": "Поле",
+			"subtitle": "Line of Descent",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576521817_f8acc4c.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=693169",
+			"description": "Действие происходит на окраине Дели и объединяет противоборствующие мафиозные семьи и тайного офицера, который борется со своими демонами и принимает участие в свержении мафии.",
+			"rating": 4.7,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				9
+			],
+			"directors": [
+				71
+			]
+		},
+		{
+			"title": "Коулуэлл",
+			"subtitle": "Colewell",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576521747_22df995.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1215093",
+			"description": "Тридцать пять лет своей жизни Элеанора Панковски посвятила работе в почтовом отделении городка Коулуэлл. После того, как представители Почтовой службы США сообщают ей о том, что её отделение закрывается, ей предстоит нелёгкий выбор - перевестись работать в другое отделение или же выйти на пенсию в КоулуЭлле.",
+			"rating": 5.6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				72
+			]
+		},
+		{
+			"title": "Животные",
+			"subtitle": "Animals",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576521443_8ecabf3.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1148831",
+			"description": "Есть мнение, что женская дружба — это миф. До поры англичанка Лора, мечтающая о писательской славе, и американка Тайлер, удравшая от постылой семьи в Дублин и вполне довольная скромной работой бариста, это мнение опровергали. Девушки были лучшими подругами бог знает сколько лет и наслаждались, гуляя по барам и снимая парней. Всё было идеально, пока Лора не познакомилась с пианистом Джимом и не решила выйти за него замуж.",
+			"rating": 6.5,
+			"year": 2019,
+			"countries": [
+				1,
+				19,
+				20
+			],
+			"genres": [
+				5,
+				7
+			],
+			"directors": [
+				73
+			]
+		},
+		{
+			"title": "Сделано в Китае",
+			"subtitle": "Made in China",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576521327_e039622.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1216864",
+			"description": "Франсуа не общался со своей китайской семьей целых десять лет, после того, как поругался с отцом. С тех пор он не любил вопросы о своем азиатском происхождении и даже врал, что он приемный. Но когда он узнал, что скоро станет отцом, то понял, что нужно вернуться к корням.",
+			"rating": 5.7,
+			"year": 2019,
+			"countries": [
+				7
+			],
+			"genres": [
+				5,
+				7
+			],
+			"directors": [
+				44
+			]
+		},
+		{
+			"title": "В то же время, на следующее Рождество",
+			"subtitle": "Same Time, Next Christmas",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576522683_47e1d6c.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1291402",
+			"description": "Оливия встречает своего школьного возлюбленного во время ежегодной семейной поездки на Гавайи, между ними вспыхивают былые чувства, но на пути к их счастью становятся разные обстоятельства.",
+			"rating": 6.3,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				4
+			],
+			"directors": [
+				74
+			]
+		},
+		{
+			"title": "Конец сезона",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576523437_c0fd5ab.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1287550",
+			"description": "Три сестры волею обстоятельств оказались за пределами России и живут в маленьком прибалтийском городке. Они, как и героини знаменитой пьесы Антона Павловича Чехова, живут мечтой о возвращении в Москву и ищут любовь, однако у судьбы на них свои планы. Одну никак не оставляет прошлое, другая ищет простого женского счастья, а у третьей — кризис семейной жизни. Тем временем, на тихом побережье появляется опасный убийца... Светлая меланхолия сменяется взрывами человеческих эмоций и нешуточной борьбой за жизнь.",
+			"rating": 5.6,
+			"year": 2019,
+			"countries": [
+				10
+			],
+			"genres": [
+				10,
+				4
+			],
+			"directors": [
+				75
+			]
+		},
+		{
+			"title": "Небо розового цвета",
+			"subtitle": "The Sky Is Pink",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576521245_978ae97.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1189254",
+			"description": "Фильм основан на история Аиши Чаудхари и ее семьи. Девушка родилась с тяжелым заболеванием и прожила 19 лет, успев написать книгу и стать мотивационным оратором. Центральной темой фильма стали отношения родителей Аиши в течение ее жизни и после смерти.",
+			"rating": 7.1,
+			"year": 2019,
+			"countries": [
+				15,
+				1,
+				9,
+				0
+			],
+			"genres": [
+				5,
+				4
+			],
+			"directors": [
+				76
+			]
+		},
+		{
+			"title": "Решала. Нулевые",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576523490_fe29194.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1280515",
+			"description": "2008 год. Старинные друзья Костя и Завгар придумывают не совсем легальные схемы заработка. Деньги приходят легко и так же легко уходят. Кажется, что этот успех будет вечен. Но на каждого найдется свой капкан, особенно если хочется еще больше денег. Костя затевает большую игру, которая может стоить и ему, и Завгару свободы, дружбы и даже самой жизни.",
+			"rating": 0,
+			"year": 2019,
+			"countries": [
+				10
+			],
+			"genres": [
+				2,
+				5,
+				10
+			],
+			"directors": [
+				77,
+				78
+			]
+		},
+		{
+			"title": "Фактор Зои",
+			"subtitle": "The Zoya Factor",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576521114_5e9b7a7.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1156246",
+			"description": "Взбалмошная копирайтер рекламного агентства невольно убеждает игроков команды сборной Индии по крикету, что она их счастливый талисман, что очень не нравится их избегающему все виды суеверий капитану.",
+			"rating": 4.3,
+			"year": 2019,
+			"countries": [
+				15
+			],
+			"genres": [
+				5,
+				4,
+				7,
+				16
+			],
+			"directors": [
+				79
+			]
+		},
+		{
+			"title": "Чистый заработок",
+			"subtitle": "Take Home Pay",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576521054_57e8816.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1288808",
+			"description": "Два брата, Алама и Попо, приезжают в Новую Зеландию в качестве сезонных рабочих и получают большую сумму денег, которой хватит на всю семью, ждущую их возвращения в Самоа. Но дела принимают неожиданный поворот, когда Попо крадет деньги Аламы и сбегает. Алама, не желающий возвращаться домой с пустыми руками, обращается за помощью к начинающему частному детективу, Бобу Титило, но вскоре начинает жалеть о своем решении, когда нетрадиционные методы сыска Титило втягивают их в еще большие неприятности, чем прежде.",
+			"rating": 5.7,
+			"year": 2019,
+			"countries": [
+				21
+			],
+			"genres": [
+				2,
+				7
+			],
+			"directors": [
+				80
+			]
+		},
+		{
+			"title": "Рождество в кругу семьи",
+			"subtitle": "One Fine Christmas",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576520848_one-fine-christmas.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1311153",
+			"description": "Жители Рождественской улицы готовятся к празднику. В их жизни грядут большие перемены, которые позволят по новому взглянуть на семейные ценности.",
+			"rating": 6.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				7
+			],
+			"directors": [
+				81
+			]
+		},
+		{
+			"title": "Сумасшедшая лучшая подруга",
+			"subtitle": "Psycho BFF",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576520791_psycho-bff.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1311618",
+			"description": "Девушка-подросток по имени Деандра, после скандала в предыдущей школе, поступает в новую, где находит себе лучшую подругу - Оливию. Однако со временем Деандра осознает, что её новая подруга деспотична, жестока и что на кону теперь стоит не столько их дружба, сколько её жизнь.",
+			"rating": 5.8,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				82
+			]
+		},
+		{
+			"title": "Кьяра Ферраньи: неопубликованное",
+			"subtitle": "Chiara Ferragni: Unposted",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576520689_chiara-ferragni-unposted.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1292495",
+			"description": "Кьяра Ферраньи, одна из известнейших блоггерш в мире, раскрывает нам правду о том, как цифровая революция изменила мир бизнеса, моды и общения.",
+			"rating": 3.2,
+			"year": 2019,
+			"countries": [
+				2
+			],
+			"genres": [
+				20
+			],
+			"directors": [
+				83
+			]
+		},
+		{
+			"title": "Новое Рождество",
+			"subtitle": "A New Christmas",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576520600_a-new-christmas.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1210352",
+			"description": "Кабир - одинокий студент, живущий в Нью-Йорке. Пережив ужасную трагедию, смерть матери, он отдалился от своей жены. Однако, после того, как Кабир познакомился со студенткой из Кении, Киони, и она попросила его показать ей места, пропитанные рождественским духом, парень стал смотреть на мир по-другому.",
+			"rating": 6.3,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				84
+			]
+		},
+		{
+			"title": "Ненормальная няня",
+			"subtitle": "The Twisted Nanny",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576520420_4576567.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1328360",
+			"description": "Когда мать-одиночка Джулия понимает, что няня настраивает детей против нее, ей приходиться бороться, чтобы доказать, что няня не та, за кого себя выдает, прежде чем она навсегда получит опеку над детьми.",
+			"rating": 7.7,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10
+			],
+			"directors": [
+				85
+			]
+		},
+		{
+			"title": "Заезд в Рождество",
+			"subtitle": "Check Inn to Christmas",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576520187_check-inn-to-christmas.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1312237",
+			"description": "Джулия Кроули приезжает домой, чтобы провести каникулы со своей семьей. Их семейная гостиница годами враждует с конкурентами Мейсонами и каждый год они отчаянно соревнуются в рождественских конкурсах. Ситуацию усложняет то, что в соревнованиях участвует неотразимый парень по имени Райан Мейсон.",
+			"rating": 6.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				4
+			],
+			"directors": [
+				86
+			]
+		},
+		{
+			"title": "Праздничные сердца",
+			"subtitle": "Holiday Hearts",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576520137_holiday-hearts.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1302054",
+			"description": "Расставшись давным давно со своей школьной любовью Пэйтон, доктор Бен Шерман и не предполагал, что вновь встретится с ней в рождество. Угас ли огонь любви или чувства по-прежнему горят в груди, выяснится в самый чудесный праздник - Рождество.",
+			"rating": 6.6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				87
+			]
+		},
+		{
+			"title": "Южный ветер",
+			"subtitle": "Juzni vetar",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576519979_940e7a9.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=952670",
+			"description": "О криминальном мире и лихих 90-х в Сербии.",
+			"rating": 8.3,
+			"year": 2018,
+			"countries": [
+				22
+			],
+			"genres": [
+				10,
+				5,
+				9
+			],
+			"directors": [
+				88
+			]
+		},
+		{
+			"title": "#Москва-Руаян, или Что творят женщины",
+			"subtitle": "#Moscou-Royan",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576519860_e0974b1.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1210844",
+			"description": "Ольга — молодая девушка, которая решает изменить свою жизнь после очень неожиданного события. Она хочет попробовать и понять, могут ли новые технологии помочь ей осуществить ее мечты. Нет ничего лучше, чем позволить Алгоритмам управлять вашим путешествием вместо вас.",
+			"rating": 0,
+			"year": 2018,
+			"countries": [
+				7
+			],
+			"genres": [
+				7
+			],
+			"directors": [
+				89
+			]
+		},
+		{
+			"title": "Сумка с деньгами",
+			"subtitle": "Meonibaek",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576519745_3facf3e.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1112992",
+			"description": "Главный герой — сумка с крупной суммой денег, которую отчаянно хотят заполучить семь мужчин разной степени испорченности. Среди них будет киллер, полицейский детектив, курьер, адвокат, бандит и, конечно же, депутат.",
+			"rating": 5.6,
+			"year": 2018,
+			"countries": [
+				4
+			],
+			"genres": [
+				2,
+				9,
+				10
+			],
+			"directors": [
+				90
+			]
+		},
+		{
+			"title": "Американский хулиган",
+			"subtitle": "American Bully",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576519727_american-bully.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1247218",
+			"description": "Межрасовая семья сталкивается с проблемой травли на работе, в школе и на улице.",
+			"rating": 0,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				91
+			]
+		},
+		{
+			"title": "Двадцать первое число",
+			"subtitle": "Ekkees Tareekh Shubh Muhurat",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576519567_ekkees-tareekh-shubh-muhurat.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1134415",
+			"description": "История о пятидесятилетнем Гирдхари, который не может найти своё место в жизни. Ещё одна его проблема - организация свадьбы дочери, причём в кратчайшие сроки. Гирдхари всячески пытается найти деньги, чтобы оплатить торжество и ради счастья дочери идёт на самые невероятные уловки.",
+			"rating": 5.3,
+			"year": 2018,
+			"countries": [
+				15
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				92
+			]
+		},
+		{
+			"title": "Тулуза",
+			"subtitle": "Toulouse",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576519491_toulouse.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1189927",
+			"description": "Сильвия, бывшая жена Густава, от которой он ушел к молодой женщине, предлагает ему встретиться в отеле на побережье, где они когда-то познакомились. Заинтригованный Густав соглашается, но, чтобы не волновать беременную жену, говорит, что поехал на деловую конференцию в Тулузу и даже вносит себя в список участников. Но, у Сильвии свои планы относительно их встречи и поэтому она заканчивается совершенно неожиданным образом.",
+			"rating": 5.7,
+			"year": 2018,
+			"countries": [
+				8
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				93
+			]
+		},
+		{
+			"title": "Грязное дело",
+			"subtitle": "The Dirty Kind",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576519282_the-dirty-kind.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1037756",
+			"description": "История о том, как неудачно может сложиться жизнь политика, двоих бандитов, проститутки, и частного следователя, который волею судьбы оказывается в гуще событий.",
+			"rating": 6,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				5,
+				9
+			],
+			"directors": [
+				94
+			]
+		},
+		{
+			"title": "Долгое прощание",
+			"subtitle": "Nagai Owakare",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576683706_653a711.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1233475",
+			"description": "Шохей работал директором школы, но сейчас вышел на пенсию. На свой 70-ый день рождения он рассказал жене и двум дочерям, что у него болезнь Альцгеймера. Эта новость рушит привычную жизнь этой семьи. Но скоро женщины к своему удивлению понимают, что Шохей помнит то, что они сами уже давно забыли.",
+			"rating": 7.1,
+			"year": 2019,
+			"countries": [
+				5
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				95
+			]
+		},
+		{
+			"title": "Потрясающее Рождество",
+			"subtitle": "Holiday Spectacular",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576683144_holiday-spectacular.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1200306",
+			"description": "Канун Рождества сводит вместе Кэсси, Райм и Рикки в торговом центре, чтобы помочь воссоединить семью и сделать еще много добрых дел.",
+			"rating": 7,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				12
+			],
+			"directors": [
+				96
+			]
+		},
+		{
+			"title": "Рождественская принцесса",
+			"subtitle": "A Christmas Princess",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576683087_a-christmas-princess.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1257380",
+			"description": "Владелицу небольшого ресторана в Бруклине Джессику выбирают шеф-поваром для обслуживания королевского мероприятия принца Джека. Что такое любовь без препятствий и проблем? Под конец банкета кто знает, может она и получит лучший рождественский подарок - любовь.",
+			"rating": 5.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				4,
+				7
+			],
+			"directors": [
+				81
+			]
+		},
+		{
+			"title": "Рождественская история любви",
+			"subtitle": "The Christmas Song",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576682956_the-christmas-song.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1236290",
+			"description": "Руководитель детского хора отвлекается от написания песни для рождественского концерта, когда в ее коллектив вступает талантливый новичок, что становится новостью для его овдовевшего отца.",
+			"rating": 7.3,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				4
+			],
+			"directors": [
+				97
+			]
+		},
+		{
+			"title": "Рождественский обмен",
+			"subtitle": "A Christmas Switch",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576682787_4365756.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1202221",
+			"description": "Рождество - волшебная пора. Одри и Джулия живут своими очень разными жизнями. Но судьба сталкивает девушек и они обмениваются телами. И прежде чем они вернутся обратно, они поймут, как важны семья, любовь и праздники.",
+			"rating": 6.2,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				1,
+				5,
+				4,
+				7,
+				12
+			],
+			"directors": [
+				98
+			]
+		},
+		{
+			"title": "Рождество на побережье",
+			"subtitle": "Christmas on the Coast",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576682694_christmas-on-the-coast.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1088549",
+			"description": "Писательница Друсинда Кассадин переживает не лучшие времена, последние ее любовные романы совсем не пользуются успехом. Она решает, что смена обстановки пойдет на пользу, и возвращается в родной город. Там она находит не только сюжет для новой книги, но еще и кое-что особенное.",
+			"rating": 6,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				4
+			],
+			"directors": [
+				99
+			]
+		},
+		{
+			"title": "Рождественский дуэт",
+			"subtitle": "A Christmas Duet",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576613904_a-christmas-duet.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1328493",
+			"description": "Бывший музыкальный дуэт, они же бывшая пара, Эйвери и Джесси, снова встречаются в гостинице Эйвери во время праздников. Проведя много времени вместе за организацией рождественского фестиваля, они снова испытывают давно забытые чувства. Пока Эйвери старается хорошо подготовиться к фестивалю и угодить приехавшему критику, Джесси понимает, что жизнь с Эйвери может быть мечтой всей его жизни. Рождество приближается, и им нужно решить, ждёт ли каждого из них соло или жизнь в гармонии.",
+			"rating": 6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				32
+			]
+		},
+		{
+			"title": "Рождество под звёздами",
+			"subtitle": "Christmas Under the Stars",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576613667_christmas-under-the-stars.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1301995",
+			"description": "Рождественская ёлка помогает двум людям заново обрести дух праздника. Потеряв работу перед Рождеством, инвестиционный банкир Ник устраивается работать на ёлочный базар Стар Топ. Там он находит не только горячий шоколад с маршмеллоу и новых друзей, но и настоящую любовь по имени Джули.",
+			"rating": 6.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				87
+			]
+		},
+		{
+			"title": "Почти верный",
+			"subtitle": "Casi Fiel",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576613568_casi-fiel.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1213034",
+			"description": "Ловелас Алехандро живет на полную катушку и ни в чем себе не отказывает, но ему приходится пересмотреть свою жизнь после того, как его девушка заявляет о том, что беременна.",
+			"rating": 5.9,
+			"year": 2019,
+			"countries": [
+				23
+			],
+			"genres": [
+				7
+			],
+			"directors": [
+				100
+			]
+		},
+		{
+			"title": "Ты сделал Рождество ярче",
+			"subtitle": "You Light Up My Christmas",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576613578_you-light-up-my-christmas.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1319188",
+			"description": "Когда Эмма вернулась в свой родной город, она обнаружила, что его рождественские огни давно потускнели. Это заставило ее зажечь в сердце собственный огонь, чтобы весь город и его жители вновь засияли от счастья и поверили в волшебство.",
+			"rating": 5.9,
+			"year": 2019,
+			"countries": [
+				9,
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				101
+			]
+		},
+		{
+			"title": "Рождественский Клуб",
+			"subtitle": "The Christmas Club",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576613216_the-christmas-club.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1312756",
+			"description": "Двух очень разных людей сводит вместе случай, когда они вынуждены прийти на помощь пожилой даме, которая потеряла свои деньги у входа в магазин игрушек. Благодаря судьбе и рождественскому волшебству они обретут то, чего им обоим не хватало - истинную любовь.",
+			"rating": 6.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				102
+			]
+		},
+		{
+			"title": "Очень винтажное рождество",
+			"subtitle": "A Very Vintage Christmas",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576613084_a-very-vintage-christmas.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1283027",
+			"description": "Доди - безнадёжный романтик, и поэтому она открывает магазин антиквариата. Найдя коробку с рождественскими безделушками, девушка решает вернуть её законному владельцу. Во время поисков Доди знакомится с Эдом, красавчиком-подрядчиком, который решает помочь ей в поисках.",
+			"rating": 6.4,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				12
+			],
+			"directors": [
+				103
+			]
+		},
+		{
+			"title": "Рождество в Эвергрине: Благая весть",
+			"subtitle": "Christmas in Evergreen: Tidings of Joy",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576612987_christmas-in-evergreen-tidings-of-joy.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1302141",
+			"description": "Скептически настроенная журналистка Кейти приезжает в маленький городок Эвегрин, чтобы узнать о безумной страсти города к Рождеству, как раз в то время, когда город ищет потерянную капсулу времени. Но уже по пути в город Кейти начинают преследовать приятные сюрпризы.",
+			"rating": 6.6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				104
+			]
+		},
+		{
+			"title": "Шестеро вне закона",
+			"subtitle": "6 Underground",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576335200_b038312.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1128272",
+			"description": "Инсценировав собственную смерть, миллиардер начинает новую жизнь — набирает отряд наёмников, чтобы самостоятельно разбираться с организованной преступностью.",
+			"rating": 6.4,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2,
+				10
+			],
+			"directors": [
+				105
+			]
+		},
+		{
+			"title": "Комната желаний",
+			"subtitle": "The Room",
+			"preview": "http://ex-fs.net/uploads/posts/2019-09/1569441645_54e3f5c.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1159556",
+			"description": "Влюбленная пара решает переехать в уединенный особняк. Занимаясь ремонтом старинного дома, они обнаруживают замурованную комнату, исполняющую любое их желание. Миллионы долларов, подлинник Ван Гога и самые роскошные наряды — чего бы они ни захотели, моментально материализуется. Однако, наигравшись вдоволь, молодая женщина осмеливается пожелать себе долгожданного ребенка, даже не подозревая, какую сделку совершает...",
+			"rating": 6,
+			"year": 2019,
+			"countries": [
+				7,
+				24,
+				25
+			],
+			"genres": [
+				0,
+				5,
+				8
+			],
+			"directors": [
+				106
+			]
+		},
+		{
+			"title": "Джуди",
+			"subtitle": "Judy",
+			"preview": "http://ex-fs.net/uploads/posts/2019-10/1570052791_e634cac.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1102923",
+			"description": "Фильм рассказывает о последних концертах голливудской звезды Джуди Гарлэнд в Лондоне в 1968 году. Звезда «Волшебника страны Оз» готовится к шоу, ссорится с руководством, очаровывает музыкантов. Это хрупкая женщина, которую истощили годы тяжелой работы и тоска по детям.",
+			"rating": 7.2,
+			"year": 2019,
+			"countries": [
+				1
+			],
+			"genres": [
+				5,
+				4,
+				6,
+				13
+			],
+			"directors": [
+				107
+			]
+		},
+		{
+			"title": "Yesterday / Вчера",
+			"subtitle": "Yesterday",
+			"preview": "http://ex-fs.net/uploads/posts/2019-07/1562739509_eb69564.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1144300",
+			"description": "Еще месяц назад Джек был обычным неудачником. Теперь он суперзвезда, миллионы людей слушают его песни, билеты на концерты раскупаются за секунду. В чем секрет? Все просто. Джек — единственный человек в мире, кто помнит о существовании The Beatles.",
+			"rating": 6.9,
+			"year": 2019,
+			"countries": [
+				1,
+				0
+			],
+			"genres": [
+				21,
+				1,
+				4,
+				7,
+				15
+			],
+			"directors": [
+				108
+			]
+		},
+		{
+			"title": "Высшая награда",
+			"subtitle": "Grace",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576334459_0acd84f.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1037600",
+			"description": "Чарли Эллисон - когда-то известный писатель, который страдает от творческого кризиса. Как только гонорары с книг заканчиваются, агент и лучший друг Берни присылает ему на помощь Дон - воинственную молодую женщину, которая должна вдохновлять писателя и присматривать за ним, но у Дон есть свои планы.",
+			"rating": 5.9,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				4,
+				7,
+				9
+			],
+			"directors": [
+				109
+			]
+		},
+		{
+			"title": "Достать ножи",
+			"subtitle": "Knives Out",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576196432_0fa6ac8.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1188529",
+			"description": "Когда сразу после празднования 85-летия известного автора криминальных романов Харлана Тромби виновника торжества находят мёртвым, за расследование берётся обаятельный и дотошный детектив Бенуа Блан. Ему предстоит распутать тугую сеть уловок и корыстной лжи, которой его опутывают члены неблагополучной семьи Харлана и преданный ему персонал.",
+			"rating": 8.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				8,
+				7,
+				5,
+				9
+			],
+			"directors": [
+				110
+			]
+		},
+		{
+			"title": "Подсобка дьявола",
+			"subtitle": "The Shed",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576196067_290f77f.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1121584",
+			"description": "Стэн рано лишился родителей и теперь живёт с грубым дедом, который только и делает, что пьёт и кричит на внука. В школе парню вместе с другом Доммером постоянно приходится отбиваться хулиганов, так что жизнь ребят нельзя назвать увлекательной. Однажды Стэн в собственном сарае для инструментов обнаруживает злобное существо — плотоядное порождение ночи — и с этого момента жизнь парня осложняется ещё сильнее.",
+			"rating": 4.4,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				5
+			],
+			"directors": [
+				111
+			]
+		},
+		{
+			"title": "Четыре башни",
+			"subtitle": "Hard Night Falling",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576195991_c28094f.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=849516",
+			"description": "Криминальный авторитет Горо планирует ограбить семью Россини. Но Горо и его головорезы не знают, что у Россини в гостях опытный агент, который борется не только за спасение заложников и добычи, а и за свою семью.",
+			"rating": 4.4,
+			"year": 2019,
+			"countries": [
+				2,
+				0
+			],
+			"genres": [
+				2,
+				5
+			],
+			"directors": [
+				112
+			]
+		},
+		{
+			"title": "Секта",
+			"subtitle": "Il nido",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576195906_ed3096c.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1264122",
+			"description": "Самуэль прикован к инвалидной коляске и живёт в обособленном поместье со своей матерью Еленой и другими странными домочадцами. Когда в доме появляется молодая и красивая Денис, Самуэль находит в себе силы открыть для себя мир. Елена не хочет отпускать от себя сына и сделает всё, чтобы оставить его у себя.",
+			"rating": 0,
+			"year": 2019,
+			"countries": [
+				2
+			],
+			"genres": [
+				11,
+				8
+			],
+			"directors": [
+				113
+			]
+		},
+		{
+			"title": "Обратный отсчет",
+			"subtitle": "Countdown",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576195839_26c7961.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1254418",
+			"description": "В наш век гаджетов и высоких технологий для всего есть мобильное приложение. Хочешь узнать, сколько тебе осталось жить? Пожалуйста! Девушка видит на экране телефона неумолимый вердикт — ее жизнь оборвется через 3 дня. Сможет ли она избежать смерти, если обратный отсчет уже начался?",
+			"rating": 5.4,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				10
+			],
+			"directors": [
+				114
+			]
+		},
+		{
+			"title": "Ричард прощается / Во всё тяжкое",
+			"subtitle": "The Professor",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576111387_b2daea9.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1047881",
+			"description": "Профессор колледжа решает жить на полную катушку после того, как ему ставят серьезный диагноз. Отныне все запреты сняты, а тайные желания могут наконец осуществиться!",
+			"rating": 6.7,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				7
+			],
+			"directors": [
+				115
+			]
+		},
+		{
+			"title": "Леди и Бродяга",
+			"subtitle": "Lady and the Tramp",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1573807211_7697991.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1115563",
+			"description": "Картина расскажет историю встречи представительницы высшего общества кокер-спаниеля Леди и дворняги по прозвищу Бродяга.",
+			"rating": 6.3,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				4,
+				7,
+				3,
+				12
+			],
+			"directors": [
+				116
+			]
+		},
+		{
+			"title": "Прекрасный день по соседству",
+			"subtitle": "A Beautiful Day in the Neighborhood",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576195579_0482081.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=804815",
+			"description": "История реальной и необычной дружбы между добродушным ведущим Фредом Роджерсом и прожжённым журналистом Томом Джунодом. Джунод неохотно согласился написать статью о знаменитом телеведущем, которого он считает слишком нежным и мягким. Но неутомимый оптимизм Роджерса постепенно меняет жизнь и взгляды сурового репортёра.",
+			"rating": 7.9,
+			"year": 2019,
+			"countries": [
+				6,
+				0
+			],
+			"genres": [
+				5,
+				6
+			],
+			"directors": [
+				117
+			]
+		},
+		{
+			"title": "Хала",
+			"subtitle": "Hala",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576195487_f65b7ec.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1157931",
+			"description": "Молодая американка пакистанского происхождения Хала вынуждена искать баланс между семейными, религиозными и культурными обязательствами.",
+			"rating": 4.6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				118
+			]
+		},
+		{
+			"title": "Обезьяны",
+			"subtitle": "Monos",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576195145_e8dd54d.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1003254",
+			"description": "Сюжет картины переносит нас в северную Колумбию, где происходят по-настоящему ужасные события. Группа молодых людей уже многие годы просто стараются выжить в этих непростых условиях. Однажды ребята решают захватить заложника и потребовать за его жизнь выкуп. Героям кажется, что это просто веселая игра, и в их действиях совершенно нет ничего плохого. Постепенно вчерашние мальчики и девочки полностью теряют контроль над своим разумом и превращаются в жестоких зверей. Несчастному пленнику придется пережить самые страшные дни своей жизни, наполненные отчаянием и страхом за собственное будущее.",
+			"rating": 7.4,
+			"year": 2019,
+			"countries": [
+				26,
+				3,
+				27,
+				8,
+				28,
+				29,
+				0,
+				30,
+				31
+			],
+			"genres": [
+				10,
+				5
+			],
+			"directors": [
+				119
+			]
+		},
+		{
+			"title": "Некрополь: Легион",
+			"subtitle": "Necropolis: Legion",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576195039_0e1e6fe.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1277570",
+			"description": "Писательница отправляется в старый деревенский дом, чтобы начать давно задуманную книгу, но сталкивается с мистическими видениями и понимает, что дом не просто так был заброшен прежними хозяевами.",
+			"rating": 4,
+			"year": 2019,
+			"countries": [
+				9
+			],
+			"genres": [
+				11
+			],
+			"directors": [
+				120
+			]
+		},
+		{
+			"title": "Поменяться местами",
+			"subtitle": "Mon inconnue",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576194769_54792f9.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1117379",
+			"description": "Знаменитый и успешный писатель однажды просыпается и понимает, что его жизнь перевернута вверх дном. Теперь он полный лузер и холостяк, который работает простым учителем в школе, а его девушка — успешная пианистка, которая собирается выйти замуж за крутого музыкального продюсера. Чтобы вернуть свою прежнюю жизнь, ему нужно вновь завоевать ее сердце.",
+			"rating": 7.2,
+			"year": 2019,
+			"countries": [
+				7,
+				25
+			],
+			"genres": [
+				5,
+				4,
+				7
+			],
+			"directors": [
+				121
+			]
+		},
+		{
+			"title": "Бандит, полицейский, дьявол",
+			"subtitle": "Akinjeon",
+			"preview": "http://ex-fs.net/uploads/posts/2019-07/1562440442_9d9c157.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1177510",
+			"description": "2005 год. Криминальный босс провинциального города Чхонан Чан Дон-су подвергается нападению серийного убийцы и оказывается единственной выжившей жертвой. Репутация подмочена, единственный способ восстановить авторитет в глазах братвы — найти нападавшего и отомстить. Местный детектив Чон Тхэ-сок всей своей полицейской душой ненавидит организованную преступность, но ему приходится объединить силы с бандитом Дон-су, чтобы изловить ещё более ненавистного маньяка.",
+			"rating": 6.9,
+			"year": 2019,
+			"countries": [
+				4
+			],
+			"genres": [
+				2,
+				9,
+				10
+			],
+			"directors": [
+				122
+			]
+		},
+		{
+			"title": "Искусство самообороны",
+			"subtitle": "The Art of Self-Defense",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575579281_84e45c9.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1074242",
+			"description": "Пытаясь совладать с собственными страхами зажатый бухгалтер Кейси записывается на курсы карате. В итоге юноша попадает в странный мир насилия и гипермаскулинности, где стандартные правила мужественности возведены в абсолют.",
+			"rating": 6.7,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				5,
+				7,
+				16
+			],
+			"directors": [
+				123
+			]
+		},
+		{
+			"title": "Робо",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1573570886_9995c13.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1228540",
+			"description": "12-летний Митя Привалов мечтает рисовать комиксы о супергероях. Но родители мальчика, инженеры-робототехники, хотят, чтобы он пошел по их стопам. Понимание и поддержку Митя находит там, где не ждал: у созданного родителями робота-спасателя А-112 или просто Робо. Их ждут невероятные приключения, в ходе которых Митя научит нового друга верить в себя и свои мечты, а Робо станет для мальчика примером мужества и ответственности.",
+			"rating": 6.9,
+			"year": 2019,
+			"countries": [
+				10
+			],
+			"genres": [
+				12,
+				0,
+				5
+			],
+			"directors": [
+				124
+			]
+		},
+		{
+			"title": "Королева Румынии - Мария",
+			"subtitle": "Queen Marie of Romania",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576193932_queen-marie-of-romania.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1200851",
+			"description": "Разрушенная Первой мировой войной Румыния надеется на свою королеву Марию и ее миссию в Париже по лоббированию международного признания объединения Румынии на мирных переговорах 1919 года.",
+			"rating": 8.2,
+			"year": 2019,
+			"countries": [
+				16
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				125,
+				126,
+				127
+			]
+		},
+		{
+			"title": "Чувство, чувствительность и снеговики",
+			"subtitle": "Sense, Sensibility & Snowmen",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576193724_sense-sensibility-snowmen.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1292068",
+			"description": "Элла и Марианна Дэшвуд занимаются организацией вечеринок. И они обожают Рождество. Их новый клиент - крупный магазин игрушек. Но они не поладили с его директором, Эдвардом Феррисом.",
+			"rating": 6.7,
+			"year": 2019,
+			"countries": [
+				9
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				128
+			]
+		},
+		{
+			"title": "Мой отец, мой похититель",
+			"subtitle": "The Past Never Dies",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576193478_the-past-never-dies.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1246692",
+			"description": "Кейси Марш родилась в неволе - ее мама, Джейн, была похищена в юности и провела в плену 6 долгих лет. Они сбежали, и Тимоти Фаста, их похитителя, посадили в тюрьму пожизненно. Прошло 20 лет, и снова стали пропадать юные девушки. После исчезновения мамы Кейси приходится столкнуться с мрачными тайнами прошлого, чтобы отыскать ее, пока не стало слишком поздно.",
+			"rating": 5.8,
+			"year": 2019,
+			"countries": [
+				9
+			],
+			"genres": [
+				10
+			],
+			"directors": [
+				129
+			]
+		},
+		{
+			"title": "Мой лучший друг - знаменитость",
+			"subtitle": "My Best Friend's Famous",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576193341_my-best-friends-famous.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1189126",
+			"description": "Шон Райли - депрессивный и неудачливый актер. После того как его лучший друг получает роль в сериале, он борется с неуверенностью в себе и ревностью, а также со звездой сериала, угрожающей испортить детскую дружбу.",
+			"rating": 5.7,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				7
+			],
+			"directors": [
+				130
+			]
+		},
+		{
+			"title": "Рождественские баночки",
+			"subtitle": "Christmas Jars",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576193164_christmas-jars.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1246407",
+			"description": "Начинающая журналистка Хоуп Дженсен, в поисках темы для своей первой статьи, узнает о секретных рождественских баночках, одну из которых ей тоже посчастливилось получить. Чтобы узнать кто за этим стоит, она начинает целое расследование.",
+			"rating": 7.7,
+			"year": 2019,
+			"countries": [
+				9
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				131
+			]
+		},
+		{
+			"title": "Статус: всё сложно",
+			"subtitle": "In a Relationship",
+			"preview": "http://ex-fs.net/uploads/posts/2018-11/1541888475_c8c6585.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1066594",
+			"description": "Оуэн и Хэлли, которые долго были вместе, расстаются (или не совсем?), а их лучшие друзья, Мэтт и Уилла, наоборот, только начинают встречаться. Смешная и чувственная хроника одного лета в жизни двух пар.",
+			"rating": 5.5,
+			"year": 2018,
+			"countries": [
+				0,
+				18
+			],
+			"genres": [
+				5,
+				7
+			],
+			"directors": [
+				132
+			]
+		},
+		{
+			"title": "Миллион мелких осколков",
+			"subtitle": "A Million Little Pieces",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576187264_0227e4d.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1092976",
+			"description": "Молодой писатель Джеймс просыпается в разбитом состоянии на борту самолета в Чикаго, ничего не помня о предыдущих событиях. Вскоре выясняется, что Джеймс направлен в реабилитационный центр. Испытания, выпавшие на долю героя, должны исцелить его от душевных страданий. В процессе терапии он сближается с другими пациентами — харизматичным боссом мафии и молодой девушкой, в которую по правилам клиники ему запрещено влюбляться.",
+			"rating": 6.2,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				133
+			]
+		},
+		{
+			"title": "Аврора",
+			"subtitle": "Aurora",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576186062_35440ab.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1180493",
+			"description": "Пассажирский лайнер «Аврора» при загадочных обстоятельствах терпит крушение неподалёку от небольшого каменистого острова. В результате катастрофы погибли тысячи людей, и теперь местные жители вынуждены заниматься поисками тел и помогать живым.",
+			"rating": 4.3,
+			"year": 2018,
+			"countries": [
+				32
+			],
+			"genres": [
+				11,
+				10
+			],
+			"directors": [
+				134
+			]
+		},
+		{
+			"title": "Умник",
+			"subtitle": "Monsieur je-sais-tout",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576185691_431c356.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1093831",
+			"description": "Футбольный тренер, боящийся обязательств, должен заботиться о своем племяннике с синдромом Аспергера.",
+			"rating": 6.5,
+			"year": 2018,
+			"countries": [
+				7
+			],
+			"genres": [
+				5,
+				7
+			],
+			"directors": [
+				135,
+				136
+			]
+		},
+		{
+			"title": "Эксперимент «Радуга»",
+			"subtitle": "The Rainbow Experiment",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576185446_510c398.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=934644",
+			"description": "В школе происходит ЧП: в результате неудачного научного опыта ребенок получает серьезную травму. Расследование обстоятельств трагедии и поиски виновных обнажают глубинные конфликты между учителями, родителями и учениками.",
+			"rating": 6.2,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				137
+			]
+		},
+		{
+			"title": "Головоломка",
+			"subtitle": "Peojeul",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576185036_fc58829.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1111754",
+			"description": "То-джун производит впечатление состоятельного и благополучного бизнесмена. Но на самом деле у мужчины не всё гладко — он в поте лица работает в Корее и отсылает деньги семье за границу. Кроме того, подозревает жену в изменах. Однажды будучи навеселе, То-джун проводит ночь с незнакомкой, а на утро выясняется, что женщину убили.",
+			"rating": 0,
+			"year": 2018,
+			"countries": [
+				4
+			],
+			"genres": [
+				8,
+				10
+			],
+			"directors": [
+				138
+			]
+		},
+		{
+			"title": "Посмей нас остановить",
+			"subtitle": "Tomerareru ka, oretachi o",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576184855_2482bdd.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1179613",
+			"description": "Весной 1969 года 21-летняя Мэгуми отправляется в Wakamatsu Production — кинокомпанию, которая занимается производством молодёжных фильмов. Режиссёр пинку эйга Кодзи Вакамацу собрал здесь талантливых молодых людей, настоящих фанатов кино. В свободное от съёмочного процесса время они курят, пьют, ищут актрис и материал для нового фильма. Когда же начинаются съёмки, все полностью отдаются процессу: носятся по съёмочной площадке и актёрствуют.",
+			"rating": 6.2,
+			"year": 2018,
+			"countries": [
+				5
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				139
+			]
+		},
+		{
+			"title": "Смерть на Тайне",
+			"subtitle": "Death on the Tyne",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576184787_death-on-the-tyne.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1178809",
+			"description": "Туроператоры Терри и Джемма теперь влюблены, но снова прокляты. В этот раз они оказываются в сумасшедшей компании на пароме из Ньюкасла в Амстердам, где один за другим умирают пассажиры.",
+			"rating": 5.7,
+			"year": 2018,
+			"countries": [
+				1
+			],
+			"genres": [
+				7
+			],
+			"directors": [
+				140
+			]
+		},
+		{
+			"title": "Взросление",
+			"subtitle": "The Age of Adulting",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576184467_the-age-of-adulting.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1235143",
+			"description": "Джейсон, талантливый актер (который бросил карьеру), сбежал от своей девушки. Он начинает вести разгульный образ жизни, и его лучший друг решает снять документальный фильм про него. На пленке запечатлелось все то, что Джейсон предпочел бы скрыть.",
+			"rating": 0,
+			"year": 2018,
+			"countries": [
+				9
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				141
+			]
+		},
+		{
+			"title": "Бесконечный выходной",
+			"subtitle": "Zweisam gemeinsam einsam",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576184176_zweisam-gemeinsam-einsam.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1276652",
+			"description": "Двоюродные сестры Ванда и Дора отправляются со своими парнями отдыхать в хижину в лесу, принадлежащую их родителям, но казалось бы хорошо распланированный выходной превращается в нечто странное и ужасающее.",
+			"rating": 0,
+			"year": 2018,
+			"countries": [
+				8
+			],
+			"genres": [
+				11,
+				5,
+				3
+			],
+			"directors": [
+				142,
+				143,
+				144
+			]
+		},
+		{
+			"title": "Эффект фокусировки",
+			"subtitle": "The Focusing Effect",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576183881_the-focusing-effect.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1193642",
+			"description": "Мечта Кевина — стать известным режиссером. Но прежде ему нужно закончить колледж. Его итоговая работа — документальный фильм о расставаниях. Но во время его съемок всплывают ужасные подробности, которые никто не должен был узнать.",
+			"rating": 3.6,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				10,
+				5,
+				7
+			],
+			"directors": [
+				145
+			]
+		},
+		{
+			"title": "Рождество в отеле Рояль",
+			"subtitle": "Christmas at the Royal Hotel",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576183500_christmas-at-the-royal-hotel.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1129273",
+			"description": "В 1941 году Гонконг был своего рода восточной Касабланкой. В городе было полно беженцев, спекулянтов и шпионов. Внезапная атака японских войск не даёт канадскому солдату выполнить своё рождественское обещание.",
+			"rating": 3.9,
+			"year": 2018,
+			"countries": [
+				33
+			],
+			"genres": [
+				5,
+				19,
+				13
+			],
+			"directors": [
+				146
+			]
+		},
+		{
+			"title": "Доктор Сон",
+			"subtitle": "Doctor Sleep",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1573548230_16b2df6.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1048255",
+			"description": "Прошло много лет с тех пор, как мальчик-ясновидец Дэнни Торранс пережил кошмарный сезон в отеле «Оверлук», где стал свидетелем безумия и гибели своего отца. Повзрослев, но не оправившись от детской травмы, Дэнни ведёт жизнь маргинала-алкоголика. С ним устанавливает связь другая «сияющая» девочка, Абра. Ей потребуется помощь Дэнни, чтобы не стать жертвой так называемого «Истинного Узла» — группы охотников за одарёнными детьми.",
+			"rating": 7.6,
+			"year": 2019,
+			"countries": [
+				0,
+				1
+			],
+			"genres": [
+				11,
+				1,
+				10,
+				5
+			],
+			"directors": [
+				147
+			]
+		},
+		{
+			"title": "Это наш дом",
+			"subtitle": "This Is Our Home",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576079503_f945eb5.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1126647",
+			"description": "Семейная пара в кризисе решает уединиться в коттедже за городом, чтобы разобраться в своих чувствах и совладать с недавно пережитой трагедией, но их отдых резко прерывается визитом загадочного мальчика, утверждающего, что он на самом деле является их сыном.",
+			"rating": 3.2,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				4
+			],
+			"directors": [
+				148
+			]
+		},
+		{
+			"title": "Человек в багажнике",
+			"subtitle": "The Man in the Trunk",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576079423_65d6566.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=814922",
+			"description": "К Энди посреди ночи стучится его старый друг, с которым они не виделись уже пять лет. Он говорит, что ему необходима помощь, но какая конкретно сказать не может. Понимая, что друг в беде, Энди не раздумывая соглашается.",
+			"rating": 4.6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				10,
+				5,
+				9,
+				8
+			],
+			"directors": [
+				149
+			]
+		},
+		{
+			"title": "Полвека поэзии спустя",
+			"subtitle": "Pól wieku poezji pózniej",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576079196_1137ec3.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1166572",
+			"description": "Полвека поэзии спустя — это (около 90 минут) фильм по мотивам «Саги о ведьмаке» Анджея Сапковского, созданный её фанатами. Проект реализуется независимой съёмочной группой из Польши, участники которой в повседневной жизни профессионально заняты в кинематографе, театре, на телевидении и в других сферах медиа.",
+			"rating": 6.9,
+			"year": 2019,
+			"countries": [
+				34
+			],
+			"genres": [
+				1
+			],
+			"directors": [
+				150
+			]
+		},
+		{
+			"title": "Дюны",
+			"subtitle": "The Dunes",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576079117_c43bda9.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=913367",
+			"description": "Когда бывшая жена консультанта по бытовому насилию решает переехать с их сыном и ее новым парнем на другой конец страны, тот идёт на все возможное, чтобы не дать этому случиться.",
+			"rating": 3.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				5,
+				8
+			],
+			"directors": [
+				151
+			]
+		},
+		{
+			"title": "Малыш Джо",
+			"subtitle": "Little Joe",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576079004_3f7bf92.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1207523",
+			"description": "Мать-одиночка Элис, сотрудница отдела по выведению новых видов растений, создаёт необычный цветок — если за ним правильно ухаживать, он делает своего владельца счастливым. Но всё не так просто, и оказывается, что за счастье, даже сиюминутное, придётся заплатить, а цена может оказаться слишком высокой.",
+			"rating": 5.8,
+			"year": 2019,
+			"countries": [
+				1,
+				35,
+				8
+			],
+			"genres": [
+				0,
+				5
+			],
+			"directors": [
+				152
+			]
+		},
+		{
+			"title": "Опасные секреты",
+			"subtitle": "Official Secrets",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1573548123_2b596f5.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=958464",
+			"description": "Сотрудница британской разведки Кэтрин Ган обнародует засекреченное электронное письмо, в котором изобличаются американское и британское правительства в их незаконном вторжении в Ирак. Кэтрин и её адвокаты пытаются оправдать её действия в суде — ей вменяют нарушение Закона о государственной тайне. Под угрозой её жизнь, свобода и брак, но ей необходимо отстоять свои убеждения...",
+			"rating": 7.3,
+			"year": 2019,
+			"countries": [
+				1,
+				0
+			],
+			"genres": [
+				10,
+				5,
+				4,
+				19,
+				6
+			],
+			"directors": [
+				153
+			]
+		},
+		{
+			"title": "Город лжи",
+			"subtitle": "City of Lies",
+			"preview": "http://ex-fs.net/uploads/posts/2019-01/1547998906_27f1079.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=743463",
+			"description": "7 сентября 1996 года был смертельно ранен рэпер Тупак Шакур, через полгода был застрелен главный подозреваемый в его убийстве — хип-хоп-звезда Бигги Смолз. Преступники не были найдены, дело о «рэперской войне побережий» было закрыто. Спустя годы опальный детектив Рассел Пул возвращается к расследованию и вместе с репортером Джексоном распутывает паутину немыслимого заговора, в котором, очевидно, замешана полиция Лас-Вегаса.",
+			"rating": 6.3,
+			"year": 2019,
+			"countries": [
+				1,
+				0
+			],
+			"genres": [
+				10,
+				5,
+				9,
+				8,
+				6
+			],
+			"directors": [
+				154
+			]
+		},
+		{
+			"title": "Кто твоя бабушка, чувак?",
+			"subtitle": "C'est quoi cette mamie?!",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576077611_9837beb.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1238700",
+			"description": "Аврора наслаждается богатой жизнью в своих апартаментах на Лазурном Берегу во Франции. Вечеринки, друзья, путешествия, и самое важное — свое расписание дня. В один день дочери отправляют погостить к ней семь внуков от 6-ти до 18 лет.",
+			"rating": 5.1,
+			"year": 2019,
+			"countries": [
+				7,
+				25
+			],
+			"genres": [
+				7
+			],
+			"directors": [
+				155
+			]
+		},
+		{
+			"title": "Папа бывает только один",
+			"subtitle": "Padre no hay más que uno",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576077426_16fdcf7.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1221600",
+			"description": "Отец семьи узнает, как тяжело ухаживать за своими пятью детьми, когда жена оставляет его наедине с ними в течение недели каникул.",
+			"rating": 6.1,
+			"year": 2019,
+			"countries": [
+				12
+			],
+			"genres": [
+				7
+			],
+			"directors": [
+				156
+			]
+		},
+		{
+			"title": "Самоуверенный",
+			"subtitle": "The Reliant",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576076466_713f99e.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1005906",
+			"description": "Крах доллара способствует массовым беспорядкам и социальным волнениям по всей стране. В результате одна влюбленная девушка старается изо всех сил ухаживать за своими братьями и сестрами, проживая на участке леса, граничащего с беззаконием и анархией, и задается вопросом, почему Бог позволил всему этому случиться.",
+			"rating": 4.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2
+			],
+			"directors": [
+				157
+			]
+		},
+		{
+			"title": "Бакурау",
+			"subtitle": "Bacurau",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576076347_988bb7b.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=747780",
+			"description": "Небольшой городок где-то в бразильской глуши. Местные жители оплакивают кончину старейшей жительницы, которой было 94 года, и вскоре замечают, что их поселение исчезло с большинства карт.",
+			"rating": 8,
+			"year": 2019,
+			"countries": [
+				14,
+				7
+			],
+			"genres": [
+				0,
+				2,
+				10,
+				8,
+				3,
+				18
+			],
+			"directors": [
+				158,
+				159
+			]
+		},
+		{
+			"title": "На грани войны",
+			"subtitle": "Ready for War",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576075677_ready-for-war.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1254763",
+			"description": "Фильм Эндрю Ренци рассказывает о жизни трех из тысяч иммигрантов, которые добровольно идут на службу в американские вооруженные силы, но оказываются депортированными из США, когда их служба заканчивается.",
+			"rating": 5.4,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				20,
+				9,
+				19
+			],
+			"directors": [
+				160
+			]
+		},
+		{
+			"title": "Все жены моего мужа",
+			"subtitle": "Rule of 3",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576075150_rule-of-3.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1297588",
+			"description": "Элисон Уитфорд думала, что у нее есть все: успешная карьера и любящий муж. Доминик олицетворял собой идеального супруга, но внезапно погиб под колесами автомобиля. Мир Элисон переворачивается, когда она узнает, что это не несчастный случай, и, возможно, ее муж не был так уж идеален. Возможно, у него были секреты, ради которых стоит убить.",
+			"rating": 6,
+			"year": 2019,
+			"countries": [
+				9
+			],
+			"genres": [
+				10
+			],
+			"directors": [
+				161
+			]
+		},
+		{
+			"title": "Грустная история",
+			"subtitle": "Blue Story",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576074129_blue-story.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1246777",
+			"description": "Трагическая история о дружбе двух четких пацанов из черного британского гетто, которые волею судеб превратились в заклятых врагов, заняв разные стороны баррикад в беспощадной уличной войне жестоких англо-африканских банд.",
+			"rating": 5.4,
+			"year": 2019,
+			"countries": [
+				1
+			],
+			"genres": [
+				5,
+				9
+			],
+			"directors": [
+				162
+			]
+		},
+		{
+			"title": "Связанные по жизни",
+			"subtitle": "Chained for Life",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576334048_092c407.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1074500",
+			"description": "Красавица-актриса пытается найти общий язык с обезображенным коллегой на съёмках дебютного англоязычного фильма европейского режиссёра.",
+			"rating": 6.9,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				163
+			]
+		},
+		{
+			"title": "Рождественский городок",
+			"subtitle": "Christmas Town",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576333926_christmas-town.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1272634",
+			"description": "Лорен Габриэль уехала из Бостона, чтобы начать новую главу в своей жизни и карьере. По дороге в новую жизнь, девушка попадает в городок Грэндон Фоллс и он очаровывает её своими жителями и традициями.",
+			"rating": 7.3,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				4
+			],
+			"directors": [
+				164
+			]
+		},
+		{
+			"title": "Наша рождественская песня любви",
+			"subtitle": "Our Christmas Love Song",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576333750_5467688.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1320679",
+			"description": "Когда звезду кантри Мелоди Джонс обвинили в плагиате её праздничной песни, ей пришлось поехать за доказательствами авторства в родной город. Там она встретила бывшую любовь и поняла, что на самом деле важно в жизни.",
+			"rating": 6.4,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				165
+			]
+		},
+		{
+			"title": "Человек из другого мира ака Посредник",
+			"subtitle": "Além do Homem",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576333671_alm-do-homem.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1157050",
+			"description": "Молодой французский писатель получает от своего издателя задание: отыскать в Бразилии таинственное место, описанное в книге съеденного людоедами антрополога Марселя Лёфрана, как самое счастливое место на свете. Никто не знает, существует ли оно на самом деле, но даже несмотря на плавящее мозги солнце Альберто отправляется туда на свой собственный страх и риск, чтобы это выяснить.",
+			"rating": 5.9,
+			"year": 2018,
+			"countries": [
+				14,
+				7
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				166
+			]
+		},
+		{
+			"title": "Джуманджи: Новый уровень ",
+			"subtitle": "Jumanji: The Next Level",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575981558_3c1be69.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1112539",
+			"description": "Чтобы спасти одного из приятелей, остальным приходится вернуться в игру. К их удивлению, правила Джуманджи изменились, и все идет наперекосяк. Чтобы выжить друзьям предстоит отправиться в путешествие по самым неизведанным и таинственным уголкам игры — от засушливой пустыни до заснеженных гор.",
+			"rating": 7,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				1,
+				2,
+				7,
+				3
+			],
+			"directors": [
+				167
+			]
+		},
+		{
+			"title": "21 мост",
+			"subtitle": "21 Bridges",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575902839_1bf867e.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1174226",
+			"description": "Он охотится на преступников, которые совершили на Манхэттене дерзкое ограбление, оставив после себя 8 мертвых полицейских. А продажные копы тем временем охотятся на него, пытаясь подставить. Но преступникам не скрыться, так как первый раз в истории Нью-Йорка полиция перекрыла все выходы с острова, в том числе 21 мост.",
+			"rating": 6.6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2,
+				10,
+				5,
+				9
+			],
+			"directors": [
+				168
+			]
+		},
+		{
+			"title": "Тёмная сторона",
+			"subtitle": "Bloodline",
+			"preview": "http://ex-fs.net/uploads/posts/2019-09/1569095084_175e9a7.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1183843",
+			"description": "В жизни Эвана все прекрасно и стабильно — любящая жена, маленький ребенок и интересная работа школьного психолога. Но никто из окружающих не догадывается, что у жизни Эвана есть и другая, тёмная сторона, на которую лучше не заходить никому.",
+			"rating": 6,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				9
+			],
+			"directors": [
+				169
+			]
+		},
+		{
+			"title": "Сваха",
+			"subtitle": "Sabaha",
+			"preview": "http://ex-fs.net/uploads/posts/2019-06/1559580673_584bbe0.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1048226",
+			"description": "Когда Кым-хва была ещё в утробе матери, рядом с ней рос демон. Они появились на свет, мать скончалась, а родня не стала убивать уродца, решив, что тот умрёт сам. Но существо продолжило жить, отец, не выдержав позора, повесился, и теперь оставшееся семейство, таская демона с собой, вынуждено часто переезжать.Пастор Пак занимается разоблачением сект, которые как грибы после дождя появляются в Южной Корее каждый год. Он выходит на очередную подозрительную религиозную организацию, которая, как считает Пак, связана с недавно обнаруженными полицией телами.",
+			"rating": 6.3,
+			"year": 2019,
+			"countries": [
+				4
+			],
+			"genres": [
+				8,
+				10,
+				1
+			],
+			"directors": [
+				170
+			]
+		},
+		{
+			"title": "Наркобарон",
+			"subtitle": "Mayakwang",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575981194_cce4498.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1039129",
+			"description": "Корея 70-х — страна возможностей. Мелкий пусанский барыга, торгующий золотыми часами, однажды перевозит партию наркотиков в Японию. Там он узнаёт, что после войны в стране восходящего солнца не уменьшается спрос на метамфетамины, а в Пусане — лучший климат для их изготовления. Подкупив кого только можно и организовав производство, наш герой начинает масштабный экспорт наркопродукции под брендом «Сделано в Корее» и вскоре попадает в поле зрения молодого прокурора.",
+			"rating": 6,
+			"year": 2018,
+			"countries": [
+				4
+			],
+			"genres": [
+				5,
+				9,
+				6
+			],
+			"directors": [
+				171
+			]
+		},
+		{
+			"title": "Перелеска",
+			"subtitle": "Misumiso",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575981150_7d134bd.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1111035",
+			"description": "Переехав из Токио в маленький город, в новой школе старшеклассница Харука сталкивается с буллингом. Как хорошая дочь, не желающая создавать проблемы родителям, девушка пытается не реагировать, а после и вовсе перестаёт ходить в школу. Но однажды одноклассники преступают черту и поджигают дом Харуки: её родители гибнут, а младшая сестра получает сильные ожоги. Вот теперь-то и пришло время обратить на задир внимание и расквитаться со всеми виновными.",
+			"rating": 6.3,
+			"year": 2018,
+			"countries": [
+				5
+			],
+			"genres": [
+				5,
+				10,
+				9
+			],
+			"directors": [
+				172
+			]
+		},
+		{
+			"title": "Большая поэзия",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575980903_0e301b0.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1115453",
+			"description": "Виктор и Лёха живут в небольшом городе и работают инкассаторами: охраняют чужие деньги, сочиняют стихи, ходят на петушиные бои и ищут лирику среди фальшивой пестроты огромных новостроек. Но вместо рифм и панчей парни находят способ изменить жизнь, и это — ограбление.",
+			"rating": 6.4,
+			"year": 2019,
+			"countries": [
+				10
+			],
+			"genres": [
+				2,
+				5
+			],
+			"directors": [
+				173
+			]
+		},
+		{
+			"title": "Ким Джи-ён, 1982 года рождения",
+			"subtitle": "82nyeonsaeng Kim Ji-yeong",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1576075769_2f8be38.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1189852",
+			"description": "Ким Джи-ён 1982 года рождения — обычная женщина. Она следовала всему, что требовало от неё общество: закончила школу, устроилась на работу, вышла замуж, родила. В один прекрасный день Джи-ён начинает терять саму себя и примерять личины других людей.",
+			"rating": 7.6,
+			"year": 2019,
+			"countries": [
+				4
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				174
+			]
+		},
+		{
+			"title": "Темные воды",
+			"subtitle": "Dark Waters",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575901162_3ecb2f2.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1228069",
+			"description": "История корпоративного юриста Роберта Билотта, раскрывшего многолетнюю историю загрязнения окружающей среды химической компанией.",
+			"rating": 7.5,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				5,
+				6,
+				13
+			],
+			"directors": [
+				175
+			]
+		},
+		{
+			"title": "Ночь в осаде",
+			"subtitle": "Trauma Center",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575900962_b1342b0.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1232842",
+			"description": "Испуганная женщина, избитая неизвестными, оказывается ночью одна в больничном изоляторе травматологического центра. Раненная и обессиленная, она должна найти в себе силы сбежать от двух киллеров, которые пришли извлечь важную улику, указывающую на их причастие к громким криминальным делам. К счастью, ветеран полиции получает задание защищать главную героиню, и он немедленно берётся за это нелёгкое дело.",
+			"rating": 5.7,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2,
+				10
+			],
+			"directors": [
+				176
+			]
+		},
+		{
+			"title": "Тёмный свет",
+			"subtitle": "Dark Light",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575900567_a1387d9.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1201444",
+			"description": "Женщина с дочкой живёт на ферме. Однажды она видит в поле странный свет, после чего в их доме начинают происходить странные события, и дочь пропадает. Полиция не верит, что девочку похитило нечто потустороннее, и арестовывает безутешную мать, но женщина сбегает из-под стражи, чтобы самой разобраться в произошедшем и отыскать дочь.",
+			"rating": 4.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				0,
+				10
+			],
+			"directors": [
+				177
+			]
+		},
+		{
+			"title": "Остров Грэнд-Айл",
+			"subtitle": "Grand Isle",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575900288_927a118.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1184721",
+			"description": "Молодого отца обвиняют в убийстве неизвестного ребенка. Чтобы доказать свою невиновность, он рассказывает что с ним произошло прошлой ночью в доме семьи Франклинов.",
+			"rating": 5.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2,
+				10
+			],
+			"directors": [
+				178
+			]
+		},
+		{
+			"title": "Насильственное разделение",
+			"subtitle": "A Violent Separation",
+			"preview": "http://ex-fs.net/uploads/posts/2019-06/1559569191_a433234.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=798431",
+			"description": "Действие фильма разворачивается в маленьком тихом городе посреди равнин вокруг молодого помощника шерифа Нормана Янга, который покрывает своего брата-убийцу, Рея. Но все меняет внезапно вспыхнувший роман между Норманом и младшей сестрой убитого, Фрэнсис. Когда расследование приближается к правде, героям приходится выбирать между совестью и семейным долгом.",
+			"rating": 5.5,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				9
+			],
+			"directors": [
+				179,
+				180
+			]
+		},
+		{
+			"title": "Киллер по вызову",
+			"subtitle": "Lucky Day",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1573637819_90678f8.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1047875",
+			"description": "В первый же день после освобождения из тюрьмы взломщик сейфов Ред и его подруга становятся мишенью киллера. Сея вокруг себя хаос, киллер шутит с акцентом, что мстит за убитую собаку. Не спеша уничтожать жертву, он явно ведет свою игру, истинной целью которой может быть вовсе не Ред.",
+			"rating": 4.9,
+			"year": 2019,
+			"countries": [
+				7,
+				9
+			],
+			"genres": [
+				2,
+				10,
+				9
+			],
+			"directors": [
+				181
+			]
+		},
+		{
+			"title": "Вне закона",
+			"subtitle": "Beyond the Law",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575899801_c8e36da.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1316210",
+			"description": "Бывший гангстер, который стал бизнесменом, и бывший полицейский объединяются, чтобы найти убийцу сына одного из них.",
+			"rating": 4.6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2
+			],
+			"directors": [
+				182
+			]
+		},
+		{
+			"title": "Рождество на двоих",
+			"subtitle": "Last Christmas",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575379961_ea33c66.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1170018",
+			"description": "Кейт, которая работает в магазине рождественских товаров, злоупотребляет выпивкой и давно бросила переживать из-за собственной жизни. Но всё меняется после знакомства с милым и очаровательным Томом.",
+			"rating": 6.6,
+			"year": 2019,
+			"countries": [
+				1,
+				0
+			],
+			"genres": [
+				5,
+				4,
+				7
+			],
+			"directors": [
+				183
+			]
+		},
+		{
+			"title": "Автомобиль: Дорога мести",
+			"subtitle": "The Car: Road to Revenge",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575899514_d7c01e8.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1219744",
+			"description": "В киберпанковом городе, погрязшем в преступности, беспринципного окружного прокурора жестоко убивают и выбрасывают из окна прямо на его новенький автомобиль. Но прокурор и его машина возвращаются к жизни, как одно целое, и их обуревает жажда мести.",
+			"rating": 4.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				2,
+				10
+			],
+			"directors": [
+				184
+			]
+		},
+		{
+			"title": "Проклятие крови",
+			"subtitle": "Blood Craft",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1573571958_cd19f1d.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1111055",
+			"description": "Две сестры, страдавшие в детстве от жестокого обращения своего садиста-отца, решают после его смерти прибегнуть к колдовству, для того чтобы вызвать его дух и отомстить.",
+			"rating": 3.5,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				10
+			],
+			"directors": [
+				182
+			]
+		},
+		{
+			"title": "Квантовая физика",
+			"subtitle": "Yangjamullihak",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575899315_e585e37.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1162831",
+			"description": "В ночном клубе происходит инцидент, связанный с наркотиками и именем знаменитости из шоу-бизнеса. Владелец клуба знает, что в дело окажутся втянуты прокуроры и политики, поэтому берется за расследование сам.",
+			"rating": 6.4,
+			"year": 2019,
+			"countries": [
+				4
+			],
+			"genres": [
+				2,
+				9
+			],
+			"directors": [
+				185
+			]
+		},
+		{
+			"title": "Ножи и кожа",
+			"subtitle": "Knives and Skin",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575899249_01582ef.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1135294",
+			"description": "Подростковый фильм расскажет о таинственном исчезновении молодой девушки, которое впоследствии поднимет весь город на уши и повлияет на её одноклассников и семью.",
+			"rating": 5.3,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				186
+			]
+		},
+		{
+			"title": "Там, где безопасно",
+			"subtitle": "Safe Spaces",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575899167_e1d6837.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1095893",
+			"description": "Профессор университета проводит неделю со своей семьёй, налаживая отношения с родственниками, и в то же время пытаясь восстановить подпорченную репутацию из-за неподобающего двусмысленного поведения на занятии.",
+			"rating": 5.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				7
+			],
+			"directors": [
+				187
+			]
+		},
+		{
+			"title": "Нечего терять 2",
+			"subtitle": "Nada a Perder 2",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575899091_abb3107.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1293034",
+			"description": "Вторая часть биографического фильма о бразильском церковном деятеле, основателе Всемирной церкви \"Царство Божие\" Эдире Маседо. В фильме описаны воспоминания епископа Маседо, а так же трудности, с которыми он столкнулся по мере развития его церкви.",
+			"rating": 3.6,
+			"year": 2019,
+			"countries": [
+				14
+			],
+			"genres": [
+				5,
+				6
+			],
+			"directors": [
+				188
+			]
+		},
+		{
+			"title": "Мёртвые детки",
+			"subtitle": "Dead Kids",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575578344_66922e0.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1249519",
+			"description": "Этот фильм, основанный на реальных событиях, рассказывает убедительную историю о социально неуклюжем подростке, который связывается с группой неудачников, которые замышляют убить высокомерного богатого ребенка школы, пока их схема похищения не станет смертельной.",
+			"rating": 5.7,
+			"year": 2019,
+			"countries": [
+				32
+			],
+			"genres": [
+				10,
+				9
+			],
+			"directors": [
+				189
+			]
+		},
+		{
+			"title": "Дневник безумной женщины",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575898612_a6eed24.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1262936",
+			"description": "После нелепого несчастного случая в жизни самого обычного парня по имени Нурлан появляется она — женщина, распугивающая окружающих своими экстравагантными поступками, разговорами и... бородой. Никто не знает, как ее зовут, откуда она появилась и сколько ей лет.",
+			"rating": 0,
+			"year": 2019,
+			"countries": [
+				36
+			],
+			"genres": [
+				7
+			],
+			"directors": [
+				190
+			]
+		},
+		{
+			"title": "Адское пекло!",
+			"subtitle": "Hellfire!",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575898389_hellfire.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1276497",
+			"description": "Через много лет после окончания католической школы, три бывшие одноклассницы, Чаки, Лили и Афина объединяются, чтобы выяснить, кто убивает выпускниц их школы и самим не стать жертвами загадочного маньяка. Впереди их ждёт адская смесь из крови, наркотиков и панк-рока.",
+			"rating": 2.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2
+			],
+			"directors": [
+				191
+			]
+		},
+		{
+			"title": "Подстава в День благодарения",
+			"subtitle": "Turkey Drop",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575898301_turkey-drop.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1324670",
+			"description": "Люси Джейкобс родилась в небольшом городке. После школы она поступила в колледж в большом городе. Девушка приезжает домой на День благодарения и подозревает, что парень, с которым она вместе еще со старшей школы, собирается бросить ее прямо в этот праздник.",
+			"rating": 6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				192
+			]
+		},
+		{
+			"title": "Мальчик, собака и клоун",
+			"subtitle": "The Boy, the Dog and the Clown",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575898045_the-boy-the-dog-and-the-clown.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1066571",
+			"description": "Маленький мальчик Эдриан знакомится с грустным клоуном, который умеет совершать невероятные магические подвиги. Однажды Эдриан заблудился в лесу и ради своего спасения он должен использовать магические силы, которым его наделил клоун.",
+			"rating": 6.7,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				12
+			],
+			"directors": [
+				193
+			]
+		},
+		{
+			"title": "Рождество в Плазе",
+			"subtitle": "Christmas at the Plaza",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575897716_christmas-at-the-plaza.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1302414",
+			"description": "Юную Джессику, историка и антрополога, нанимают для работы над рождественской выставкой в отеле Плаза. В команде с красавцем-декоратором Ником она узнает много нового и в отношении некоторых фактов об истории рождества в отеле, и в отношении самой себя.",
+			"rating": 6.8,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				194
+			]
+		},
+		{
+			"title": "Читра и Лахари",
+			"subtitle": "Chitralahari",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575897649_56798.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1205573",
+			"description": "Виджай, преследуемый постоянными неудачами в личной и профессиональной жизни, отчаянно ищет тот единственный шанс, который изменит его жизнь. Но хватит ли у него сил переписать свою судьбу? И где эта сила: в нем самом или в поддержке двух красавиц Читры и Лахари?..",
+			"rating": 7.1,
+			"year": 2019,
+			"countries": [
+				15
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				195
+			]
+		},
+		{
+			"title": "Предвестник землетрясения",
+			"subtitle": "Earthquake Bird",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1573929612_458823e.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1129498",
+			"description": "Десять лет назад молодая англичанка Люси, сбежав от семейных проблем, переехала в Японию, где успешно устроилась на работу переводчиком. Внезапно Люси оказывается подозреваемой в убийстве подруги и землячки Лили. Предположительно, причиной раздора между двумя женщинами стал привлекательный фотограф Тэйдзи.",
+			"rating": 5.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				5,
+				4,
+				9,
+				8
+			],
+			"directors": [
+				196
+			]
+		},
+		{
+			"title": "Парк развлечений",
+			"subtitle": "Eld & lågor",
+			"preview": "http://ex-fs.net/uploads/posts/2019-06/1559407523_ef1920b.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1052714",
+			"description": "Два парка развлечений соперничают за внимание посетителей. В ход идут фокусы, магия, трюки, а также воровство, шпионаж и предательство. Они готовы удивлять любой ценой. Юноша и девушка из враждующих кланов вопреки запрету полюбили друг друга.. Есть ли у этой истории шанс на счастливый конец?",
+			"rating": 6.2,
+			"year": 2019,
+			"countries": [
+				28
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				197,
+				198
+			]
+		},
+		{
+			"title": "Совершенство",
+			"subtitle": "The Perfection",
+			"preview": "http://ex-fs.net/uploads/posts/2019-06/1559557402_ded87aa.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1129042",
+			"description": "Подававшая в прошлом огромные надежды виолончелистка Шарлотта 10 лет назад была вынуждена отказаться от призвания всей жизни и уехать домой, чтобы ухаживать за больной матерью. Теперь, когда её мать умерла, девушка первым делом находит своих бывших учителей Антона и Палому, которые в Китае выбирают себе следующую ученицу, а также знакомится с их новой протеже и суперзвездой Лиззи. Девушки так непохожи друг на друга, но между ними сразу же возникает непреодолимое притяжение, и вот уже новые подруги вместе отправляются в путешествие по Китаю.",
+			"rating": 6.1,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				5
+			],
+			"directors": [
+				199
+			]
+		},
+		{
+			"title": "Никогда не возвращайтесь",
+			"subtitle": "Never Goin' Back",
+			"preview": "http://ex-fs.net/uploads/posts/2018-10/1539292360_990cb9a.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1107934",
+			"description": "Анджела и Джесси — лучшие подруги, мечтающие сбежать на пляж, вместо того чтобы работать очередную смену официантками в грязной техасской забегаловке. Но каждая попытка вырваться на свободу оканчивается неудачей из-за неутомимой привычки девушек находить приключения на свои пятые точки.",
+			"rating": 6,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				7
+			],
+			"directors": [
+				200
+			]
+		},
+		{
+			"title": "Вторая",
+			"subtitle": "The Second",
+			"preview": "http://ex-fs.net/uploads/posts/2018-08/1533320096_the-second.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=983921",
+			"description": "Репутация известной писательницы под вопросом, когда всплывает неприятная правда о делах прошлых лет, в которых участвовала она с её лучшей подругой, а теперь - музой. Секс, ложь и предательство сплелись в одну запутанную историю.",
+			"rating": 4.7,
+			"year": 2018,
+			"countries": [
+				19
+			],
+			"genres": [
+				10,
+				8
+			],
+			"directors": [
+				201
+			]
+		},
+		{
+			"title": "Твоя свадьба",
+			"subtitle": "Neoui gyeolhonsik",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575896177_a8c58e4.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1049042",
+			"description": "Сын-хи и У-ён первый раз встретились ещё в старшей школе. Девушка очень нравилась У-ёну, но по семейным обстоятельствам ей пришлось уехать в другой город. Их дороги разошлись, но ещё несколько раз пересекались, и вот теперь У-ён получает приглашение на свадьбу любви всей своей жизни.",
+			"rating": 6.8,
+			"year": 2018,
+			"countries": [
+				4
+			],
+			"genres": [
+				4,
+				7
+			],
+			"directors": [
+				202
+			]
+		},
+		{
+			"title": "Кукурузная Коза Ностра",
+			"subtitle": "Cornbread Cosa Nostra",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575895923_5f76c3e.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1065390",
+			"description": "Агент ФБР Курт Кадэлл и его напарник Рой переживают множество приключений в 80-х и 90-х, пытаясь одолеть безжалостную Дикси-мафию.",
+			"rating": 6.4,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				9
+			],
+			"directors": [
+				203
+			]
+		},
+		{
+			"title": "АРМЕН и Я",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575895590_d5b5b24.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1114864",
+			"description": "История двух друзей, чьи дороги разошлись много лет назад. Но одна случайная встреча с Ануш, в которую Левон был влюблен в юности, возвращает его в солнечный Ереван, где раскрываются тайны прошлого.",
+			"rating": 6.1,
+			"year": 2018,
+			"countries": [
+				37,
+				10
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				204
+			]
+		},
+		{
+			"title": "Время женщин",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575895548_e792136.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1235005",
+			"description": "Киноальманах, состоящий из трех новелл, в каждой из которой рассказывается о судьбе женщины, ее надеждах на любовь и превратностях судьбы. Деревенская девушка Мира мечтает о женихе, и вот в их доме на ночлег остается офицер, а Мира вскоре обнаруживает, что беременна... Валя, вернувшаяся из Венеции, где жила два года, знакомится с Алексеем, возлюбленным сестры — и он ей нравится. Вера, балерина на пенсии, преподает йогу в отеле и влюбляется в женатого мужчину. А однажды в их город приезжает с балетом испанский театр... Каждой из женщин придется принимать непростые решения в попытках обрести счастье.",
+			"rating": 0,
+			"year": 2018,
+			"countries": [
+				10
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				205,
+				206,
+				207
+			]
+		},
+		{
+			"title": "В тихом омуте",
+			"subtitle": "I See You",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575720797_7a32301.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1152188",
+			"description": "В идиллически тихом и спокойном городке бесследно пропадает двенадцатилетний мальчик. За расследование берется детектив, который переживает раскол в семье, узнав о недавней измене своей жены. Тем временем смертельная угроза подбирается уже к его собственному дому...",
+			"rating": 6.5,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				8,
+				5,
+				9
+			],
+			"directors": [
+				208
+			]
+		},
+		{
+			"title": "К звёздам ",
+			"subtitle": "Ad Astra",
+			"preview": "http://ex-fs.net/uploads/posts/2019-09/1569337089_218c9e5.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=768561",
+			"description": "Инженер армейского корпуса путешествует по Галактике в поисках отца, который отправился на поиски внеземной цивилизации 20 лет назад и исчез.",
+			"rating": 6.9,
+			"year": 2019,
+			"countries": [
+				6,
+				14,
+				0
+			],
+			"genres": [
+				0,
+				10,
+				5,
+				8,
+				3
+			],
+			"directors": [
+				209
+			]
+		},
+		{
+			"title": "Арахисовый сокол",
+			"subtitle": "The Peanut Butter Falcon",
+			"preview": "http://ex-fs.net/uploads/posts/2019-08/1565778187_370556d.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=925389",
+			"description": "Большое путешествие начинается с шага, а легендарное — с полета. Вылетев в окно, герой очутился в мире, где чего-то не хватало. Его новому другу — крупной суммы денег. Паре головорезов — головы друга. Молодой медсестре — любви. А ему — путешествий на плоту, погонь, пылающих костров и немного арахисового масла.",
+			"rating": 7.7,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				3
+			],
+			"directors": [
+				210,
+				211
+			]
+		},
+		{
+			"title": "Безумие внутри",
+			"subtitle": "The Madness Within",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575642610_f263acf.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1267099",
+			"description": "Расс Вашингтон успешный бизнесмен. Но когда из-за наркотической зависимости, секретов и неудачных отношений всё летит к чертям, опустится ли он ещё ниже или найдёт в себе силы бороться?",
+			"rating": 6.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10
+			],
+			"directors": [
+				212
+			]
+		},
+		{
+			"title": "Автоматика",
+			"subtitle": "Automation",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575642511_6b0d0b9.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1156572",
+			"description": "Робот Авто - простой рабочий, который мирно сосуществует с окружающими его людьми. Однажды он узнает, что его собираются заменить на более продвинутую модель, но Авто боится деактивации и превращается в кровавого убийцу, который не остановится ни перед чем.",
+			"rating": 3.5,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				0
+			],
+			"directors": [
+				213
+			]
+		},
+		{
+			"title": "Джей и молчаливый Боб: Перезагрузка",
+			"subtitle": "Jay and Silent Bob Reboot",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575642452_a69ee6d.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1036153",
+			"description": "Неугомонные приятели Джей и молчаливый Боб отправляются в Голливуд, когда узнают, что студия готовит новую экранизацию комикса о Пыхаре и Хронике, прототипами которых стали они сами.",
+			"rating": 7.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				7
+			],
+			"directors": [
+				214
+			]
+		},
+		{
+			"title": "Башня молчания",
+			"subtitle": "Tower of Silence",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575642416_tower-of-silence.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=907476",
+			"description": "Когда великая колдунья по имени Кая попадает в плен к диким, жестоким племенам, практикующим некромагию, её молодые последователи разрабатывают план по её спасению и отправляются в полный приключений и опасностей путь, до конца которого, вполне возможно, доживут не все.",
+			"rating": 2.2,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				1
+			],
+			"directors": [
+				215
+			]
+		},
+		{
+			"title": "Дэниел ненастоящий",
+			"subtitle": "Daniel Isn`t Real",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1574950196_09490e4.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1178797",
+			"description": "Студент Люк, страдая от последствий семейной травмы, воскрешает своего детского воображаемого друга Дэниела, чтобы тот помог ему справиться с тяжёлой жизненной ситуацией.",
+			"rating": 6.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10
+			],
+			"directors": [
+				216
+			]
+		},
+		{
+			"title": "Рождественский принц: Королевский ребёнок",
+			"subtitle": "A Christmas Prince: The Royal Baby",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575642133_a5d7402.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1256167",
+			"description": "В Альдовии Рождество, и королевский ребенок скоро родится. Эмбер и Ричард принимают королевских особ из далекого королевства, чтобы возобновить священное перемирие, но когда договор исчезает, мир подвергается опасности, и древнее проклятие угрожает их семье.",
+			"rating": 5.3,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				57
+			]
+		},
+		{
+			"title": "Рождество на ранчо",
+			"subtitle": "Christmas on the Range",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575642138_christmas-on-the-range.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1292032",
+			"description": "Единственное рождественское желание Кендалл - это сохранить семейное ранчо. Очаровательный сын ее соперника предлагает помощь, но можно ли ему доверять?",
+			"rating": 5.5,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				4,
+				18
+			],
+			"directors": [
+				99
+			]
+		},
+		{
+			"title": "Пробуждение",
+			"subtitle": "Wake Up",
+			"preview": "http://ex-fs.net/uploads/posts/2019-07/1564245764_9c3ec48.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1099440",
+			"description": "Главный герой просыпается в больнице весь в бинтах и понимает, что не может вспомнить, кто он такой и как здесь оказался. Вскоре он узнаёт, что полиция считает его серийным маньяком, виновным в жестоком убийстве нескольких девушек и понимает, что ему придётся пойти на экстремальные меры, чтобы доказать свою невиновность.",
+			"rating": 5,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2,
+				10,
+				9
+			],
+			"directors": [
+				217
+			]
+		},
+		{
+			"title": "Гремучая змея",
+			"subtitle": "Rattlesnake",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1573640707_7261b0a.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1215131",
+			"description": "Во время поездки через страну дочь Катрины кусает гремучая змея. Катрина обращается за помощью к обитательнице странного домика, стоящего посреди пустыни. Та соглашается помочь и спасает девочку. Вскоре Катрина получает счёт: в обмен на жизнь дочери она должна убить другого человека.",
+			"rating": 4.6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10,
+				8,
+				1
+			],
+			"directors": [
+				218
+			]
+		},
+		{
+			"title": "Пакеты с кровью",
+			"subtitle": "Blood Bags",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575578258_539b596.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1095119",
+			"description": "Трейси - увлекающаяся фотографией и архитектурой студентка из Америки, которая проходит обучение в Италии. Во время очередной прогулки по городу со своей подругой Петрой она натыкается на величественный особняк, который сразу же приковывает её внимание. Однако она не знает того, что во мраке этого здания бродит кровожадная тварь, не упускающая возможности полакомиться добычей.",
+			"rating": 4.9,
+			"year": 2018,
+			"countries": [
+				2
+			],
+			"genres": [
+				11
+			],
+			"directors": [
+				219
+			]
+		},
+		{
+			"title": "Сторонник",
+			"subtitle": "Dokjeon",
+			"preview": "http://ex-fs.net/uploads/posts/2018-07/1530872398_148d41a.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1046546",
+			"description": "В руки оперативников из отдела по борьбе с наркотиками попадает хозяин взорвавшейся нарколаборатории. Чтобы максимально смягчить наказание, он начинает сотрудничество с органами и обещает сдать всю сеть, вплоть до верховного наркобарона. Глава опергруппы, используя информатора, запускает масштабную операцию, и теперь его команде под прикрытием предстоит внедриться в самую крупную наркосеть страны.",
+			"rating": 6.4,
+			"year": 2018,
+			"countries": [
+				4
+			],
+			"genres": [
+				2,
+				9,
+				5,
+				10
+			],
+			"directors": [
+				220
+			]
+		},
+		{
+			"title": "Рыцарь теней: Между инь и ян",
+			"subtitle": "Shen tan pu song ling zhi lan re xian zong",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575578057_d3648ad.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1088117",
+			"description": "Писатель и охотник на демонов Пу Сунлин расследует исчезновение девочки и вторжение злобных монстров из параллельного измерения.",
+			"rating": 5,
+			"year": 2019,
+			"countries": [
+				6
+			],
+			"genres": [
+				1,
+				2,
+				7
+			],
+			"directors": [
+				221
+			]
+		},
+		{
+			"title": "Прежде чем ты узнаешь",
+			"subtitle": "Before You Know It",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575578001_3ed3cf4.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1181936",
+			"description": "Две взрослые сестры выясняют, что их мать, которую они считали давно почившей, оказывается звездой мыльных опер.",
+			"rating": 5,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				7
+			],
+			"directors": [
+				222
+			]
+		},
+		{
+			"title": "Разоблачение",
+			"subtitle": "Red Handed",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575577406_red-handed.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1100599",
+			"description": "После убийства отца трое братьев приезжают к горной реке, чтобы развеять его прах. Сын одного из братьев без вести пропадает. Выясняется, что тридцать лет назад один из братьев тоже пропал на этой реке, но заблокировал воспоминание в своей памяти. Только открыв тайны подсознания они смогут найти ребенка.",
+			"rating": 4.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				10
+			],
+			"directors": [
+				223
+			]
+		},
+		{
+			"title": "Тревожное исчезновение",
+			"subtitle": "Disparition inquiétante",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575577294_disparition-inquitante.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1245621",
+			"description": "Франсуаза Столлер, учительница из протестантской школы Лютера в Страсбурге, сопровождала группу из 9 учеников пятого класса в возрасте от 10 до 13 лет, 4 девочек и 5 мальчиков. На выходе из собора при большом стечении людей она была убита, а все дети пропали без следа и свидетелей. Комиссар полиции Майя Росетти и лейтенант Дич, расследующие дело, вынуждены рассматривать все возможные версии: от действий маньяка-педофила до легенды о Гамельнском крысолове...",
+			"rating": 5.5,
+			"year": 2019,
+			"countries": [
+				7
+			],
+			"genres": [
+				5,
+				9,
+				8
+			],
+			"directors": [
+				224
+			]
+		},
+		{
+			"title": "Побег из Либерти",
+			"subtitle": "Out of Liberty",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575577200_out-of-liberty.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1246004",
+			"description": "Зима 1839 года, зима в крошечном Либерти, штат Миссури. Местный тюремщик, Сэмюэль Тиллери должен охранять до суда опасных преступников. И как поведёт себя законник, если выяснится, что ситуация не такая уж однозначная?",
+			"rating": 5.1,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				5,
+				18
+			],
+			"directors": [
+				225
+			]
+		},
+		{
+			"title": "Дзынь-дзынь",
+			"subtitle": "Ring Ring",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575576975_ring-ring.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1014184",
+			"description": "Трое друзей крадут клиентскую базу фирмы, из которой их уволили, чтобы создать свой бизнес. Но, когда телефон с данными, оказывается похищен, они пытаются вернуть его и попадают в очень необычную ситуацию.",
+			"rating": 4.6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2,
+				10
+			],
+			"directors": [
+				226
+			]
+		},
+		{
+			"title": "Треугольник Шаста",
+			"subtitle": "The Shasta Triangle",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575566487_the-shasta-triangle.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=978619",
+			"description": "Молодая женщина возвращается в свой родной город, чтобы раскрыть правду об исчезновении своего отца. В глубине леса она и её друзья детства сражаются с древними и ужасающими силами, управляющими окрестностями.",
+			"rating": 3.4,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				0,
+				1,
+				10
+			],
+			"directors": [
+				227
+			]
+		},
+		{
+			"title": "Один падёт",
+			"subtitle": "One Must Fall",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575566145_one-must-fall.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1127506",
+			"description": "Главную героиню несправедливо увольняют с работы, и теперь она временно занимается уборкой на местах преступлений. Из-за маньяка - серийного убийцы у нее всегда куча дел, но вопрос в том: а покидал ли он вообще место преступления.",
+			"rating": 5.4,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				7
+			],
+			"directors": [
+				228
+			]
+		},
+		{
+			"title": "Тварь",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575565493_856a559.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1138880",
+			"description": "Игорь готов на всё ради счастья Полины и, чтобы восполнить утрату сына, супруги решаются на усыновление. Но вместо обычного мальчика из приюта в их семью попадает не просто «трудный» ребенок...",
+			"rating": 3.9,
+			"year": 2019,
+			"countries": [
+				10
+			],
+			"genres": [
+				10,
+				5
+			],
+			"directors": [
+				229
+			]
+		},
+		{
+			"title": "Рэмбо: Последняя кровь",
+			"subtitle": "Rambo: Last Blood",
+			"preview": "http://ex-fs.net/uploads/posts/2019-09/1568906346_1ef3d4e.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=841738",
+			"description": "Он хранил секреты всю жизнь, но пришло время взглянуть в глаза прошлому. В последний раз собраться и стать безжалостной машиной для убийства. Рэмбо снова встанет на смертельно опасный путь — путь мести, который ему придется пройти до конца.",
+			"rating": 6.6,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2,
+				10,
+				3,
+				18
+			],
+			"directors": [
+				230
+			]
+		},
+		{
+			"title": "Арестант no name",
+			"subtitle": "Imprisoned",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575464951_d9f56fc.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1005364",
+			"description": "Дилан Берк совершил много ошибок в прошлом, но теперь он живет мирной жизнью, зарабатывает на жизнь рыболовством, а его любимая, Мария, управляет кофейней в морском порту. Однако идиллия не может продолжаться вечно: тюремный надзиратель Даниэль Кальвин, чья жена погибла по вине Дилана 25 лет назад, жаждет мести.",
+			"rating": 6.6,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				10
+			],
+			"directors": [
+				231
+			]
+		},
+		{
+			"title": "Рыцарь перед Рождеством",
+			"subtitle": "The Knight Before Christmas",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1574542391_f9d2428.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1252988",
+			"description": "Средневековый рыцарь сэр Коул переносится в современный Огайо, где знакомится со школьной учительницей Брук. Она поможет ему разобраться в хитросплетениях высокотехнологического общества и выполнить возложенную на него миссию, а он напомнит ей о силе любви.",
+			"rating": 5.5,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				4,
+				1
+			],
+			"directors": [
+				232
+			]
+		},
+		{
+			"title": "Тело помнит, когда мир развалился",
+			"subtitle": "The Body Remembers When the World Broke Open",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575464834_cb14440.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1133259",
+			"description": "Айла и Рози — представительницы коренного населения Канады, живущие в разных слоях общества. Однажды Айла встречает Рози на улице. Беременная девушка брела под дождем, сбежав из дома от жестокого сожителя. Айла приглашает Рози к себе. Она глубоко переживает боль Рози, чувствуя между ними крепкую связь.",
+			"rating": 6.5,
+			"year": 2019,
+			"countries": [
+				9,
+				13
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				233,
+				234
+			]
+		},
+		{
+			"title": "Смертоносное воссоединение",
+			"subtitle": "Deadly Reunion",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575464773_deadly-reunion.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=859221",
+			"description": "Друзья с колледжа встречаются вновь спустя 10 лет, но во время их встречи незнакомец запирает их в доме и заставляет сыграть в свои страшную и жестокую игру.",
+			"rating": 2.9,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				11,
+				0,
+				10,
+				8
+			],
+			"directors": [
+				182
+			]
+		},
+		{
+			"title": "SuperЗять",
+			"subtitle": "Le gendre de ma vie",
+			"preview": "http://ex-fs.net/uploads/posts/2019-06/1559682669_c114eb2.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1139849",
+			"description": "Если папа — псих, который в каждом твоём случайном знакомом видит своего будущего зятя — это большая проблема! Твоя старшая сестра доведена папиными выходками до отчаяния и решает скрыть свою свадьбу. А младшая уже вовсю борется за права женщин. И вы решаете его проучить...",
+			"rating": 5,
+			"year": 2018,
+			"countries": [
+				7
+			],
+			"genres": [
+				7
+			],
+			"directors": [
+				235
+			]
+		},
+		{
+			"title": "В поисках",
+			"subtitle": "In Transit",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575464568_3df2bf2.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=947520",
+			"description": "Ольга летит в Рио-де-Жанейро, Дэниэл собирается в Мексику. Они знакомятся в аэропорту, в круглосуточном кафе, пытаясь как-то убить время перед вылетом. Можно ли ожидать, что обычный разговор с незнакомцем способен навсегда изменить твою жизнь?",
+			"rating": 0,
+			"year": 2018,
+			"countries": [
+				14,
+				0
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				236
+			]
+		},
+		{
+			"title": "Лев Яшин. Вратарь моей мечты",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575464404_8e70e71.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1007986",
+			"description": "Чёрный паук, Чёрная пантера и даже Чёрный осьминог — такими прозвищами награждали Льва Яшина за гибкость, молниеносное перемещение и гениальное видение поля. Он, неизменно в черном свитере с буквой «Д», был полноправным хозяином в своей штрафной. После поражения на Чемпионате мира в Чили ему придется уйти, чтобы позже с триумфом вернуться и снова стать лучшим не только в стране, но и во всем мире — единственным вратарём за всю историю футбола, получившим Золотой мяч. Лучшим, по мнению FIFA, вратарем ХХ века.",
+			"rating": 5.7,
+			"year": 2019,
+			"countries": [
+				10
+			],
+			"genres": [
+				6,
+				16,
+				5
+			],
+			"directors": [
+				237
+			]
+		},
+		{
+			"title": "Убийца льва",
+			"subtitle": "Lion Killer",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575464469_lion-killer.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1135015",
+			"description": "Молодой боец Джиу Джитсу должен научиться снова жить и любить, но помогут ли ему в этом навыки, полученные в зале?",
+			"rating": 4,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2,
+				5
+			],
+			"directors": [
+				238
+			]
+		},
+		{
+			"title": "В сердце мира",
+			"subtitle": "No Coração do Mundo",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575464357_no-corao-do-mundo.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1234119",
+			"description": "Жители бразильского города Контагем хотят лучшей жизни. В центре сюжета Сельма, женщина, которая мечтает уехать в \"сердце мира\" - место, в котором она будет счастлива.",
+			"rating": 7,
+			"year": 2019,
+			"countries": [
+				14
+			],
+			"genres": [
+				5
+			],
+			"directors": [
+				239,
+				240
+			]
+		},
+		{
+			"title": "По мячам",
+			"subtitle": "By the Balls",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575464204_by-the-balls.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1287135",
+			"description": "Политика вмешалась в спорт, что стало причиной тяжелых времен для регби в Новой Зеландии. В этом документальном фильме игроки Дэвид Кирк и Бак Шелфолд высказывают свою точку зрения по поводу этой ситуации.",
+			"rating": 5.4,
+			"year": 2019,
+			"countries": [
+				21
+			],
+			"genres": [
+				5,
+				16
+			],
+			"directors": [
+				241,
+				242
+			]
+		},
+		{
+			"title": "Рождественское мороженое",
+			"subtitle": "Christmas a la Mode",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575464202_christmas-a-la-mode.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1263707",
+			"description": "Эмили поможет только чудо, чтобы спасти семейное хозяйство и наследие отца.",
+			"rating": 6.8,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				4
+			],
+			"directors": [
+				243
+			]
+		},
+		{
+			"title": "Голубая игуана",
+			"subtitle": "Blue Iguana",
+			"preview": "http://ex-fs.net/uploads/posts/2018-08/1535183099_b03d615.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=675470",
+			"description": "Мелкие мошенники Эдди и Пол досрочно выходят из тюрьмы и устраиваются на работу в нью-йоркское кафе. Казалось, им не светит уже ничего интересного в этой жизни. Но однажды к ним в забегаловку заглядывает авантюристка Кэтрин Руквуд. Она уговаривает парней отправиться в Лондон и украсть уникальный бриллиант — «Голубую игуану».",
+			"rating": 5.5,
+			"year": 2018,
+			"countries": [
+				1
+			],
+			"genres": [
+				10,
+				4,
+				7
+			],
+			"directors": [
+				244
+			]
+		},
+		{
+			"title": "Бобот и энергия Вселенной",
+			"subtitle": "",
+			"preview": "http://ex-fs.net/uploads/posts/2018-09/1536009982_2d0f8e3.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1046065",
+			"description": "По всей Земле по непонятным причинам полностью исчезает электроэнергия. 12-летний Вадик попадает в гущу событий и на его плечи ложится миссия по спасению мира. К нему на помощь приходит Бобот — инопланетное существо, которое маскируется под трансформаторную будку. Они пытаются предотвратить катастрофу.",
+			"rating": 6.5,
+			"year": 2018,
+			"countries": [
+				38
+			],
+			"genres": [
+				0,
+				3,
+				12
+			],
+			"directors": [
+				245
+			]
+		},
+		{
+			"title": "Дропа",
+			"subtitle": "Dropa",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575379891_dropa.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=598272",
+			"description": "Будущее. Земля населена инопланетными созданиями. В это же время правительство ведёт охоту на своего бывшего коллегу-киллера, который пойдёт на все, чтобы отомстить за убийство своего друга.",
+			"rating": 0,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				0,
+				10,
+				5
+			],
+			"directors": [
+				246
+			]
+		},
+		{
+			"title": "Руководство по сексу на втором свидании",
+			"subtitle": "A Guide to Second Date Sex",
+			"preview": "http://ex-fs.net/uploads/posts/2019-11/1573639998_28b48dd.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1074272",
+			"description": "У Лоры и Райана много общего: всю жизнь они были неудачниками в любви, а еще они оба обожают Мэрил Стрип. Сегодня у них второе свидание, и на этот раз они постараются сделать все правильно: душ, парфюм, прикид, контрацептивы... Но где гарантия, что романтический вечер пройдет идеально и завершится в горячей постели?",
+			"rating": 4.7,
+			"year": 2019,
+			"countries": [
+				1
+			],
+			"genres": [
+				4,
+				7
+			],
+			"directors": [
+				247
+			]
+		},
+		{
+			"title": "Среди них",
+			"subtitle": "Among Them",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575379663_among-them.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1133430",
+			"description": "Два грабителя банка с заложницей, которую они не брали, оказываются вместе в мотеле на берегу моря посреди зимы. Если их босс не объявится, преступникам придется распрощаться с билетиками на свободу.",
+			"rating": 5.7,
+			"year": 2018,
+			"countries": [
+				0
+			],
+			"genres": [
+				10
+			],
+			"directors": [
+				248
+			]
+		},
+		{
+			"title": "Открытые границы",
+			"subtitle": "Open Borders",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575379588_656789.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1217897",
+			"description": "Футуристический триллер, знакомящий с историей Бронсона, Миссл и Джема - троих граждан, ставших мятежниками, ратующих за свободу от расового преследования.",
+			"rating": 3.5,
+			"year": 2019,
+			"countries": [
+				0
+			],
+			"genres": [
+				2,
+				5,
+				3
+			],
+			"directors": [
+				249
+			]
+		},
+		{
+			"title": "Головокружение",
+			"subtitle": "Beotigo",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575378953_2969010.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1206880",
+			"description": "Молодая дизайнерша страдает от боязни высоты, но работает в высотном офисном здании. Однажды она влюбляется в промышленного альпиниста, которого видит каждый день по ту сторону окна.",
+			"rating": 7,
+			"year": 2019,
+			"countries": [
+				4
+			],
+			"genres": [
+				5,
+				4
+			],
+			"directors": [
+				250
+			]
+		},
+		{
+			"title": "Воспоминания о солдате",
+			"subtitle": "Ojanggunui baltop",
+			"preview": "http://ex-fs.net/uploads/posts/2019-12/1575378871_386b642.jpg",
+			"videoFrame": "https://64.tvmovies.in/fz41ePu9lzFL?kp_id=1115665",
+			"description": "Чан-гун живет вместе с матерью в глухой деревне. Мать надеялась, что парень вырастет великим воином, хотя сам он мечтает о жизни простого фермера в родной деревне. Но когда начинается война, Чан-гуна призывают в армию, и вскоре он оказывается на передовой.",
+			"rating": 0,
+			"year": 2018,
+			"countries": [
+				4
+			],
+			"genres": [
+				5,
+				19,
+				13
+			],
+			"directors": [
+				251
+			]
+		}
+	]
+}
