@@ -1590,7 +1590,8 @@
 			],
 			"directors": [
 				0
-			]
+			],
+			"slug": "star_wars_episode_ix_-_the_rise_of_skywalker"
 		},
 		{
 			"title": "Аэронавты",
@@ -1612,7 +1613,8 @@
 			],
 			"directors": [
 				1
-			]
+			],
+			"slug": "the_aeronauts"
 		},
 		{
 			"title": "Два Папы",
@@ -1635,7 +1637,8 @@
 			],
 			"directors": [
 				2
-			]
+			],
+			"slug": "the_two_popes"
 		},
 		{
 			"title": "Рассказы Русалочки",
@@ -1657,7 +1660,8 @@
 			"directors": [
 				3,
 				4
-			]
+			],
+			"slug": "the_little_mermaid"
 		},
 		{
 			"title": "Зверь",
@@ -1678,7 +1682,8 @@
 			],
 			"directors": [
 				5
-			]
+			],
+			"slug": "biseuteu"
 		},
 		{
 			"title": "Первая любовь",
@@ -1699,7 +1704,8 @@
 			],
 			"directors": [
 				6
-			]
+			],
+			"slug": "hatsukoi"
 		},
 		{
 			"title": "Настоящий преступник",
@@ -1719,7 +1725,8 @@
 			],
 			"directors": [
 				7
-			]
+			],
+			"slug": "jinbeom"
 		},
 		{
 			"title": "Брачная история",
@@ -1739,7 +1746,8 @@
 			],
 			"directors": [
 				8
-			]
+			],
+			"slug": "marriage_story"
 		},
 		{
 			"title": "Гемини ",
@@ -1761,7 +1769,8 @@
 			],
 			"directors": [
 				9
-			]
+			],
+			"slug": "gemini_man"
 		},
 		{
 			"title": "Zомбилэнд: Контрольный выстрел",
@@ -1781,7 +1790,8 @@
 			],
 			"directors": [
 				10
-			]
+			],
+			"slug": "zombieland_double_tap"
 		},
 		{
 			"title": "Где-то во времени",
@@ -1801,7 +1811,8 @@
 			],
 			"directors": [
 				11
-			]
+			],
+			"slug": "the_fare"
 		},
 		{
 			"title": "Ангельское личико",
@@ -1819,7 +1830,8 @@
 			],
 			"directors": [
 				12
-			]
+			],
+			"slug": "gueule_d_ange"
 		},
 		{
 			"title": "Красавчик со стажем",
@@ -1837,7 +1849,8 @@
 			],
 			"directors": [
 				13
-			]
+			],
+			"slug": "just_a_gigolo"
 		},
 		{
 			"title": "Озеро диких гусей",
@@ -1857,7 +1870,8 @@
 			],
 			"directors": [
 				14
-			]
+			],
+			"slug": "nan_fang_che_zhan_de_ju_hui"
 		},
 		{
 			"title": "Вдова",
@@ -1876,7 +1890,8 @@
 			],
 			"directors": [
 				15
-			]
+			],
+			"slug": "widow_s_walk"
 		},
 		{
 			"title": "Последний бросок / Лазарат",
@@ -1896,7 +1911,8 @@
 			],
 			"directors": [
 				16
-			]
+			],
+			"slug": "lazarat"
 		},
 		{
 			"title": "Поцелуй для шеф-повара",
@@ -1915,7 +1931,8 @@
 			],
 			"directors": [
 				17
-			]
+			],
+			"slug": "meine_mutter_ist_unmoglich"
 		},
 		{
 			"title": "Дельфин Берни 2",
@@ -1936,7 +1953,8 @@
 			],
 			"directors": [
 				18
-			]
+			],
+			"slug": "bernie_the_dolphin_2"
 		},
 		{
 			"title": "Гномилость",
@@ -1956,7 +1974,8 @@
 			"directors": [
 				19,
 				20
-			]
+			],
+			"slug": "gnomercy"
 		},
 		{
 			"title": "Параллельные аккорды",
@@ -1974,7 +1993,8 @@
 			],
 			"directors": [
 				21
-			]
+			],
+			"slug": "parallel_chords"
 		},
 		{
 			"title": "Лучшее — враг хорошего: История любви",
@@ -1994,7 +2014,8 @@
 			],
 			"directors": [
 				22
-			]
+			],
+			"slug": "2_in_the_bush_a_love_story"
 		},
 		{
 			"title": "Грех",
@@ -2015,7 +2036,8 @@
 			],
 			"directors": [
 				23
-			]
+			],
+			"slug": "il_peccato"
 		},
 		{
 			"title": "До Нового года осталось…",
@@ -2034,7 +2056,8 @@
 			],
 			"directors": [
 				24
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Простой карандаш",
@@ -2052,7 +2075,8 @@
 			],
 			"directors": [
 				25
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Последний уровень: Побег из Ранкалы",
@@ -2070,7 +2094,8 @@
 			],
 			"directors": [
 				26
-			]
+			],
+			"slug": "the_final_level_escaping_rancala"
 		},
 		{
 			"title": "Скрытный",
@@ -2088,7 +2113,8 @@
 			],
 			"directors": [
 				27
-			]
+			],
+			"slug": "crypsis"
 		},
 		{
 			"title": "Тайная жизнь моей жены",
@@ -2106,7 +2132,8 @@
 			],
 			"directors": [
 				28
-			]
+			],
+			"slug": "my_wife_s_secret_life"
 		},
 		{
 			"title": "Падение Спарты",
@@ -2124,7 +2151,8 @@
 			],
 			"directors": [
 				29
-			]
+			],
+			"slug": "la_chute_de_sparte"
 		},
 		{
 			"title": "Рождественская стрела купидона",
@@ -2142,7 +2170,8 @@
 			],
 			"directors": [
 				30
-			]
+			],
+			"slug": "christmas_cupid_s_arrow"
 		},
 		{
 			"title": "Рождество с Лиддлами",
@@ -2161,7 +2190,8 @@
 			],
 			"directors": [
 				31
-			]
+			],
+			"slug": "merry_liddle_christmas"
 		},
 		{
 			"title": "Возвращение на Рождество",
@@ -2180,7 +2210,8 @@
 			],
 			"directors": [
 				32
-			]
+			],
+			"slug": "a_homecoming_for_the_holidays"
 		},
 		{
 			"title": "Рождественская песня",
@@ -2198,7 +2229,8 @@
 			],
 			"directors": [
 				33
-			]
+			],
+			"slug": "winter_song"
 		},
 		{
 			"title": "Рождество на Холли-лэйн",
@@ -2216,7 +2248,8 @@
 			],
 			"directors": [
 				34
-			]
+			],
+			"slug": "christmas_on_holly_lane"
 		},
 		{
 			"title": "Мы и они",
@@ -2236,7 +2269,8 @@
 			],
 			"directors": [
 				35
-			]
+			],
+			"slug": "hou_lai_de_wo_men"
 		},
 		{
 			"title": "Джокер ",
@@ -2257,7 +2291,8 @@
 			],
 			"directors": [
 				36
-			]
+			],
+			"slug": "joker"
 		},
 		{
 			"title": "Райские холмы",
@@ -2275,7 +2310,8 @@
 			],
 			"directors": [
 				37
-			]
+			],
+			"slug": "paradise_hills"
 		},
 		{
 			"title": "Опасная миссия",
@@ -2294,7 +2330,8 @@
 			],
 			"directors": [
 				38
-			]
+			],
+			"slug": "mordene_i_kongo"
 		},
 		{
 			"title": "Неогранённые драгоценности",
@@ -2317,7 +2354,8 @@
 			"directors": [
 				39,
 				40
-			]
+			],
+			"slug": "uncut_gems"
 		},
 		{
 			"title": "Люси в небесах",
@@ -2336,7 +2374,8 @@
 			],
 			"directors": [
 				41
-			]
+			],
+			"slug": "lucy_in_the_sky"
 		},
 		{
 			"title": "Вторжение: Планета Земля",
@@ -2357,7 +2396,8 @@
 			],
 			"directors": [
 				42
-			]
+			],
+			"slug": "invasion_planet_earth"
 		},
 		{
 			"title": "Чеснок и порох",
@@ -2375,7 +2415,8 @@
 			],
 			"directors": [
 				43
-			]
+			],
+			"slug": "garlic_gunpowder"
 		},
 		{
 			"title": "Братья",
@@ -2393,7 +2434,8 @@
 			],
 			"directors": [
 				44
-			]
+			],
+			"slug": "mon_frere"
 		},
 		{
 			"title": "Первое искушение Христа",
@@ -2412,7 +2454,8 @@
 			],
 			"directors": [
 				45
-			]
+			],
+			"slug": "a_primeira_tentacao_de_cristo"
 		},
 		{
 			"title": "Домашний арест",
@@ -2432,7 +2475,8 @@
 			"directors": [
 				46,
 				47
-			]
+			],
+			"slug": "house_arrest"
 		},
 		{
 			"title": "Рожденный после смерти",
@@ -2450,7 +2494,8 @@
 			],
 			"directors": [
 				48
-			]
+			],
+			"slug": "strange_but_true"
 		},
 		{
 			"title": "Похищение",
@@ -2469,7 +2514,8 @@
 			],
 			"directors": [
 				49
-			]
+			],
+			"slug": "abduction"
 		},
 		{
 			"title": "Полицейский с Рублевки. Новогодний беспредел 2",
@@ -2488,7 +2534,8 @@
 			],
 			"directors": [
 				50
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Верность",
@@ -2506,7 +2553,8 @@
 			],
 			"directors": [
 				51
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Кровь",
@@ -2524,7 +2572,8 @@
 			],
 			"directors": [
 				52
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Нью-Йоркская Академия современного танца",
@@ -2544,7 +2593,8 @@
 			],
 			"directors": [
 				53
-			]
+			],
+			"slug": "free_dance"
 		},
 		{
 			"title": "Лига хранителей легенд: Тени",
@@ -2562,7 +2612,8 @@
 			],
 			"directors": [
 				54
-			]
+			],
+			"slug": "the_league_of_legend_keepers_shadows"
 		},
 		{
 			"title": "Домириканцы 2",
@@ -2581,7 +2632,8 @@
 			],
 			"directors": [
 				55
-			]
+			],
+			"slug": "los_domirriquenos_2"
 		},
 		{
 			"title": "Рождественские хроники",
@@ -2602,7 +2654,8 @@
 			],
 			"directors": [
 				56
-			]
+			],
+			"slug": "the_christmas_chronicles"
 		},
 		{
 			"title": "Рождественский принц: Королевская свадьба",
@@ -2620,7 +2673,8 @@
 			],
 			"directors": [
 				57
-			]
+			],
+			"slug": "a_christmas_prince_the_royal_wedding"
 		},
 		{
 			"title": "Долгий день уходит в ночь",
@@ -2642,7 +2696,8 @@
 			],
 			"directors": [
 				58
-			]
+			],
+			"slug": "di_qiu_zui_hou_de_ye_wan"
 		},
 		{
 			"title": "Сонора: Дьявольское шоссе",
@@ -2662,7 +2717,8 @@
 			],
 			"directors": [
 				59
-			]
+			],
+			"slug": "sonora"
 		},
 		{
 			"title": "Город банд",
@@ -2680,7 +2736,8 @@
 			],
 			"directors": [
 				60
-			]
+			],
+			"slug": "mob_town"
 		},
 		{
 			"title": "Первая мировая",
@@ -2700,7 +2757,8 @@
 			],
 			"directors": [
 				61
-			]
+			],
+			"slug": "the_great_war"
 		},
 		{
 			"title": "Ад на границе",
@@ -2720,7 +2778,8 @@
 			],
 			"directors": [
 				62
-			]
+			],
+			"slug": "hell_on_the_border"
 		},
 		{
 			"title": "Эспен в поисках  Золотого замка",
@@ -2739,7 +2798,8 @@
 			],
 			"directors": [
 				63
-			]
+			],
+			"slug": "askeladden_-_i_soria_moria_slott"
 		},
 		{
 			"title": "Кровавая маргаритка",
@@ -2758,7 +2818,8 @@
 			],
 			"directors": [
 				64
-			]
+			],
+			"slug": "zhui_xiong_shi_jiu_nian"
 		},
 		{
 			"title": "Дождливый день в Нью-Йорке",
@@ -2777,7 +2838,8 @@
 			],
 			"directors": [
 				65
-			]
+			],
+			"slug": "a_rainy_day_in_new_york"
 		},
 		{
 			"title": "Код 8",
@@ -2796,7 +2858,8 @@
 			],
 			"directors": [
 				66
-			]
+			],
+			"slug": "code_8"
 		},
 		{
 			"title": "Ржев",
@@ -2816,7 +2879,8 @@
 			],
 			"directors": [
 				67
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Злодеи",
@@ -2838,7 +2902,8 @@
 			"directors": [
 				68,
 				69
-			]
+			],
+			"slug": "villains"
 		},
 		{
 			"title": "Господин Дьявол",
@@ -2858,7 +2923,8 @@
 			],
 			"directors": [
 				70
-			]
+			],
+			"slug": "il_signor_diavolo"
 		},
 		{
 			"title": "Поле",
@@ -2877,7 +2943,8 @@
 			],
 			"directors": [
 				71
-			]
+			],
+			"slug": "line_of_descent"
 		},
 		{
 			"title": "Коулуэлл",
@@ -2895,7 +2962,8 @@
 			],
 			"directors": [
 				72
-			]
+			],
+			"slug": "colewell"
 		},
 		{
 			"title": "Животные",
@@ -2916,7 +2984,8 @@
 			],
 			"directors": [
 				73
-			]
+			],
+			"slug": "animals"
 		},
 		{
 			"title": "Сделано в Китае",
@@ -2935,7 +3004,8 @@
 			],
 			"directors": [
 				44
-			]
+			],
+			"slug": "made_in_china"
 		},
 		{
 			"title": "В то же время, на следующее Рождество",
@@ -2954,7 +3024,8 @@
 			],
 			"directors": [
 				74
-			]
+			],
+			"slug": "same_time_next_christmas"
 		},
 		{
 			"title": "Конец сезона",
@@ -2973,7 +3044,8 @@
 			],
 			"directors": [
 				75
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Небо розового цвета",
@@ -2995,7 +3067,8 @@
 			],
 			"directors": [
 				76
-			]
+			],
+			"slug": "the_sky_is_pink"
 		},
 		{
 			"title": "Решала. Нулевые",
@@ -3016,7 +3089,8 @@
 			"directors": [
 				77,
 				78
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Фактор Зои",
@@ -3037,7 +3111,8 @@
 			],
 			"directors": [
 				79
-			]
+			],
+			"slug": "the_zoya_factor"
 		},
 		{
 			"title": "Чистый заработок",
@@ -3056,7 +3131,8 @@
 			],
 			"directors": [
 				80
-			]
+			],
+			"slug": "take_home_pay"
 		},
 		{
 			"title": "Рождество в кругу семьи",
@@ -3075,7 +3151,8 @@
 			],
 			"directors": [
 				81
-			]
+			],
+			"slug": "one_fine_christmas"
 		},
 		{
 			"title": "Сумасшедшая лучшая подруга",
@@ -3093,7 +3170,8 @@
 			],
 			"directors": [
 				82
-			]
+			],
+			"slug": "psycho_bff"
 		},
 		{
 			"title": "Кьяра Ферраньи: неопубликованное",
@@ -3111,7 +3189,8 @@
 			],
 			"directors": [
 				83
-			]
+			],
+			"slug": "chiara_ferragni_unposted"
 		},
 		{
 			"title": "Новое Рождество",
@@ -3129,7 +3208,8 @@
 			],
 			"directors": [
 				84
-			]
+			],
+			"slug": "a_new_christmas"
 		},
 		{
 			"title": "Ненормальная няня",
@@ -3147,7 +3227,8 @@
 			],
 			"directors": [
 				85
-			]
+			],
+			"slug": "the_twisted_nanny"
 		},
 		{
 			"title": "Заезд в Рождество",
@@ -3166,7 +3247,8 @@
 			],
 			"directors": [
 				86
-			]
+			],
+			"slug": "check_inn_to_christmas"
 		},
 		{
 			"title": "Праздничные сердца",
@@ -3184,7 +3266,8 @@
 			],
 			"directors": [
 				87
-			]
+			],
+			"slug": "holiday_hearts"
 		},
 		{
 			"title": "Южный ветер",
@@ -3204,7 +3287,8 @@
 			],
 			"directors": [
 				88
-			]
+			],
+			"slug": "juzni_vetar"
 		},
 		{
 			"title": "#Москва-Руаян, или Что творят женщины",
@@ -3222,7 +3306,8 @@
 			],
 			"directors": [
 				89
-			]
+			],
+			"slug": "moscou-royan"
 		},
 		{
 			"title": "Сумка с деньгами",
@@ -3242,7 +3327,8 @@
 			],
 			"directors": [
 				90
-			]
+			],
+			"slug": "meonibaek"
 		},
 		{
 			"title": "Американский хулиган",
@@ -3260,7 +3346,8 @@
 			],
 			"directors": [
 				91
-			]
+			],
+			"slug": "american_bully"
 		},
 		{
 			"title": "Двадцать первое число",
@@ -3278,7 +3365,8 @@
 			],
 			"directors": [
 				92
-			]
+			],
+			"slug": "ekkees_tareekh_shubh_muhurat"
 		},
 		{
 			"title": "Тулуза",
@@ -3296,7 +3384,8 @@
 			],
 			"directors": [
 				93
-			]
+			],
+			"slug": "toulouse"
 		},
 		{
 			"title": "Грязное дело",
@@ -3316,7 +3405,8 @@
 			],
 			"directors": [
 				94
-			]
+			],
+			"slug": "the_dirty_kind"
 		},
 		{
 			"title": "Долгое прощание",
@@ -3334,7 +3424,8 @@
 			],
 			"directors": [
 				95
-			]
+			],
+			"slug": "nagai_owakare"
 		},
 		{
 			"title": "Потрясающее Рождество",
@@ -3352,7 +3443,8 @@
 			],
 			"directors": [
 				96
-			]
+			],
+			"slug": "holiday_spectacular"
 		},
 		{
 			"title": "Рождественская принцесса",
@@ -3371,7 +3463,8 @@
 			],
 			"directors": [
 				81
-			]
+			],
+			"slug": "a_christmas_princess"
 		},
 		{
 			"title": "Рождественская история любви",
@@ -3390,7 +3483,8 @@
 			],
 			"directors": [
 				97
-			]
+			],
+			"slug": "the_christmas_song"
 		},
 		{
 			"title": "Рождественский обмен",
@@ -3412,7 +3506,8 @@
 			],
 			"directors": [
 				98
-			]
+			],
+			"slug": "a_christmas_switch"
 		},
 		{
 			"title": "Рождество на побережье",
@@ -3431,7 +3526,8 @@
 			],
 			"directors": [
 				99
-			]
+			],
+			"slug": "christmas_on_the_coast"
 		},
 		{
 			"title": "Рождественский дуэт",
@@ -3449,7 +3545,8 @@
 			],
 			"directors": [
 				32
-			]
+			],
+			"slug": "a_christmas_duet"
 		},
 		{
 			"title": "Рождество под звёздами",
@@ -3467,7 +3564,8 @@
 			],
 			"directors": [
 				87
-			]
+			],
+			"slug": "christmas_under_the_stars"
 		},
 		{
 			"title": "Почти верный",
@@ -3485,7 +3583,8 @@
 			],
 			"directors": [
 				100
-			]
+			],
+			"slug": "casi_fiel"
 		},
 		{
 			"title": "Ты сделал Рождество ярче",
@@ -3504,7 +3603,8 @@
 			],
 			"directors": [
 				101
-			]
+			],
+			"slug": "you_light_up_my_christmas"
 		},
 		{
 			"title": "Рождественский Клуб",
@@ -3522,7 +3622,8 @@
 			],
 			"directors": [
 				102
-			]
+			],
+			"slug": "the_christmas_club"
 		},
 		{
 			"title": "Очень винтажное рождество",
@@ -3540,7 +3641,8 @@
 			],
 			"directors": [
 				103
-			]
+			],
+			"slug": "a_very_vintage_christmas"
 		},
 		{
 			"title": "Рождество в Эвергрине: Благая весть",
@@ -3558,7 +3660,8 @@
 			],
 			"directors": [
 				104
-			]
+			],
+			"slug": "christmas_in_evergreen_tidings_of_joy"
 		},
 		{
 			"title": "Шестеро вне закона",
@@ -3577,7 +3680,8 @@
 			],
 			"directors": [
 				105
-			]
+			],
+			"slug": "6_underground"
 		},
 		{
 			"title": "Комната желаний",
@@ -3599,7 +3703,8 @@
 			],
 			"directors": [
 				106
-			]
+			],
+			"slug": "the_room"
 		},
 		{
 			"title": "Джуди",
@@ -3620,7 +3725,8 @@
 			],
 			"directors": [
 				107
-			]
+			],
+			"slug": "judy"
 		},
 		{
 			"title": "Yesterday / Вчера",
@@ -3643,7 +3749,8 @@
 			],
 			"directors": [
 				108
-			]
+			],
+			"slug": "yesterday"
 		},
 		{
 			"title": "Высшая награда",
@@ -3663,7 +3770,8 @@
 			],
 			"directors": [
 				109
-			]
+			],
+			"slug": "grace"
 		},
 		{
 			"title": "Достать ножи",
@@ -3684,7 +3792,8 @@
 			],
 			"directors": [
 				110
-			]
+			],
+			"slug": "knives_out"
 		},
 		{
 			"title": "Подсобка дьявола",
@@ -3703,7 +3812,8 @@
 			],
 			"directors": [
 				111
-			]
+			],
+			"slug": "the_shed"
 		},
 		{
 			"title": "Четыре башни",
@@ -3723,7 +3833,8 @@
 			],
 			"directors": [
 				112
-			]
+			],
+			"slug": "hard_night_falling"
 		},
 		{
 			"title": "Секта",
@@ -3742,7 +3853,8 @@
 			],
 			"directors": [
 				113
-			]
+			],
+			"slug": "il_nido"
 		},
 		{
 			"title": "Обратный отсчет",
@@ -3761,7 +3873,8 @@
 			],
 			"directors": [
 				114
-			]
+			],
+			"slug": "countdown"
 		},
 		{
 			"title": "Ричард прощается / Во всё тяжкое",
@@ -3780,7 +3893,8 @@
 			],
 			"directors": [
 				115
-			]
+			],
+			"slug": "the_professor"
 		},
 		{
 			"title": "Леди и Бродяга",
@@ -3802,7 +3916,8 @@
 			],
 			"directors": [
 				116
-			]
+			],
+			"slug": "lady_and_the_tramp"
 		},
 		{
 			"title": "Прекрасный день по соседству",
@@ -3822,7 +3937,8 @@
 			],
 			"directors": [
 				117
-			]
+			],
+			"slug": "a_beautiful_day_in_the_neighborhood"
 		},
 		{
 			"title": "Хала",
@@ -3840,7 +3956,8 @@
 			],
 			"directors": [
 				118
-			]
+			],
+			"slug": "hala"
 		},
 		{
 			"title": "Обезьяны",
@@ -3867,7 +3984,8 @@
 			],
 			"directors": [
 				119
-			]
+			],
+			"slug": "monos"
 		},
 		{
 			"title": "Некрополь: Легион",
@@ -3885,7 +4003,8 @@
 			],
 			"directors": [
 				120
-			]
+			],
+			"slug": "necropolis_legion"
 		},
 		{
 			"title": "Поменяться местами",
@@ -3906,7 +4025,8 @@
 			],
 			"directors": [
 				121
-			]
+			],
+			"slug": "mon_inconnue"
 		},
 		{
 			"title": "Бандит, полицейский, дьявол",
@@ -3926,7 +4046,8 @@
 			],
 			"directors": [
 				122
-			]
+			],
+			"slug": "akinjeon"
 		},
 		{
 			"title": "Искусство самообороны",
@@ -3947,7 +4068,8 @@
 			],
 			"directors": [
 				123
-			]
+			],
+			"slug": "the_art_of_self-defense"
 		},
 		{
 			"title": "Робо",
@@ -3967,7 +4089,8 @@
 			],
 			"directors": [
 				124
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Королева Румынии - Мария",
@@ -3987,7 +4110,8 @@
 				125,
 				126,
 				127
-			]
+			],
+			"slug": "queen_marie_of_romania"
 		},
 		{
 			"title": "Чувство, чувствительность и снеговики",
@@ -4005,7 +4129,8 @@
 			],
 			"directors": [
 				128
-			]
+			],
+			"slug": "sense_sensibility_snowmen"
 		},
 		{
 			"title": "Мой отец, мой похититель",
@@ -4023,7 +4148,8 @@
 			],
 			"directors": [
 				129
-			]
+			],
+			"slug": "the_past_never_dies"
 		},
 		{
 			"title": "Мой лучший друг - знаменитость",
@@ -4041,7 +4167,8 @@
 			],
 			"directors": [
 				130
-			]
+			],
+			"slug": "my_best_friend_s_famous"
 		},
 		{
 			"title": "Рождественские баночки",
@@ -4059,7 +4186,8 @@
 			],
 			"directors": [
 				131
-			]
+			],
+			"slug": "christmas_jars"
 		},
 		{
 			"title": "Статус: всё сложно",
@@ -4079,7 +4207,8 @@
 			],
 			"directors": [
 				132
-			]
+			],
+			"slug": "in_a_relationship"
 		},
 		{
 			"title": "Миллион мелких осколков",
@@ -4097,7 +4226,8 @@
 			],
 			"directors": [
 				133
-			]
+			],
+			"slug": "a_million_little_pieces"
 		},
 		{
 			"title": "Аврора",
@@ -4116,7 +4246,8 @@
 			],
 			"directors": [
 				134
-			]
+			],
+			"slug": "aurora"
 		},
 		{
 			"title": "Умник",
@@ -4136,7 +4267,8 @@
 			"directors": [
 				135,
 				136
-			]
+			],
+			"slug": "monsieur_je-sais-tout"
 		},
 		{
 			"title": "Эксперимент «Радуга»",
@@ -4154,7 +4286,8 @@
 			],
 			"directors": [
 				137
-			]
+			],
+			"slug": "the_rainbow_experiment"
 		},
 		{
 			"title": "Головоломка",
@@ -4173,7 +4306,8 @@
 			],
 			"directors": [
 				138
-			]
+			],
+			"slug": "peojeul"
 		},
 		{
 			"title": "Посмей нас остановить",
@@ -4191,7 +4325,8 @@
 			],
 			"directors": [
 				139
-			]
+			],
+			"slug": "tomerareru_ka_oretachi_o"
 		},
 		{
 			"title": "Смерть на Тайне",
@@ -4209,7 +4344,8 @@
 			],
 			"directors": [
 				140
-			]
+			],
+			"slug": "death_on_the_tyne"
 		},
 		{
 			"title": "Взросление",
@@ -4227,7 +4363,8 @@
 			],
 			"directors": [
 				141
-			]
+			],
+			"slug": "the_age_of_adulting"
 		},
 		{
 			"title": "Бесконечный выходной",
@@ -4249,7 +4386,8 @@
 				142,
 				143,
 				144
-			]
+			],
+			"slug": "zweisam_gemeinsam_einsam"
 		},
 		{
 			"title": "Эффект фокусировки",
@@ -4270,7 +4408,8 @@
 			],
 			"directors": [
 				145
-			]
+			],
+			"slug": "the_focusing_effect"
 		},
 		{
 			"title": "Рождество в отеле Рояль",
@@ -4290,7 +4429,8 @@
 			],
 			"directors": [
 				146
-			]
+			],
+			"slug": "christmas_at_the_royal_hotel"
 		},
 		{
 			"title": "Доктор Сон",
@@ -4312,7 +4452,8 @@
 			],
 			"directors": [
 				147
-			]
+			],
+			"slug": "doctor_sleep"
 		},
 		{
 			"title": "Это наш дом",
@@ -4331,7 +4472,8 @@
 			],
 			"directors": [
 				148
-			]
+			],
+			"slug": "this_is_our_home"
 		},
 		{
 			"title": "Человек в багажнике",
@@ -4353,7 +4495,8 @@
 			],
 			"directors": [
 				149
-			]
+			],
+			"slug": "the_man_in_the_trunk"
 		},
 		{
 			"title": "Полвека поэзии спустя",
@@ -4371,7 +4514,8 @@
 			],
 			"directors": [
 				150
-			]
+			],
+			"slug": "pol_wieku_poezji_pozniej"
 		},
 		{
 			"title": "Дюны",
@@ -4391,7 +4535,8 @@
 			],
 			"directors": [
 				151
-			]
+			],
+			"slug": "the_dunes"
 		},
 		{
 			"title": "Малыш Джо",
@@ -4412,7 +4557,8 @@
 			],
 			"directors": [
 				152
-			]
+			],
+			"slug": "little_joe"
 		},
 		{
 			"title": "Опасные секреты",
@@ -4435,7 +4581,8 @@
 			],
 			"directors": [
 				153
-			]
+			],
+			"slug": "official_secrets"
 		},
 		{
 			"title": "Город лжи",
@@ -4458,7 +4605,8 @@
 			],
 			"directors": [
 				154
-			]
+			],
+			"slug": "city_of_lies"
 		},
 		{
 			"title": "Кто твоя бабушка, чувак?",
@@ -4477,7 +4625,8 @@
 			],
 			"directors": [
 				155
-			]
+			],
+			"slug": "c_est_quoi_cette_mamie"
 		},
 		{
 			"title": "Папа бывает только один",
@@ -4495,7 +4644,8 @@
 			],
 			"directors": [
 				156
-			]
+			],
+			"slug": "padre_no_hay_mas_que_uno"
 		},
 		{
 			"title": "Самоуверенный",
@@ -4513,7 +4663,8 @@
 			],
 			"directors": [
 				157
-			]
+			],
+			"slug": "the_reliant"
 		},
 		{
 			"title": "Бакурау",
@@ -4538,7 +4689,8 @@
 			"directors": [
 				158,
 				159
-			]
+			],
+			"slug": "bacurau"
 		},
 		{
 			"title": "На грани войны",
@@ -4558,7 +4710,8 @@
 			],
 			"directors": [
 				160
-			]
+			],
+			"slug": "ready_for_war"
 		},
 		{
 			"title": "Все жены моего мужа",
@@ -4576,7 +4729,8 @@
 			],
 			"directors": [
 				161
-			]
+			],
+			"slug": "rule_of_3"
 		},
 		{
 			"title": "Грустная история",
@@ -4595,7 +4749,8 @@
 			],
 			"directors": [
 				162
-			]
+			],
+			"slug": "blue_story"
 		},
 		{
 			"title": "Связанные по жизни",
@@ -4613,7 +4768,8 @@
 			],
 			"directors": [
 				163
-			]
+			],
+			"slug": "chained_for_life"
 		},
 		{
 			"title": "Рождественский городок",
@@ -4632,7 +4788,8 @@
 			],
 			"directors": [
 				164
-			]
+			],
+			"slug": "christmas_town"
 		},
 		{
 			"title": "Наша рождественская песня любви",
@@ -4650,7 +4807,8 @@
 			],
 			"directors": [
 				165
-			]
+			],
+			"slug": "our_christmas_love_song"
 		},
 		{
 			"title": "Человек из другого мира ака Посредник",
@@ -4669,7 +4827,8 @@
 			],
 			"directors": [
 				166
-			]
+			],
+			"slug": "alem_do_homem"
 		},
 		{
 			"title": "Джуманджи: Новый уровень ",
@@ -4690,7 +4849,8 @@
 			],
 			"directors": [
 				167
-			]
+			],
+			"slug": "jumanji_the_next_level"
 		},
 		{
 			"title": "21 мост",
@@ -4711,7 +4871,8 @@
 			],
 			"directors": [
 				168
-			]
+			],
+			"slug": "21_bridges"
 		},
 		{
 			"title": "Тёмная сторона",
@@ -4730,7 +4891,8 @@
 			],
 			"directors": [
 				169
-			]
+			],
+			"slug": "bloodline"
 		},
 		{
 			"title": "Сваха",
@@ -4750,7 +4912,8 @@
 			],
 			"directors": [
 				170
-			]
+			],
+			"slug": "sabaha"
 		},
 		{
 			"title": "Наркобарон",
@@ -4770,7 +4933,8 @@
 			],
 			"directors": [
 				171
-			]
+			],
+			"slug": "mayakwang"
 		},
 		{
 			"title": "Перелеска",
@@ -4790,7 +4954,8 @@
 			],
 			"directors": [
 				172
-			]
+			],
+			"slug": "misumiso"
 		},
 		{
 			"title": "Большая поэзия",
@@ -4809,7 +4974,8 @@
 			],
 			"directors": [
 				173
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Ким Джи-ён, 1982 года рождения",
@@ -4827,7 +4993,8 @@
 			],
 			"directors": [
 				174
-			]
+			],
+			"slug": "82nyeonsaeng_kim_ji-yeong"
 		},
 		{
 			"title": "Темные воды",
@@ -4848,7 +5015,8 @@
 			],
 			"directors": [
 				175
-			]
+			],
+			"slug": "dark_waters"
 		},
 		{
 			"title": "Ночь в осаде",
@@ -4867,7 +5035,8 @@
 			],
 			"directors": [
 				176
-			]
+			],
+			"slug": "trauma_center"
 		},
 		{
 			"title": "Тёмный свет",
@@ -4887,7 +5056,8 @@
 			],
 			"directors": [
 				177
-			]
+			],
+			"slug": "dark_light"
 		},
 		{
 			"title": "Остров Грэнд-Айл",
@@ -4906,7 +5076,8 @@
 			],
 			"directors": [
 				178
-			]
+			],
+			"slug": "grand_isle"
 		},
 		{
 			"title": "Насильственное разделение",
@@ -4926,7 +5097,8 @@
 			"directors": [
 				179,
 				180
-			]
+			],
+			"slug": "a_violent_separation"
 		},
 		{
 			"title": "Киллер по вызову",
@@ -4947,7 +5119,8 @@
 			],
 			"directors": [
 				181
-			]
+			],
+			"slug": "lucky_day"
 		},
 		{
 			"title": "Вне закона",
@@ -4965,7 +5138,8 @@
 			],
 			"directors": [
 				182
-			]
+			],
+			"slug": "beyond_the_law"
 		},
 		{
 			"title": "Рождество на двоих",
@@ -4986,7 +5160,8 @@
 			],
 			"directors": [
 				183
-			]
+			],
+			"slug": "last_christmas"
 		},
 		{
 			"title": "Автомобиль: Дорога мести",
@@ -5006,7 +5181,8 @@
 			],
 			"directors": [
 				184
-			]
+			],
+			"slug": "the_car_road_to_revenge"
 		},
 		{
 			"title": "Проклятие крови",
@@ -5025,7 +5201,8 @@
 			],
 			"directors": [
 				182
-			]
+			],
+			"slug": "blood_craft"
 		},
 		{
 			"title": "Квантовая физика",
@@ -5044,7 +5221,8 @@
 			],
 			"directors": [
 				185
-			]
+			],
+			"slug": "yangjamullihak"
 		},
 		{
 			"title": "Ножи и кожа",
@@ -5062,7 +5240,8 @@
 			],
 			"directors": [
 				186
-			]
+			],
+			"slug": "knives_and_skin"
 		},
 		{
 			"title": "Там, где безопасно",
@@ -5081,7 +5260,8 @@
 			],
 			"directors": [
 				187
-			]
+			],
+			"slug": "safe_spaces"
 		},
 		{
 			"title": "Нечего терять 2",
@@ -5100,7 +5280,8 @@
 			],
 			"directors": [
 				188
-			]
+			],
+			"slug": "nada_a_perder_2"
 		},
 		{
 			"title": "Мёртвые детки",
@@ -5119,7 +5300,8 @@
 			],
 			"directors": [
 				189
-			]
+			],
+			"slug": "dead_kids"
 		},
 		{
 			"title": "Дневник безумной женщины",
@@ -5137,7 +5319,8 @@
 			],
 			"directors": [
 				190
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Адское пекло!",
@@ -5155,7 +5338,8 @@
 			],
 			"directors": [
 				191
-			]
+			],
+			"slug": "hellfire"
 		},
 		{
 			"title": "Подстава в День благодарения",
@@ -5173,7 +5357,8 @@
 			],
 			"directors": [
 				192
-			]
+			],
+			"slug": "turkey_drop"
 		},
 		{
 			"title": "Мальчик, собака и клоун",
@@ -5191,7 +5376,8 @@
 			],
 			"directors": [
 				193
-			]
+			],
+			"slug": "the_boy_the_dog_and_the_clown"
 		},
 		{
 			"title": "Рождество в Плазе",
@@ -5209,7 +5395,8 @@
 			],
 			"directors": [
 				194
-			]
+			],
+			"slug": "christmas_at_the_plaza"
 		},
 		{
 			"title": "Читра и Лахари",
@@ -5227,7 +5414,8 @@
 			],
 			"directors": [
 				195
-			]
+			],
+			"slug": "chitralahari"
 		},
 		{
 			"title": "Предвестник землетрясения",
@@ -5249,7 +5437,8 @@
 			],
 			"directors": [
 				196
-			]
+			],
+			"slug": "earthquake_bird"
 		},
 		{
 			"title": "Парк развлечений",
@@ -5268,7 +5457,8 @@
 			"directors": [
 				197,
 				198
-			]
+			],
+			"slug": "eld_lagor"
 		},
 		{
 			"title": "Совершенство",
@@ -5287,7 +5477,8 @@
 			],
 			"directors": [
 				199
-			]
+			],
+			"slug": "the_perfection"
 		},
 		{
 			"title": "Никогда не возвращайтесь",
@@ -5306,7 +5497,8 @@
 			],
 			"directors": [
 				200
-			]
+			],
+			"slug": "never_goin_back"
 		},
 		{
 			"title": "Вторая",
@@ -5325,7 +5517,8 @@
 			],
 			"directors": [
 				201
-			]
+			],
+			"slug": "the_second"
 		},
 		{
 			"title": "Твоя свадьба",
@@ -5344,7 +5537,8 @@
 			],
 			"directors": [
 				202
-			]
+			],
+			"slug": "neoui_gyeolhonsik"
 		},
 		{
 			"title": "Кукурузная Коза Ностра",
@@ -5363,7 +5557,8 @@
 			],
 			"directors": [
 				203
-			]
+			],
+			"slug": "cornbread_cosa_nostra"
 		},
 		{
 			"title": "АРМЕН и Я",
@@ -5382,7 +5577,8 @@
 			],
 			"directors": [
 				204
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Время женщин",
@@ -5402,7 +5598,8 @@
 				205,
 				206,
 				207
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "В тихом омуте",
@@ -5423,7 +5620,8 @@
 			],
 			"directors": [
 				208
-			]
+			],
+			"slug": "i_see_you"
 		},
 		{
 			"title": "К звёздам ",
@@ -5447,7 +5645,8 @@
 			],
 			"directors": [
 				209
-			]
+			],
+			"slug": "ad_astra"
 		},
 		{
 			"title": "Арахисовый сокол",
@@ -5466,7 +5665,8 @@
 			"directors": [
 				210,
 				211
-			]
+			],
+			"slug": "the_peanut_butter_falcon"
 		},
 		{
 			"title": "Безумие внутри",
@@ -5484,7 +5684,8 @@
 			],
 			"directors": [
 				212
-			]
+			],
+			"slug": "the_madness_within"
 		},
 		{
 			"title": "Автоматика",
@@ -5502,7 +5703,8 @@
 			],
 			"directors": [
 				213
-			]
+			],
+			"slug": "automation"
 		},
 		{
 			"title": "Джей и молчаливый Боб: Перезагрузка",
@@ -5520,7 +5722,8 @@
 			],
 			"directors": [
 				214
-			]
+			],
+			"slug": "jay_and_silent_bob_reboot"
 		},
 		{
 			"title": "Башня молчания",
@@ -5538,7 +5741,8 @@
 			],
 			"directors": [
 				215
-			]
+			],
+			"slug": "tower_of_silence"
 		},
 		{
 			"title": "Дэниел ненастоящий",
@@ -5556,7 +5760,8 @@
 			],
 			"directors": [
 				216
-			]
+			],
+			"slug": "daniel_isn_t_real"
 		},
 		{
 			"title": "Рождественский принц: Королевский ребёнок",
@@ -5574,7 +5779,8 @@
 			],
 			"directors": [
 				57
-			]
+			],
+			"slug": "a_christmas_prince_the_royal_baby"
 		},
 		{
 			"title": "Рождество на ранчо",
@@ -5593,7 +5799,8 @@
 			],
 			"directors": [
 				99
-			]
+			],
+			"slug": "christmas_on_the_range"
 		},
 		{
 			"title": "Пробуждение",
@@ -5613,7 +5820,8 @@
 			],
 			"directors": [
 				217
-			]
+			],
+			"slug": "wake_up"
 		},
 		{
 			"title": "Гремучая змея",
@@ -5633,7 +5841,8 @@
 			],
 			"directors": [
 				218
-			]
+			],
+			"slug": "rattlesnake"
 		},
 		{
 			"title": "Пакеты с кровью",
@@ -5651,7 +5860,8 @@
 			],
 			"directors": [
 				219
-			]
+			],
+			"slug": "blood_bags"
 		},
 		{
 			"title": "Сторонник",
@@ -5672,7 +5882,8 @@
 			],
 			"directors": [
 				220
-			]
+			],
+			"slug": "dokjeon"
 		},
 		{
 			"title": "Рыцарь теней: Между инь и ян",
@@ -5692,7 +5903,8 @@
 			],
 			"directors": [
 				221
-			]
+			],
+			"slug": "shen_tan_pu_song_ling_zhi_lan_re_xian_zong"
 		},
 		{
 			"title": "Прежде чем ты узнаешь",
@@ -5711,7 +5923,8 @@
 			],
 			"directors": [
 				222
-			]
+			],
+			"slug": "before_you_know_it"
 		},
 		{
 			"title": "Разоблачение",
@@ -5729,7 +5942,8 @@
 			],
 			"directors": [
 				223
-			]
+			],
+			"slug": "red_handed"
 		},
 		{
 			"title": "Тревожное исчезновение",
@@ -5749,7 +5963,8 @@
 			],
 			"directors": [
 				224
-			]
+			],
+			"slug": "disparition_inquietante"
 		},
 		{
 			"title": "Побег из Либерти",
@@ -5768,7 +5983,8 @@
 			],
 			"directors": [
 				225
-			]
+			],
+			"slug": "out_of_liberty"
 		},
 		{
 			"title": "Дзынь-дзынь",
@@ -5787,7 +6003,8 @@
 			],
 			"directors": [
 				226
-			]
+			],
+			"slug": "ring_ring"
 		},
 		{
 			"title": "Треугольник Шаста",
@@ -5807,7 +6024,8 @@
 			],
 			"directors": [
 				227
-			]
+			],
+			"slug": "the_shasta_triangle"
 		},
 		{
 			"title": "Один падёт",
@@ -5826,7 +6044,8 @@
 			],
 			"directors": [
 				228
-			]
+			],
+			"slug": "one_must_fall"
 		},
 		{
 			"title": "Тварь",
@@ -5845,7 +6064,8 @@
 			],
 			"directors": [
 				229
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Рэмбо: Последняя кровь",
@@ -5866,7 +6086,8 @@
 			],
 			"directors": [
 				230
-			]
+			],
+			"slug": "rambo_last_blood"
 		},
 		{
 			"title": "Арестант no name",
@@ -5884,7 +6105,8 @@
 			],
 			"directors": [
 				231
-			]
+			],
+			"slug": "imprisoned"
 		},
 		{
 			"title": "Рыцарь перед Рождеством",
@@ -5903,7 +6125,8 @@
 			],
 			"directors": [
 				232
-			]
+			],
+			"slug": "the_knight_before_christmas"
 		},
 		{
 			"title": "Тело помнит, когда мир развалился",
@@ -5923,7 +6146,8 @@
 			"directors": [
 				233,
 				234
-			]
+			],
+			"slug": "the_body_remembers_when_the_world_broke_open"
 		},
 		{
 			"title": "Смертоносное воссоединение",
@@ -5944,7 +6168,8 @@
 			],
 			"directors": [
 				182
-			]
+			],
+			"slug": "deadly_reunion"
 		},
 		{
 			"title": "SuperЗять",
@@ -5962,7 +6187,8 @@
 			],
 			"directors": [
 				235
-			]
+			],
+			"slug": "le_gendre_de_ma_vie"
 		},
 		{
 			"title": "В поисках",
@@ -5981,7 +6207,8 @@
 			],
 			"directors": [
 				236
-			]
+			],
+			"slug": "in_transit"
 		},
 		{
 			"title": "Лев Яшин. Вратарь моей мечты",
@@ -6001,7 +6228,8 @@
 			],
 			"directors": [
 				237
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Убийца льва",
@@ -6020,7 +6248,8 @@
 			],
 			"directors": [
 				238
-			]
+			],
+			"slug": "lion_killer"
 		},
 		{
 			"title": "В сердце мира",
@@ -6039,7 +6268,8 @@
 			"directors": [
 				239,
 				240
-			]
+			],
+			"slug": "no_coracao_do_mundo"
 		},
 		{
 			"title": "По мячам",
@@ -6059,7 +6289,8 @@
 			"directors": [
 				241,
 				242
-			]
+			],
+			"slug": "by_the_balls"
 		},
 		{
 			"title": "Рождественское мороженое",
@@ -6077,7 +6308,8 @@
 			],
 			"directors": [
 				243
-			]
+			],
+			"slug": "christmas_a_la_mode"
 		},
 		{
 			"title": "Голубая игуана",
@@ -6097,7 +6329,8 @@
 			],
 			"directors": [
 				244
-			]
+			],
+			"slug": "blue_iguana"
 		},
 		{
 			"title": "Бобот и энергия Вселенной",
@@ -6117,7 +6350,8 @@
 			],
 			"directors": [
 				245
-			]
+			],
+			"slug": ""
 		},
 		{
 			"title": "Дропа",
@@ -6137,7 +6371,8 @@
 			],
 			"directors": [
 				246
-			]
+			],
+			"slug": "dropa"
 		},
 		{
 			"title": "Руководство по сексу на втором свидании",
@@ -6156,7 +6391,8 @@
 			],
 			"directors": [
 				247
-			]
+			],
+			"slug": "a_guide_to_second_date_sex"
 		},
 		{
 			"title": "Среди них",
@@ -6174,7 +6410,8 @@
 			],
 			"directors": [
 				248
-			]
+			],
+			"slug": "among_them"
 		},
 		{
 			"title": "Открытые границы",
@@ -6194,7 +6431,8 @@
 			],
 			"directors": [
 				249
-			]
+			],
+			"slug": "open_borders"
 		},
 		{
 			"title": "Головокружение",
@@ -6213,7 +6451,8 @@
 			],
 			"directors": [
 				250
-			]
+			],
+			"slug": "beotigo"
 		},
 		{
 			"title": "Воспоминания о солдате",
@@ -6233,7 +6472,8 @@
 			],
 			"directors": [
 				251
-			]
+			],
+			"slug": "ojanggunui_baltop"
 		}
 	]
 }

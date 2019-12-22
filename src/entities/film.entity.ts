@@ -8,6 +8,8 @@ import {
 import { IsNotEmpty, MaxLength } from 'class-validator';
 
 import { Genre } from './genre.entity';
+import { Director } from './director.entity';
+import { Country } from './country.entity';
 
 @Entity('film')
 export class Film {
@@ -62,4 +64,32 @@ export class Film {
     }
   })
   genres: Genre[];
+
+  @ManyToMany(type => Director)
+  @JoinTable({
+    name: 'film_directors',
+    joinColumn: {
+      name: 'film_id',
+      referencedColumnName: 'id'
+    },
+    inverseJoinColumn: {
+      name: 'director_id',
+      referencedColumnName: 'id'
+    }
+  })
+  directors: Director[];
+
+  @ManyToMany(type => Country)
+  @JoinTable({
+    name: 'film_countries',
+    joinColumn: {
+      name: 'film_id',
+      referencedColumnName: 'id'
+    },
+    inverseJoinColumn: {
+      name: 'country_id',
+      referencedColumnName: 'id'
+    }
+  })
+  countries: Country[];
 }
