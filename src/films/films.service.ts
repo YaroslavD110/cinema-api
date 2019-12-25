@@ -13,7 +13,15 @@ export class FilmsService {
     private readonly filmsRepository: Repository<Film>
   ) {}
 
-  async getFilms() {
-    return this.filmsRepository.find({ relations: ['genres'] });
+  getFilms() {
+    return this.filmsRepository.find({
+      relations: ['genres', 'countries', 'directors']
+    });
+  }
+
+  getFilm(id: string) {
+    return this.filmsRepository.findOne(id, {
+      relations: ['genres', 'countries', 'directors']
+    });
   }
 }

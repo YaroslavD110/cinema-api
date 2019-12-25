@@ -1,5 +1,5 @@
 import { LabelsService } from './labels.service';
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Put } from '@nestjs/common';
 
 @Controller()
 export class LabelsController {
