@@ -1,6 +1,6 @@
-import { Injectable } from '@nestjs/common';
-import { Repository } from 'typeorm';
+import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
 
 import { LabelsService } from '../labels/labels.service';
 import { FilmDTO } from './dto/film.dto';
@@ -20,10 +20,16 @@ export class FilmsService {
     });
   }
 
-  public getFilmById(id: number) {
-    return this.filmsRepository.findOne(id, {
+  public async getFilmById(id: number) {
+    const film = await this.filmsRepository.findOne(id, {
       relations: ['genres', 'countries', 'directors']
     });
+
+    if (!film) {
+      throw new HttpException('Film not found!', HttpStatus.NOT_FOUND);
+    }
+
+    return film;
   }
 
   public async addFilm(data: FilmDTO) {

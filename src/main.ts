@@ -11,8 +11,15 @@ import { AppModule } from './app.module';
   try {
     const PORT = process.env.PORT || 8080;
     const app = await NestFactory.create(AppModule);
+    const swaggerOptions = new DocumentBuilder()
+      .setTitle('Cinema API')
+      .setDescription('API documentation for test Cinema API project')
+      .setVersion('1.0')
+      .build();
 
     app.use(helmet());
+
+    app.enableCors();
     app.setGlobalPrefix('api');
     app.useGlobalPipes(
       new ValidationPipe({
@@ -21,13 +28,11 @@ import { AppModule } from './app.module';
       })
     );
 
-    const swaggerOptions = new DocumentBuilder()
-      .setTitle('Cinema API')
-      .setDescription('API documentation for test Cinema API project')
-      .setVersion('1.0')
-      .build();
-    const document = SwaggerModule.createDocument(app, swaggerOptions);
-    SwaggerModule.setup('/api/docs', app, document);
+    SwaggerModule.setup(
+      '/api/docs',
+      app,
+      SwaggerModule.createDocument(app, swaggerOptions)
+    );
 
     await app.listen(PORT);
 
