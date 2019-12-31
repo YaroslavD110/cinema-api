@@ -1,15 +1,8 @@
-import {
-  PrimaryGeneratedColumn,
-  Column,
-  Entity,
-  ManyToMany,
-  JoinTable
-} from 'typeorm';
+import { PrimaryGeneratedColumn, Column, Entity, Unique } from 'typeorm';
 import { MaxLength, IsNotEmpty } from 'class-validator';
 
-import { Film } from './film.entity';
-
 @Entity('genre')
+@Unique(['slug'])
 export class Genre {
   @PrimaryGeneratedColumn()
   id: number;

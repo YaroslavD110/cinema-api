@@ -1,5 +1,6 @@
 import { NestFactory } from '@nestjs/core';
-import { Logger } from '@nestjs/common';
+import { Logger, ValidationPipe } from '@nestjs/common';
+import * as helmet from 'helmet';
 
 import { AppModule } from './app.module';
 
@@ -10,7 +11,14 @@ import { AppModule } from './app.module';
     const port = process.env.PORT || 8080;
     const app = await NestFactory.create(AppModule);
 
+    app.use(helmet());
     app.setGlobalPrefix('api');
+    app.useGlobalPipes(
+      new ValidationPipe({
+        transform: true,
+        disableErrorMessages: process.env.NODE_ENV === 'production'
+      })
+    );
 
     await app.listen(port);
 

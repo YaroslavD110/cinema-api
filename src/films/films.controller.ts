@@ -1,5 +1,8 @@
+import { Controller, Get, Post, Body, Param } from '@nestjs/common';
+
+import { GetByIdParams } from '../shared/dto/params.dto';
+import { FilmDTO } from './dto/film.dto';
 import { FilmsService } from './films.service';
-import { Controller, Put, Get } from '@nestjs/common';
 
 @Controller()
 export class FilmsController {
@@ -8,5 +11,15 @@ export class FilmsController {
   @Get('/films')
   getFilms() {
     return this.filmsService.getFilms();
+  }
+
+  @Get('/film/:id')
+  getFilmById(@Param() params: GetByIdParams) {
+    return this.filmsService.getFilmById(params.id);
+  }
+
+  @Post('/film')
+  addFilm(@Body() data: FilmDTO) {
+    return this.filmsService.addFilm(data);
   }
 }

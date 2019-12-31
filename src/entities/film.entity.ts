@@ -3,6 +3,7 @@ import {
   Column,
   PrimaryGeneratedColumn,
   ManyToMany,
+  Unique,
   JoinTable
 } from 'typeorm';
 import { IsNotEmpty, MaxLength } from 'class-validator';

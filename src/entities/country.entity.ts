@@ -1,7 +1,8 @@
-import { PrimaryGeneratedColumn, Column, Entity } from 'typeorm';
+import { PrimaryGeneratedColumn, Column, Entity, Unique } from 'typeorm';
 import { MaxLength, IsNotEmpty } from 'class-validator';
 
 @Entity('country')
+@Unique(['slug'])
 export class Country {
   @PrimaryGeneratedColumn()
   id: number;
