@@ -1,5 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { Logger, ValidationPipe } from '@nestjs/common';
+import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import * as helmet from 'helmet';
 
 import { AppModule } from './app.module';
@@ -8,7 +9,7 @@ import { AppModule } from './app.module';
   const logger = new Logger('Bootstrap');
 
   try {
-    const port = process.env.PORT || 8080;
+    const PORT = process.env.PORT || 8080;
     const app = await NestFactory.create(AppModule);
 
     app.use(helmet());
@@ -20,10 +21,18 @@ import { AppModule } from './app.module';
       })
     );
 
-    await app.listen(port);
+    const swaggerOptions = new DocumentBuilder()
+      .setTitle('Cinema API')
+      .setDescription('API documentation for test Cinema API project')
+      .setVersion('1.0')
+      .build();
+    const document = SwaggerModule.createDocument(app, swaggerOptions);
+    SwaggerModule.setup('/api/docs', app, document);
 
-    logger.log(`> Server is running on port ${port}`);
+    await app.listen(PORT);
+
+    logger.log(`Server is running on port ${PORT}`);
   } catch (error) {
-    logger.error('> Filed to startup the Server!', error.trace);
+    logger.error('Filed to startup the Server!', error.trace);
   }
 })();

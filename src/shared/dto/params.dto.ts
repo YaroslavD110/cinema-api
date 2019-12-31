@@ -1,3 +1,4 @@
+import { ApiProperty } from '@nestjs/swagger';
 import { IsInt, IsNotEmpty, Min, IsString } from 'class-validator';
 import { Transform } from 'class-transformer';
 
@@ -8,11 +9,13 @@ export class GetByIdParams {
   @IsInt()
   @IsNotEmpty()
   @Transform(parseIntTransform)
+  @ApiProperty()
   id: number;
 }
 
 export class GetBySlugParams {
   @IsString()
   @IsNotEmpty()
+  @ApiProperty()
   slug: string;
 }
