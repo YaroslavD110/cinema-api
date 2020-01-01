@@ -1,3 +1,5 @@
+import 'dotenv/config';
+
 import { NestFactory } from '@nestjs/core';
 import { Logger, ValidationPipe } from '@nestjs/common';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
@@ -5,12 +7,15 @@ import * as helmet from 'helmet';
 
 import { AppModule } from './app.module';
 
+console.log(process.env);
+
 (async function bootstrap() {
   const logger = new Logger('Bootstrap');
 
   try {
-    const PORT = process.env.PORT || 8080;
+    const PORT = process.env.PORT || 3000;
     const app = await NestFactory.create(AppModule);
+
     const swaggerOptions = new DocumentBuilder()
       .setTitle('Cinema API')
       .setDescription('API documentation for test Cinema API project')
