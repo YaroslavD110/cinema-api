@@ -7,8 +7,6 @@ import * as helmet from 'helmet';
 
 import { AppModule } from './app.module';
 
-console.log(process.env);
-
 (async function bootstrap() {
   const logger = new Logger('Bootstrap');
 

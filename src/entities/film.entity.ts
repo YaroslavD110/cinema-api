@@ -4,7 +4,9 @@ import {
   PrimaryGeneratedColumn,
   ManyToMany,
   Unique,
-  JoinTable
+  JoinTable,
+  CreateDateColumn,
+  UpdateDateColumn
 } from 'typeorm';
 import { IsNotEmpty, MaxLength } from 'class-validator';
 
@@ -13,6 +15,7 @@ import { Director } from './director.entity';
 import { Country } from './country.entity';
 
 @Entity('film')
+@Unique(['slug'])
 export class Film {
   @PrimaryGeneratedColumn()
   id: number;
@@ -51,6 +54,12 @@ export class Film {
   @Column({ type: 'smallint' })
   @IsNotEmpty()
   year: number;
+
+  @CreateDateColumn({ name: 'created_at' })
+  createdAt: string;
+
+  @UpdateDateColumn({ name: 'updated_at' })
+  updatedAt: string;
 
   @ManyToMany(type => Genre)
   @JoinTable({

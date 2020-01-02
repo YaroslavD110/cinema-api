@@ -6,6 +6,8 @@ import { FilmsModule } from './films/films.module';
 import { LabelsModule } from './labels/labels.module';
 import { ExceptionsFilter } from './shared/exceptions.filter';
 import { LoggingInterceptor } from './shared/logging.interceptor';
+import { UserModule } from './user/user.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -21,7 +23,9 @@ import { LoggingInterceptor } from './shared/logging.interceptor';
       logging: process.env.NODE_ENV === 'development'
     }),
     FilmsModule,
-    LabelsModule
+    LabelsModule,
+    UserModule,
+    AuthModule
   ],
   providers: [
     {
