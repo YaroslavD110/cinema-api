@@ -8,51 +8,39 @@ import {
   CreateDateColumn,
   UpdateDateColumn
 } from 'typeorm';
-import { IsNotEmpty, MaxLength } from 'class-validator';
 
 import { Genre } from './genre.entity';
 import { Director } from './director.entity';
 import { Country } from './country.entity';
 
 @Entity('film')
-@Unique(['slug'])
+@Unique(['slug', 'subtitle'])
 export class Film {
   @PrimaryGeneratedColumn()
   id: number;
 
   @Column({ length: 254 })
-  @MaxLength(254)
-  @IsNotEmpty()
   title: string;
 
   @Column({ length: 254 })
-  @MaxLength(254)
-  @IsNotEmpty()
   slug: string;
 
   @Column({ length: 254, nullable: true })
-  @MaxLength(254)
   subtitle?: string;
 
   @Column({ name: 'poster_url', length: 254, nullable: true })
-  @MaxLength(254)
   posterUrl?: string;
 
   @Column({ name: 'video_frame_url', length: 254, nullable: true })
-  @MaxLength(254)
   videoFrameUrl?: string;
 
   @Column({ type: 'text' })
-  @MaxLength(2500)
-  @IsNotEmpty()
   description: string;
 
   @Column({ type: 'float', name: 'imdb_rating' })
-  @IsNotEmpty()
   IMDBRating: number;
 
   @Column({ type: 'smallint' })
-  @IsNotEmpty()
   year: number;
 
   @CreateDateColumn({ name: 'created_at' })

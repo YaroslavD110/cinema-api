@@ -4,9 +4,13 @@ import {
   Unique,
   Column,
   CreateDateColumn,
-  UpdateDateColumn
+  UpdateDateColumn,
+  ManyToMany,
+  JoinTable
 } from 'typeorm';
 import { hash } from 'bcrypt';
+
+import { Permission } from './permission.entity';
 
 @Entity()
 @Unique(['username', 'email'])
@@ -37,6 +41,20 @@ export class User {
 
   @UpdateDateColumn({ name: 'updated_at' })
   updatedAt: string;
+
+  @ManyToMany(type => Permission)
+  @JoinTable({
+    name: 'user_permissions',
+    joinColumn: {
+      name: 'user_id',
+      referencedColumnName: 'id'
+    },
+    inverseJoinColumn: {
+      name: 'permission_id',
+      referencedColumnName: 'id'
+    }
+  })
+  permissions: Permission[];
 
   public async comparePassword(password: string) {
     const hashedPassword = await hash(password, this.salt);

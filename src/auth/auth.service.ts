@@ -4,6 +4,7 @@ import { Repository } from 'typeorm';
 import * as uuid from 'uuid/v4';
 import { sign } from 'jsonwebtoken';
 
+import { IPayload } from '../shared/interfaces/auth.interface';
 import { Session } from '../entities/session.entity';
 import { User } from '../entities/user.entity';
 import { UserService } from '../user/user.service';
@@ -20,5 +21,13 @@ export class AuthService {
     return sign(user.toResponseObject(), process.env.JWT_SECRET, {
       expiresIn: '15m'
     });
+  }
+
+  public async validateUser(payload: IPayload) {
+    if (typeof payload.id === 'number') {
+      return await this.userService.getById(payload.id);
+    } else {
+      return null;
+    }
   }
 }
