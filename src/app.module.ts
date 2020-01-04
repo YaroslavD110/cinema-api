@@ -2,6 +2,7 @@ import { APP_INTERCEPTOR, APP_FILTER } from '@nestjs/core';
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
+import { AppController } from './app.controller';
 import { FilmsModule } from './films/films.module';
 import { LabelsModule } from './labels/labels.module';
 import { ExceptionsFilter } from './shared/exceptions.filter';
@@ -27,6 +28,7 @@ import { AuthModule } from './auth/auth.module';
     UserModule,
     AuthModule
   ],
+  controllers: [AppController],
   providers: [
     {
       provide: APP_INTERCEPTOR,

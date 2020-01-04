@@ -1,12 +1,7 @@
-import {
-  Controller,
-  Post,
-  Body,
-  HttpException,
-  HttpStatus
-} from '@nestjs/common';
+import { Request } from 'express';
+import { Controller, Post, Body, Req } from '@nestjs/common';
 
-import { LoginDTO } from './dto/parameters.dto';
+import { LoginDTO, RefreshTokenDTO } from './dto/parameters.dto';
 import { UserDTO } from '../user/dto/user.dto';
 import { AuthService } from './auth.service';
 import { UserService } from '../user/user.service';
@@ -24,20 +19,14 @@ export class AuthController {
   }
 
   @Post('/login')
-  public async login(@Body() data: LoginDTO) {
-    const errorMessage = 'Invalid password or email!';
-    const user = await this.userService.getByEmail(data.email);
-    if (!user) {
-      throw new HttpException(errorMessage, HttpStatus.BAD_REQUEST);
-    }
+  public login(@Req() req: Request, @Body() data: LoginDTO) {
+    const userAgent = req.headers['user-agent'];
 
-    const isPasswordValid = await user.comparePassword(data.password);
-    if (!isPasswordValid) {
-      throw new HttpException(errorMessage, HttpStatus.BAD_REQUEST);
-    }
+    return this.authService.login(data, userAgent);
+  }
 
-    const token = this.authService.signUser(user);
-
-    return { token };
+  @Post('/refresh')
+  public refresh(@Body() data: RefreshTokenDTO) {
+    return this.authService.refreshToken(data);
   }
 }
