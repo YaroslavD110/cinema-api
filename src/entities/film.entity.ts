@@ -43,6 +43,9 @@ export class Film {
   @Column({ type: 'smallint' })
   year: number;
 
+  @Column({ type: 'bigint', name: 'views_number', default: 0 })
+  viewsNumber: string;
+
   @CreateDateColumn({ name: 'created_at' })
   createdAt: Date;
 

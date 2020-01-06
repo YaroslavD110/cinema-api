@@ -3,8 +3,9 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 
 import { LabelsService } from '../labels/labels.service';
-import { FilmDTO } from './dto/film.dto';
 import { Film } from '../entities/film.entity';
+import { FilmDTO } from './dto/film.dto';
+import { FilmQueryDTO } from './dto/params.dto';
 
 @Injectable()
 export class FilmsService {
@@ -14,10 +15,28 @@ export class FilmsService {
     private readonly labelsService: LabelsService
   ) {}
 
-  public getFilms() {
+  public getFilms(params: FilmQueryDTO) {
     return this.filmsRepository.find({
+      take: params.limit,
+      skip: params.offset,
+      select: ['id', 'title', 'slug', 'IMDBRating', 'posterUrl'],
+      relations: ['genres']
+    });
+  }
+
+  public async getFilmBySlug(slug: string) {
+    const film = await this.filmsRepository.findOne({
+      where: { slug },
       relations: ['genres', 'countries', 'directors']
     });
+
+    if (!film) {
+      throw new HttpException('Film not found!', HttpStatus.NOT_FOUND);
+    }
+
+    this.filmsRepository.increment({ id: film.id }, 'viewsNumber', 1);
+
+    return film;
   }
 
   public async getFilmById(id: number) {
@@ -28,6 +47,8 @@ export class FilmsService {
     if (!film) {
       throw new HttpException('Film not found!', HttpStatus.NOT_FOUND);
     }
+
+    this.filmsRepository.increment({ id: film.id }, 'viewsNumber', 1);
 
     return film;
   }
