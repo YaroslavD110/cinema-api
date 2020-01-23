@@ -24,6 +24,10 @@ export class FilmsService {
     });
   }
 
+  public countFilms() {
+    return this.filmsRepository.count();
+  }
+
   public async getFilmBySlug(slug: string) {
     const film = await this.filmsRepository.findOne({
       where: { slug },

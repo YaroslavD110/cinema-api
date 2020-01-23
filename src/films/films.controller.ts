@@ -16,6 +16,11 @@ export class FilmsController {
     return this.filmsService.getFilms(params);
   }
 
+  @Get('/count')
+  countFilms() {
+    return this.filmsService.countFilms();
+  }
+
   @Get(':id')
   getFilmById(@Param() params: GetByIdParams) {
     return this.filmsService.getFilmById(params.id);
