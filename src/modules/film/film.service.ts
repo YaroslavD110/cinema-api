@@ -2,60 +2,61 @@ import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 
-import { LabelsService } from '../labels/labels.service';
+import { CRUDService } from './../../shared/crud/crud.service';
 import { Film } from '../../entities/film.entity';
 import { FilmDTO } from './dto/film.dto';
 import { FilmQueryDTO } from './dto/params.dto';
 
 @Injectable()
-export class FilmsService {
+export class FilmsService extends CRUDService {
   constructor(
     @InjectRepository(Film)
-    private readonly filmsRepository: Repository<Film>,
-    private readonly labelsService: LabelsService
-  ) {}
+    private readonly filmsRepository: Repository<Film>
+  ) {
+    super(filmsRepository, Film);
+  }
 
-  // public getFilms(params: FilmQueryDTO) {
-  //   return this.filmsRepository.find({
-  //     take: params.limit,
-  //     skip: params.offset,
-  //     select: ['id', 'title', 'slug', 'IMDBRating', 'posterUrl'],
-  //     relations: ['genres']
-  //   });
-  // }
+  public getFilms(params: FilmQueryDTO) {
+    return this.filmsRepository.find({
+      take: params.limit,
+      skip: params.offset,
+      select: ['id', 'title', 'slug', 'posterImgName'],
+      relations: ['genres']
+    });
+  }
 
-  // public countFilms() {
-  //   return this.filmsRepository.count();
-  // }
+  public countFilms() {
+    return this.filmsRepository.count();
+  }
 
-  // public async getFilmBySlug(slug: string) {
-  //   const film = await this.filmsRepository.findOne({
-  //     where: { slug },
-  //     relations: ['genres', 'countries', 'directors']
-  //   });
+  public async getBySlug(slug: string) {
+    const film = await this.filmsRepository.findOne({
+      where: { slug },
+      relations: ['genres', 'countries', 'directors', 'actors']
+    });
 
-  //   if (!film) {
-  //     throw new HttpException('Film not found!', HttpStatus.NOT_FOUND);
-  //   }
+    if (!film) {
+      return null;
+    }
 
-  //   this.filmsRepository.increment({ id: film.id }, 'viewsNumber', 1);
+    this.filmsRepository.increment({ id: film.id }, 'viewsNumber', 1);
 
-  //   return film;
-  // }
+    return film;
+  }
 
-  // public async getFilmById(id: number) {
-  //   const film = await this.filmsRepository.findOne(id, {
-  //     relations: ['genres', 'countries', 'directors']
-  //   });
+  public async getById(id: number) {
+    const film = await this.filmsRepository.findOne(id, {
+      relations: ['genres', 'countries', 'directors', 'actors']
+    });
 
-  //   if (!film) {
-  //     throw new HttpException('Film not found!', HttpStatus.NOT_FOUND);
-  //   }
+    if (!film) {
+      return null;
+    }
 
-  //   this.filmsRepository.increment({ id: film.id }, 'viewsNumber', 1);
+    this.filmsRepository.increment({ id: film.id }, 'viewsNumber', 1);
 
-  //   return film;
-  // }
+    return film;
+  }
 
   // public async addFilm(data: FilmDTO) {
   //   const { genres, countries, directors, ...restData } = data;

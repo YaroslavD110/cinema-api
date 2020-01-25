@@ -32,4 +32,14 @@ export class CRUDService {
 
     return result.toResponseObject();
   }
+
+  public async delete(id: number) {
+    const result = await this.entityRepository.findOne(id);
+
+    if (!result) {
+      return null;
+    }
+
+    return this.entityRepository.remove(result);
+  }
 }
