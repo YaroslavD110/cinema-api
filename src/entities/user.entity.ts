@@ -1,3 +1,4 @@
+import { Session } from './session.entity';
 import {
   Entity,
   PrimaryGeneratedColumn,
@@ -6,7 +7,8 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   ManyToMany,
-  JoinTable
+  JoinTable,
+  OneToMany
 } from 'typeorm';
 import { hash } from 'bcrypt';
 
@@ -16,31 +18,31 @@ import { Permission } from './permission.entity';
 @Unique(['username', 'email'])
 export class User {
   @PrimaryGeneratedColumn()
-  id: number;
+  public id: number;
 
   @Column({ length: 254 })
-  username: string;
+  public username: string;
 
-  @Column({ name: 'first_name', length: 254 })
-  firstName: string;
+  @Column({ name: 'first_name', length: 255 })
+  public firstName: string;
 
-  @Column({ name: 'last_name', length: 254 })
-  lastName: string;
+  @Column({ name: 'last_name', length: 255 })
+  public lastName: string;
 
-  @Column({ length: 254 })
-  email: string;
+  @Column({ length: 255 })
+  public email: string;
 
-  @Column({ length: 254 })
-  password: string;
+  @Column({ length: 255 })
+  public password: string;
 
-  @Column({ length: 254 })
-  salt: string;
+  @Column({ length: 255 })
+  public salt: string;
 
   @CreateDateColumn({ name: 'created_at' })
-  createdAt: Date;
+  public createdAt: Date;
 
   @UpdateDateColumn({ name: 'updated_at' })
-  updatedAt: Date;
+  public updatedAt: Date;
 
   @ManyToMany(type => Permission)
   @JoinTable({
@@ -54,7 +56,13 @@ export class User {
       referencedColumnName: 'id'
     }
   })
-  permissions: Permission[];
+  public permissions: Permission[];
+
+  @OneToMany(
+    type => Session,
+    session => session.user
+  )
+  public sessions: Session[];
 
   public async comparePassword(password: string) {
     const hashedPassword = await hash(password, this.salt);
@@ -62,7 +70,7 @@ export class User {
   }
 
   public toResponseObject() {
-    let { password, salt, ...restFields } = this;
+    let { password, salt, sessions, ...restFields } = this;
 
     return restFields;
   }

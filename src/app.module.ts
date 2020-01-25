@@ -3,12 +3,15 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
 import { AppController } from './app.controller';
-import { FilmsModule } from './films/films.module';
-import { LabelsModule } from './labels/labels.module';
-import { ExceptionsFilter } from './shared/exceptions.filter';
+import { FilmsModule } from './modules/film/film.module';
+import { UserModule } from './modules/user/user.module';
+import { AuthModule } from './modules/auth/auth.module';
+import { ActorModule } from './modules/actor/actor.module';
+import { CountryModule } from './modules/country/country.module';
+import { GenreModule } from './modules/genre/genre.module';
 import { LoggingInterceptor } from './shared/logging.interceptor';
-import { UserModule } from './user/user.module';
-import { AuthModule } from './auth/auth.module';
+import { ExceptionsFilter } from './shared/exceptions.filter';
+import { DirectorModule } from './modules/director/director.module';
 
 @Module({
   imports: [
@@ -23,10 +26,13 @@ import { AuthModule } from './auth/auth.module';
       synchronize: process.env.NODE_ENV === 'development',
       logging: process.env.NODE_ENV === 'development'
     }),
-    FilmsModule,
-    LabelsModule,
+    AuthModule,
     UserModule,
-    AuthModule
+    ActorModule,
+    CountryModule,
+    FilmsModule,
+    GenreModule,
+    DirectorModule
   ],
   controllers: [AppController],
   providers: [

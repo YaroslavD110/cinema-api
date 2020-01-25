@@ -1,3 +1,4 @@
+import { Actor } from './actor.entity';
 import {
   Entity,
   Column,
@@ -9,48 +10,43 @@ import {
   UpdateDateColumn
 } from 'typeorm';
 
+import { CRUDEntity } from 'src/shared/crud/crud.entity';
 import { Genre } from './genre.entity';
 import { Director } from './director.entity';
 import { Country } from './country.entity';
 
 @Entity('film')
-@Unique(['slug', 'subtitle'])
-export class Film {
+@Unique(['slug'])
+export class Film implements CRUDEntity {
   @PrimaryGeneratedColumn()
-  id: number;
+  public id: number;
 
-  @Column({ length: 254 })
-  title: string;
+  @Column({ length: 255 })
+  public title: string;
 
-  @Column({ length: 254 })
-  slug: string;
+  @Column({ length: 255 })
+  public slug: string;
 
-  @Column({ length: 254, nullable: true })
-  subtitle?: string;
+  @Column({ length: 255, name: 'eng_title', nullable: true })
+  public engTitle?: string;
 
-  @Column({ name: 'poster_url', length: 254, nullable: true })
-  posterUrl?: string;
-
-  @Column({ name: 'video_frame_url', length: 254, nullable: true })
-  videoFrameUrl?: string;
+  @Column({ length: 255, name: 'poster_url', nullable: true })
+  public posterImgName?: string;
 
   @Column({ type: 'text' })
-  description: string;
-
-  @Column({ type: 'float', name: 'imdb_rating' })
-  IMDBRating: number;
+  public description: string;
 
   @Column({ type: 'smallint' })
-  year: number;
+  public year: number;
 
   @Column({ type: 'bigint', name: 'views_number', default: 0 })
-  viewsNumber: string;
+  public viewsNumber: string;
 
   @CreateDateColumn({ name: 'created_at' })
-  createdAt: Date;
+  public createdAt: Date;
 
   @UpdateDateColumn({ name: 'updated_at' })
-  updatedAt: Date;
+  public updatedAt: Date;
 
   @ManyToMany(type => Genre)
   @JoinTable({
@@ -64,7 +60,7 @@ export class Film {
       referencedColumnName: 'id'
     }
   })
-  genres: Genre[];
+  public genres: Genre[];
 
   @ManyToMany(type => Director)
   @JoinTable({
@@ -78,7 +74,21 @@ export class Film {
       referencedColumnName: 'id'
     }
   })
-  directors: Director[];
+  public directors: Director[];
+
+  @ManyToMany(type => Actor)
+  @JoinTable({
+    name: 'film_actors',
+    joinColumn: {
+      name: 'film_id',
+      referencedColumnName: 'id'
+    },
+    inverseJoinColumn: {
+      name: 'actor_id',
+      referencedColumnName: 'id'
+    }
+  })
+  public actors: Actor[];
 
   @ManyToMany(type => Country)
   @JoinTable({
@@ -92,5 +102,11 @@ export class Film {
       referencedColumnName: 'id'
     }
   })
-  countries: Country[];
+  public countries: Country[];
+
+  public toResponseObject() {
+    const { viewsNumber, updatedAt, ...filmRest } = this;
+
+    return filmRest;
+  }
 }

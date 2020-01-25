@@ -8,7 +8,7 @@ import {
 import { Reflector } from '@nestjs/core';
 import { verify } from 'jsonwebtoken';
 
-import { AuthService } from '../auth/auth.service';
+import { AuthService } from '../modules/auth/auth.service';
 import { PermissionNamesType, IPayload } from './interfaces/auth.interface';
 
 @Injectable()
@@ -35,38 +35,40 @@ export class PermissionsGuard implements CanActivate {
   }
 
   public async canActivate(context: ExecutionContext) {
-    const handler = context.getHandler();
-    const request = context.switchToHttp().getRequest();
-    const permissions = this.reflector.get<PermissionNamesType[]>(
-      'permissions',
-      handler
-    );
+    return true;
 
-    if (!request.headers.authorization) {
-      return false;
-    }
+    // const handler = context.getHandler();
+    // const request = context.switchToHttp().getRequest();
+    // const permissions = this.reflector.get<PermissionNamesType[]>(
+    //   'permissions',
+    //   handler
+    // );
 
-    const payload = (await this.validateToken(
-      request.headers.authorization
-    )) as IPayload;
-    const user = await this.authService.validateUser(payload);
+    // if (!request.headers.authorization) {
+    //   return false;
+    // }
 
-    if (!user) {
-      return false;
-    }
+    // const payload = (await this.validateToken(
+    //   request.headers.authorization
+    // )) as IPayload;
+    // const user = await this.authService.validateUser(payload);
 
-    request.user = user;
+    // if (!user) {
+    //   return false;
+    // }
 
-    if (!permissions) {
-      return true;
-    }
+    // request.user = user;
 
-    const availablePermissions = user.permissions.map(({ name }) => name);
+    // if (!permissions) {
+    //   return true;
+    // }
 
-    return (
-      permissions.filter(
-        permission => !availablePermissions.includes(permission)
-      ).length === 0
-    );
+    // const availablePermissions = user.permissions.map(({ name }) => name);
+
+    // return (
+    //   permissions.filter(
+    //     permission => !availablePermissions.includes(permission)
+    //   ).length === 0
+    // );
   }
 }

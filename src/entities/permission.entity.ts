@@ -13,13 +13,13 @@ import { User } from './user.entity';
 @Unique(['name'])
 export class Permission {
   @PrimaryGeneratedColumn('uuid')
-  id: string;
+  public id: string;
 
   @Column({ length: 254 })
-  name: string;
+  public name: string;
 
   @Column({ length: 254 })
-  description: string;
+  public description: string;
 
   @ManyToMany(type => User)
   @JoinTable({
@@ -33,5 +33,5 @@ export class Permission {
       referencedColumnName: 'id'
     }
   })
-  users: User[];
+  public users: User[];
 }

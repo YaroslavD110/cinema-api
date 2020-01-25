@@ -1,14 +1,20 @@
 import { PrimaryGeneratedColumn, Column, Entity, Unique } from 'typeorm';
 
-@Entity('country')
+import { CRUDEntity } from 'src/shared/crud/crud.entity';
+
+@Entity('countries')
 @Unique(['slug'])
-export class Country {
+export class Country implements CRUDEntity {
   @PrimaryGeneratedColumn()
-  id: number;
+  public id: number;
 
-  @Column({ length: 254 })
-  label: string;
+  @Column({ length: 255 })
+  public name: string;
 
-  @Column({ length: 254 })
-  slug: string;
+  @Column({ length: 255 })
+  public slug: string;
+
+  public toResponseObject() {
+    return this;
+  }
 }

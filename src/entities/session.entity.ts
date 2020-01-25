@@ -5,37 +5,37 @@ import {
   Unique,
   CreateDateColumn,
   UpdateDateColumn,
-  JoinColumn,
-  ManyToOne
+  ManyToOne,
+  JoinColumn
 } from 'typeorm';
 
 import { User } from './user.entity';
 
 @Entity()
-@Unique(['identifier'])
+@Unique(['token'])
 export class Session {
   @PrimaryGeneratedColumn()
-  id: number;
+  public id: number;
 
-  @Column('uuid')
-  identifier: string;
+  @Column({ type: 'uuid' })
+  public token: string;
 
-  @Column()
-  fingerprint: string;
+  @Column({ length: 255 })
+  public fingerprint: string;
 
-  @Column()
-  userAgent: string;
+  @Column({ length: 255, name: 'user_agent' })
+  public userAgent: string;
 
-  @Column('bigint')
-  expiresIn: number;
+  @Column({ type: 'bigint', name: 'expires_in' })
+  public expiresIn: number;
 
   @CreateDateColumn({ name: 'created_at' })
-  createdAt: Date;
+  public createdAt: Date;
 
   @UpdateDateColumn({ name: 'updated_at' })
-  updatedAt: Date;
+  public updatedAt: Date;
 
   @ManyToOne(type => User)
-  @JoinColumn()
-  user: User;
+  @JoinColumn({ name: 'user_id' })
+  public user: User;
 }
