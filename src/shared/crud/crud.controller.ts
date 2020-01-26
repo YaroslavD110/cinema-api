@@ -4,7 +4,7 @@ import { Get, Param, HttpException, HttpStatus, Delete } from '@nestjs/common';
 import { CRUDService } from './crud.service';
 
 export class CRUDController {
-  constructor(private readonly crudService: CRUDService) {}
+  constructor(private readonly crudService: CRUDService<any>) {}
 
   @Get('/')
   public getAll(params?: any) {

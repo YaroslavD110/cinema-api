@@ -4,13 +4,17 @@ import { InjectRepository } from '@nestjs/typeorm';
 
 import { Genre } from './../../entities/genre.entity';
 import { CRUDService } from './../../shared/crud/crud.service';
+import { GenreDTO } from './dto/genre.dto';
 
 @Injectable()
-export class GenreService extends CRUDService {
+export class GenreService extends CRUDService<GenreDTO> {
   constructor(
     @InjectRepository(Genre)
     private readonly genreRepository: Repository<Genre>
   ) {
-    super(genreRepository, Genre);
+    super({
+      entityRepository: genreRepository,
+      Entity: Genre
+    });
   }
 }

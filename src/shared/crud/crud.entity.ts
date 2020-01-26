@@ -1,4 +1,4 @@
-export abstract class CRUDEntity {
+export class CRUDEntity {
   public id: number;
 
   public slug: string;

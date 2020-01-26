@@ -8,12 +8,15 @@ import { FilmDTO } from './dto/film.dto';
 import { FilmQueryDTO } from './dto/params.dto';
 
 @Injectable()
-export class FilmsService extends CRUDService {
+export class FilmsService extends CRUDService<FilmDTO> {
   constructor(
     @InjectRepository(Film)
     private readonly filmsRepository: Repository<Film>
   ) {
-    super(filmsRepository, Film);
+    super({
+      entityRepository: filmsRepository,
+      Entity: Film
+    });
   }
 
   public getFilms(params: FilmQueryDTO) {

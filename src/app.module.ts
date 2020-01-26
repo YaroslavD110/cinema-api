@@ -46,4 +46,6 @@ import { DirectorModule } from './modules/director/director.module';
     }
   ]
 })
-export class AppModule {}
+export class AppModule {
+  constructor() {}
+}
