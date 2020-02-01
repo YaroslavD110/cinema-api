@@ -9,7 +9,10 @@ import {
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Transform } from 'class-transformer';
 
-import { parseIntArrayTransform, parseDate } from 'src/shared/data.transform';
+import {
+  parseIntArrayTransform,
+  parseDate
+} from '../../../shared/data.transform';
 
 export class ActorRequestDTO {
   @MaxLength(255)

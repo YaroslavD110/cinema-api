@@ -10,14 +10,14 @@ import {
 import { ApiTags } from '@nestjs/swagger';
 import { FileInterceptor } from '@nestjs/platform-express';
 
-import { ActorRequestDTO } from './dto/actor.dto';
+import { ActorRequestDTO, ActorDTO } from './dto/actor.dto';
 import { ActorService } from './actor.service';
 import { CRUDController } from '../../shared/crud/crud.controller';
 import { multerOptions } from '../../shared/utils/files.util';
 
 @ApiTags('Actors')
 @Controller('actor')
-export class ActorController extends CRUDController {
+export class ActorController extends CRUDController<ActorDTO> {
   constructor(private readonly actorService: ActorService) {
     super(actorService);
   }
@@ -31,7 +31,17 @@ export class ActorController extends CRUDController {
         posterImgName: file.filename
       });
     } catch (error) {
-      throw new HttpException('Invalid data!', HttpStatus.BAD_REQUEST);
+      if (error.message === '23505' /* Duplicate unique value error code */) {
+        throw new HttpException(
+          'Duplicated unigue value!',
+          HttpStatus.BAD_REQUEST
+        );
+      } else {
+        throw new HttpException(
+          'Unable to save this data!',
+          HttpStatus.INTERNAL_SERVER_ERROR
+        );
+      }
     }
   }
 }

@@ -1,18 +1,27 @@
-import { GetByIdParams, GetBySlugParams } from '../dto/params.dto';
-import { Get, Param, HttpException, HttpStatus, Delete } from '@nestjs/common';
+import {
+  Get,
+  Param,
+  HttpException,
+  HttpStatus,
+  Delete,
+  Body,
+  Post
+} from '@nestjs/common';
 
+import { GetByIdParams, GetBySlugParams } from '../dto/params.dto';
+import { CRUDEntity } from './crud.entity';
 import { CRUDService } from './crud.service';
 
-export class CRUDController {
-  constructor(private readonly crudService: CRUDService<any>) {}
+export class CRUDController<EntityDTO> {
+  constructor(private readonly crudService: CRUDService<EntityDTO>) {}
 
   @Get('/')
-  public getAll(params?: any) {
-    return this.crudService.getAll();
+  public async getAll(params?: any): Promise<CRUDEntity[]> {
+    return await this.crudService.getAll();
   }
 
   @Get('/:id')
-  public async getById(@Param() params: GetByIdParams) {
+  public async getById(@Param() params: GetByIdParams): Promise<CRUDEntity> {
     const result = await this.crudService.getById(params.id);
 
     if (!result) {
@@ -23,7 +32,9 @@ export class CRUDController {
   }
 
   @Get('/slug/:slug')
-  public async getBySlug(@Param() params: GetBySlugParams) {
+  public async getBySlug(
+    @Param() params: GetBySlugParams
+  ): Promise<CRUDEntity> {
     const result = await this.crudService.getBySlug(params.slug);
 
     if (!result) {
@@ -34,7 +45,7 @@ export class CRUDController {
   }
 
   @Delete('/:id')
-  public async delete(@Param() params: GetByIdParams) {
+  public async delete(@Param() params: GetByIdParams): Promise<boolean> {
     const deletedEntity = await this.crudService.delete(params.id);
 
     if (!deletedEntity) {
@@ -42,5 +53,24 @@ export class CRUDController {
     }
 
     return true;
+  }
+
+  @Post('/add')
+  public async add(@Body() data: EntityDTO, param?: any): Promise<CRUDEntity> {
+    try {
+      return await this.crudService.add(data);
+    } catch (error) {
+      if (error.message === '23505' /* Duplicate unique value error code */) {
+        throw new HttpException(
+          'Duplicated unigue value!',
+          HttpStatus.BAD_REQUEST
+        );
+      } else {
+        throw new HttpException(
+          'Unable to save this data!',
+          HttpStatus.INTERNAL_SERVER_ERROR
+        );
+      }
+    }
   }
 }

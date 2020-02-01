@@ -3,5 +3,7 @@ export class CRUDEntity {
 
   public slug: string;
 
-  public toResponseObject(): any {}
+  public toResponseObject(): CRUDEntity {
+    return this;
+  }
 }

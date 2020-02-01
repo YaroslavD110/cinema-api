@@ -5,19 +5,15 @@ import {
   IsNotEmpty,
   IsOptional,
   IsInt,
-  IsNumber,
-  Min,
-  Max,
   ArrayNotEmpty
 } from 'class-validator';
 
 import {
-  parseFloatTransform,
   parseIntTransform,
   parseIntArrayTransform
 } from '../../../shared/data.transform';
 
-export class FilmDTO {
+export class FilmRequestDTO {
   @MaxLength(255)
   @IsNotEmpty()
   @ApiProperty({ maxLength: 255 })
@@ -31,17 +27,7 @@ export class FilmDTO {
   @MaxLength(255)
   @IsOptional()
   @ApiPropertyOptional({ maxLength: 255 })
-  subtitle?: string;
-
-  @MaxLength(255)
-  @IsOptional()
-  @ApiPropertyOptional({ maxLength: 255 })
-  posterUrl?: string;
-
-  @MaxLength(255)
-  @IsOptional()
-  @ApiPropertyOptional({ maxLength: 255 })
-  videoFrameUrl?: string;
+  engTitle?: string;
 
   @MaxLength(2500)
   @IsNotEmpty()
@@ -49,18 +35,16 @@ export class FilmDTO {
   description: string;
 
   @IsNotEmpty()
-  @IsNumber()
-  @Min(0)
-  @Max(10)
-  @Transform(parseFloatTransform)
-  @ApiProperty({ minimum: 0, maximum: 10 })
-  IMDBRating: number;
-
-  @IsNotEmpty()
   @IsInt()
   @Transform(parseIntTransform)
   @ApiProperty()
   year: number;
+
+  @IsInt({ each: true })
+  @ArrayNotEmpty()
+  @Transform(parseIntArrayTransform)
+  @ApiProperty({ type: [Number] })
+  actors: number[];
 
   @IsInt({ each: true })
   @ArrayNotEmpty()
@@ -79,4 +63,11 @@ export class FilmDTO {
   @Transform(parseIntArrayTransform)
   @ApiProperty({ type: [Number] })
   countries: number[];
+}
+
+export class FilmDTO {
+  @MaxLength(255)
+  @IsOptional()
+  @ApiPropertyOptional({ maxLength: 255 })
+  posterImgName?: string;
 }

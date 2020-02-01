@@ -5,7 +5,7 @@ export class CountryDTO {
   @MaxLength(255)
   @IsNotEmpty()
   @ApiProperty({ maxLength: 255 })
-  label: string;
+  name: string;
 
   @MaxLength(255)
   @IsNotEmpty()

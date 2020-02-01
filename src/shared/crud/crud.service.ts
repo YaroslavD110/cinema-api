@@ -3,7 +3,7 @@ import { Repository } from 'typeorm';
 
 import { CRUDEntity } from './crud.entity';
 
-interface ICRUDServiceConfig {
+export interface ICRUDServiceConfig {
   entityRepository: Repository<CRUDEntity>;
   Entity: typeof CRUDEntity;
 }
@@ -11,12 +11,12 @@ interface ICRUDServiceConfig {
 export class CRUDService<EntityDTO> {
   constructor(private readonly crudConfig: ICRUDServiceConfig) {}
 
-  public async getAll() {
+  public async getAll(): Promise<CRUDEntity[]> {
     const result = await this.crudConfig.entityRepository.find();
     return result.map(resultEntity => resultEntity.toResponseObject());
   }
 
-  public async getById(id: number) {
+  public async getById(id: number): Promise<CRUDEntity | null> {
     const result = await this.crudConfig.entityRepository.findOne(id);
 
     if (!result) {
@@ -26,7 +26,7 @@ export class CRUDService<EntityDTO> {
     return result.toResponseObject();
   }
 
-  public async getBySlug(slug: string) {
+  public async getBySlug(slug: string): Promise<CRUDEntity | null> {
     const result = await this.crudConfig.entityRepository.findOne({ slug });
 
     if (!result) {
@@ -36,18 +36,24 @@ export class CRUDService<EntityDTO> {
     return result.toResponseObject();
   }
 
-  public async delete(id: number) {
+  public async delete(id: number): Promise<CRUDEntity | null> {
     const result = await this.crudConfig.entityRepository.findOne(id);
 
     if (!result) {
       return null;
     }
 
-    return this.crudConfig.entityRepository.remove(result);
+    return await this.crudConfig.entityRepository.remove(result);
   }
 
-  public async add(data: EntityDTO) {
-    let entity = plainToClass(this.crudConfig.Entity, data);
-    return this.crudConfig.entityRepository.save(entity);
+  public async add(data: EntityDTO): Promise<CRUDEntity> {
+    try {
+      let entity = plainToClass(this.crudConfig.Entity, data);
+      const newEntity = await this.crudConfig.entityRepository.save(entity);
+
+      return newEntity.toResponseObject();
+    } catch (error) {
+      throw new Error(error.code);
+    }
   }
 }
