@@ -13,7 +13,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { ActorRequestDTO, ActorDTO } from './dto/actor.dto';
 import { ActorService } from './actor.service';
 import { CRUDController } from '../../shared/crud/crud.controller';
-import { multerOptions } from '../../shared/utils/files.util';
+import { multerOptions, composeFile } from '../../shared/utils/files.util';
 
 @ApiTags('Actors')
 @Controller('actor')
@@ -23,12 +23,12 @@ export class ActorController extends CRUDController<ActorDTO> {
   }
 
   @Post('/add')
-  @UseInterceptors(FileInterceptor('posterImgName', multerOptions))
+  @UseInterceptors(FileInterceptor('posterImg', multerOptions))
   public async add(@UploadedFile() file, @Body() data: ActorRequestDTO) {
     try {
       return await this.actorService.add({
         ...data,
-        posterImgName: file.filename
+        posterImg: composeFile(file)
       });
     } catch (error) {
       if (error.message === '23505' /* Duplicate unique value error code */) {

@@ -6,12 +6,15 @@ import {
   UpdateDateColumn,
   Unique,
   ManyToMany,
-  JoinTable
+  JoinTable,
+  OneToOne,
+  JoinColumn
 } from 'typeorm';
 
 import { CRUDEntity } from '../shared/crud/crud.entity';
 import { Film } from './film.entity';
 import { Genre } from './genre.entity';
+import { Image } from './image.entity';
 
 @Entity('actors')
 @Unique(['slug'])
@@ -28,14 +31,15 @@ export class Actor implements CRUDEntity {
   @Column({ length: 255, name: 'eng_name', nullable: true })
   public engName?: string;
 
-  @Column({ length: 255, name: 'poster_img_name', nullable: true })
-  public posterImgName?: string;
-
   @Column({ length: 255, name: 'birth_place', nullable: true })
   public birthPlace?: string;
 
   @Column({ type: 'date', nullable: true })
   public birthDate?: Date;
+
+  @OneToOne(type => Image)
+  @JoinColumn({ name: 'poster_img_id' })
+  public posterImg?: Image | string;
 
   @ManyToMany(type => Genre)
   @JoinTable({
@@ -71,7 +75,11 @@ export class Actor implements CRUDEntity {
   @UpdateDateColumn({ name: 'updated_at' })
   public updatedAt: Date;
 
-  toResponseObject() {
+  public toResponseObject() {
+    if (this.posterImg instanceof Image) {
+      this.posterImg = this.posterImg.toResponseValue();
+    }
+
     return this;
   }
 }

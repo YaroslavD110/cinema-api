@@ -12,6 +12,7 @@ import {
   parseIntTransform,
   parseIntArrayTransform
 } from '../../../shared/data.transform';
+import { FileDTO } from './../../../shared/dto/file.dto';
 
 export class FilmRequestDTO {
   @MaxLength(255)
@@ -66,8 +67,11 @@ export class FilmRequestDTO {
 }
 
 export class FilmDTO {
-  @MaxLength(255)
   @IsOptional()
-  @ApiPropertyOptional({ maxLength: 255 })
-  posterImgName?: string;
+  @ApiPropertyOptional()
+  posterImg?: FileDTO;
+
+  @IsOptional()
+  @ApiProperty({ type: [String] })
+  screenshots?: FileDTO[];
 }

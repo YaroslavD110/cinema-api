@@ -3,6 +3,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 
+import { createImageEntity } from './../../shared/utils/files.util';
 import { CRUDService } from './../../shared/crud/crud.service';
 import { FilmDTO } from './dto/film.dto';
 import { FilmQueryDTO } from './dto/params.dto';
@@ -11,6 +12,16 @@ import { Director } from './../../entities/director.entity';
 import { Country } from './../../entities/country.entity';
 import { Actor } from './../../entities/actor.entity';
 import { Genre } from './../../entities/genre.entity';
+import { Image } from './../../entities/image.entity';
+
+const allFilmRelations = [
+  'genres',
+  'countries',
+  'directors',
+  'actors',
+  'posterImg',
+  'screenshots'
+];
 
 @Injectable()
 export class FilmsService extends CRUDService<FilmDTO> {
@@ -24,21 +35,36 @@ export class FilmsService extends CRUDService<FilmDTO> {
     @InjectRepository(Actor)
     private readonly actorRepository: Repository<Actor>,
     @InjectRepository(Genre)
-    private readonly genreRepository: Repository<Genre>
+    private readonly genreRepository: Repository<Genre>,
+    @InjectRepository(Image)
+    private readonly imageRepository: Repository<Image>
   ) {
     super({
       entityRepository: filmsRepository,
-      Entity: Film
+      Entity: Film,
+      relations: allFilmRelations
     });
   }
 
-  public getFilms(params: FilmQueryDTO) {
-    return this.filmsRepository.find({
+  public async getAllFilms(params: FilmQueryDTO) {
+    const films = await this.filmsRepository.find({
       take: params.limit,
       skip: params.offset,
-      select: ['id', 'title', 'slug', 'posterImgName'],
-      relations: ['genres']
+      relations: allFilmRelations
     });
+
+    return films.map(film => film.toResponseObject());
+  }
+
+  public async getMinimizedFilms(params: FilmQueryDTO) {
+    const films = await this.filmsRepository.find({
+      take: params.limit,
+      skip: params.offset,
+      select: ['id', 'title', 'slug', 'posterImg'],
+      relations: ['genres', 'posterImg']
+    });
+
+    return films.map(film => film.toResponseObject());
   }
 
   public countFilms() {
@@ -57,12 +83,12 @@ export class FilmsService extends CRUDService<FilmDTO> {
 
     this.filmsRepository.increment({ id: film.id }, 'viewsNumber', 1);
 
-    return film;
+    return film.toResponseObject();
   }
 
   public async getById(id: number) {
     const film = await this.filmsRepository.findOne(id, {
-      relations: ['genres', 'countries', 'directors', 'actors']
+      relations: allFilmRelations
     });
 
     if (!film) {
@@ -71,11 +97,34 @@ export class FilmsService extends CRUDService<FilmDTO> {
 
     this.filmsRepository.increment({ id: film.id }, 'viewsNumber', 1);
 
-    return film;
+    return film.toResponseObject();
   }
 
   public async add(data: FilmDTO) {
+    const images: Image[] = [];
     const film = plainToClass(Film, data);
+
+    if (data.posterImg) {
+      const image = createImageEntity(data.posterImg);
+
+      film.posterImg = image;
+      images.push(image);
+    }
+
+    if (Array.isArray(data.screenshots) && data.screenshots.length) {
+      film.screenshots = [];
+
+      for (let screenshotData of data.screenshots) {
+        const image = createImageEntity(screenshotData);
+
+        film.screenshots.push(image);
+        images.push(image);
+      }
+    }
+
+    if (images.length) {
+      await this.imageRepository.save(images);
+    }
 
     film.actors = await this.actorRepository.findByIds(film.actors);
     film.directors = await this.directorRepository.findByIds(film.directors);

@@ -3,35 +3,14 @@ import * as uuid from 'uuid/v4';
 import { MulterOptions } from '@nestjs/platform-express/multer/interfaces/multer-options.interface';
 import { diskStorage } from 'multer';
 
-export type RenameCallbackType = (error: Error | null, name: string) => void;
-export type FilterCallbackType = (
-  error: Error | null,
-  acceptFile: boolean
-) => void;
-export type MulterFuncType<CallbackType> = (
-  req: any,
-  file: {
-    /** Field name specified in the form */
-    fieldname: string;
-    /** Name of the file on the user's computer */
-    originalname: string;
-    /** Encoding type of the file */
-    encoding: string;
-    /** Mime type of the file */
-    mimetype: string;
-    /** Size of the file in bytes */
-    size: number;
-    /** The folder to which the file has been saved (DiskStorage) */
-    destination: string;
-    /** The name of the file within the destination (DiskStorage) */
-    filename: string;
-    /** Location of the uploaded file (DiskStorage) */
-    path: string;
-    /** A Buffer of the entire file (MemoryStorage) */
-    buffer: Buffer;
-  },
-  callback: CallbackType
-) => void;
+import {
+  MulterFuncType,
+  FilterCallbackType,
+  RenameCallbackType,
+  MulterFileType
+} from '../interfaces/files.interface';
+import { FileDTO } from './../dto/file.dto';
+import { Image } from './../../entities/image.entity';
 
 export const imagesFileFilter: MulterFuncType<FilterCallbackType> = (
   _,
@@ -39,6 +18,7 @@ export const imagesFileFilter: MulterFuncType<FilterCallbackType> = (
   callback
 ) => {
   const ext = extname(file.originalname);
+
   callback(null, ['.jpeg', '.jpg', '.png'].includes(ext));
 };
 
@@ -48,9 +28,7 @@ export const imagesRename: MulterFuncType<RenameCallbackType> = (
   callback
 ) => {
   const ext = extname(file.originalname);
-  const name = uuid();
-
-  callback(null, `${name}${ext}`);
+  callback(null, `${uuid()}${ext}`);
 };
 
 export const multerOptions: MulterOptions = {
@@ -59,4 +37,26 @@ export const multerOptions: MulterOptions = {
     filename: imagesRename
   }),
   fileFilter: imagesFileFilter
+};
+
+export const composeFile = (file?: MulterFileType): FileDTO => {
+  if (!file) return null;
+
+  return {
+    filename: file.filename,
+    mimetype: file.mimetype,
+    size: file.size
+  };
+};
+
+export const createImageEntity = (file: FileDTO): Image => {
+  const ext = extname(file.filename);
+  const image = new Image();
+
+  image.id = file.filename.replace(ext, '');
+  image.extension = ext;
+  image.mimetype = file.mimetype;
+  image.size = file.size;
+
+  return image;
 };

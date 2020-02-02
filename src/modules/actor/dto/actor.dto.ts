@@ -3,8 +3,7 @@ import {
   IsNotEmpty,
   IsOptional,
   IsInt,
-  ArrayNotEmpty,
-  IsDate
+  ArrayNotEmpty
 } from 'class-validator';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Transform } from 'class-transformer';
@@ -13,6 +12,7 @@ import {
   parseIntArrayTransform,
   parseDate
 } from '../../../shared/data.transform';
+import { FileDTO } from '../../../shared/dto/file.dto';
 
 export class ActorRequestDTO {
   @MaxLength(255)
@@ -53,8 +53,7 @@ export class ActorRequestDTO {
 }
 
 export class ActorDTO extends ActorRequestDTO {
-  @MaxLength(255)
   @IsOptional()
-  @ApiPropertyOptional({ maxLength: 255 })
-  posterImgName?: string;
+  @ApiPropertyOptional()
+  posterImg?: FileDTO;
 }

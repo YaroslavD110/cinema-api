@@ -12,7 +12,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 
 import { DirectorService } from './director.service';
 import { CRUDController } from './../../shared/crud/crud.controller';
-import { multerOptions } from './../../shared/utils/files.util';
+import { multerOptions, composeFile } from './../../shared/utils/files.util';
 import { DirectorRequestDTO, DirectorDTO } from './dto/director.dto';
 
 @ApiTags('Directors')
@@ -23,12 +23,12 @@ export class DirectorController extends CRUDController<DirectorDTO> {
   }
 
   @Post('/add')
-  @UseInterceptors(FileInterceptor('posterImgName', multerOptions))
+  @UseInterceptors(FileInterceptor('posterImg', multerOptions))
   public async add(@UploadedFile() file, @Body() data: DirectorRequestDTO) {
     try {
       return await this.directorService.add({
         ...data,
-        posterImgName: file.filename
+        posterImg: composeFile(file)
       });
     } catch (error) {
       if (error.message === '23505' /* Duplicate unique value error code */) {

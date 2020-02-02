@@ -5,18 +5,18 @@ import {
   Body,
   Query,
   UseInterceptors,
-  UploadedFile,
   HttpException,
-  HttpStatus
+  HttpStatus,
+  UploadedFiles
 } from '@nestjs/common';
-import { FileInterceptor } from '@nestjs/platform-express';
+import { FileFieldsInterceptor } from '@nestjs/platform-express';
 import { ApiTags } from '@nestjs/swagger';
 
 import { CRUDController } from './../../shared/crud/crud.controller';
 import { FilmsService } from './film.service';
 import { FilmQueryDTO } from './dto/params.dto';
 import { FilmRequestDTO, FilmDTO } from './dto/film.dto';
-import { multerOptions } from './../../shared/utils/files.util';
+import { multerOptions, composeFile } from './../../shared/utils/files.util';
 
 @ApiTags('Films')
 @Controller('film')
@@ -27,7 +27,12 @@ export class FilmsController extends CRUDController<FilmDTO> {
 
   @Get('/')
   public getAll(@Query() params: FilmQueryDTO) {
-    return this.filmsService.getFilms(params);
+    return this.filmsService.getAllFilms(params);
+  }
+
+  @Get('/minimized')
+  public getMinimized(@Query() params: FilmQueryDTO) {
+    return this.filmsService.getMinimizedFilms(params);
   }
 
   @Get('/count')
@@ -36,16 +41,23 @@ export class FilmsController extends CRUDController<FilmDTO> {
   }
 
   @Post('/')
-  @UseInterceptors(FileInterceptor('posterImgName', multerOptions))
-  public async addFilm(@UploadedFile() file, @Body() data: FilmRequestDTO) {
-    if (!file) {
-      throw new HttpException('Poster image required!', HttpStatus.BAD_REQUEST);
-    }
-
+  @UseInterceptors(
+    FileFieldsInterceptor(
+      [
+        { name: 'posterImg', maxCount: 1 },
+        { name: 'screenshots', maxCount: 10 }
+      ],
+      multerOptions
+    )
+  )
+  public async addFilm(@UploadedFiles() files, @Body() data: FilmRequestDTO) {
     try {
       return await this.filmsService.add({
         ...data,
-        posterImgName: file.filename
+        screenshots: files.screenshots?.map(composeFile),
+        posterImg: Array.isArray(files.posterImg)
+          ? composeFile(files.posterImg[0])
+          : undefined
       });
     } catch (error) {
       if (error.message === '23505' /* Duplicate unique value error code */) {

@@ -20,7 +20,7 @@ export class User {
   @PrimaryGeneratedColumn()
   public id: number;
 
-  @Column({ length: 254 })
+  @Column({ length: 255 })
   public username: string;
 
   @Column({ name: 'first_name', length: 255 })

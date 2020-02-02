@@ -15,10 +15,10 @@ export class Permission {
   @PrimaryGeneratedColumn('uuid')
   public id: string;
 
-  @Column({ length: 254 })
+  @Column({ length: 255 })
   public name: string;
 
-  @Column({ length: 254 })
+  @Column({ length: 255 })
   public description: string;
 
   @ManyToMany(type => User)

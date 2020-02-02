@@ -1,6 +1,8 @@
 import { MaxLength, IsNotEmpty, IsOptional } from 'class-validator';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 
+import { FileDTO } from 'src/shared/dto/file.dto';
+
 export class DirectorRequestDTO {
   @MaxLength(255)
   @IsNotEmpty()
@@ -29,8 +31,7 @@ export class DirectorRequestDTO {
 }
 
 export class DirectorDTO {
-  @MaxLength(255)
   @IsOptional()
-  @ApiPropertyOptional({ maxLength: 255 })
-  posterImgName?: string;
+  @ApiPropertyOptional()
+  posterImg?: FileDTO;
 }

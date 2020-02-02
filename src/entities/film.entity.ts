@@ -1,4 +1,3 @@
-import { Actor } from './actor.entity';
 import {
   Entity,
   Column,
@@ -7,13 +6,17 @@ import {
   Unique,
   JoinTable,
   CreateDateColumn,
-  UpdateDateColumn
+  UpdateDateColumn,
+  OneToOne,
+  JoinColumn
 } from 'typeorm';
 
 import { CRUDEntity } from '../shared/crud/crud.entity';
 import { Genre } from './genre.entity';
 import { Director } from './director.entity';
 import { Country } from './country.entity';
+import { Image } from './image.entity';
+import { Actor } from './actor.entity';
 
 @Entity('films')
 @Unique(['slug'])
@@ -30,12 +33,6 @@ export class Film implements CRUDEntity {
   @Column({ length: 255, name: 'eng_title', nullable: true })
   public engTitle?: string;
 
-  @Column({ length: 255, name: 'poster_url', nullable: true })
-  public posterImgName?: string;
-
-  @Column({ type: 'text' })
-  public description: string;
-
   @Column({ type: 'smallint' })
   public year: number;
 
@@ -47,6 +44,27 @@ export class Film implements CRUDEntity {
 
   @UpdateDateColumn({ name: 'updated_at' })
   public updatedAt: Date;
+
+  @Column({ type: 'text' })
+  public description: string;
+
+  @OneToOne(type => Image)
+  @JoinColumn({ name: 'poster_img_id' })
+  public posterImg?: Image | string;
+
+  @ManyToMany(type => Image)
+  @JoinTable({
+    name: 'film_screenshots',
+    joinColumn: {
+      name: 'film_id',
+      referencedColumnName: 'id'
+    },
+    inverseJoinColumn: {
+      name: 'image_id',
+      referencedColumnName: 'id'
+    }
+  })
+  public screenshots: Array<Image | string>;
 
   @ManyToMany(type => Genre)
   @JoinTable({
@@ -106,6 +124,18 @@ export class Film implements CRUDEntity {
 
   public toResponseObject() {
     const { viewsNumber, updatedAt, ...filmRest } = this;
+
+    if (this.posterImg instanceof Image) {
+      filmRest.posterImg = this.posterImg.toResponseValue();
+    }
+
+    if (Array.isArray(this.screenshots) && this.screenshots.length) {
+      filmRest.screenshots = this.screenshots.map(screenshot => {
+        if (screenshot instanceof Image) {
+          return screenshot.toResponseValue();
+        }
+      });
+    }
 
     return filmRest;
   }

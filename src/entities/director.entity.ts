@@ -4,10 +4,13 @@ import {
   Entity,
   Unique,
   CreateDateColumn,
-  UpdateDateColumn
+  UpdateDateColumn,
+  OneToOne,
+  JoinColumn
 } from 'typeorm';
 
 import { CRUDEntity } from '../shared/crud/crud.entity';
+import { Image } from './image.entity';
 
 @Entity('directors')
 @Unique(['slug'])
@@ -24,8 +27,9 @@ export class Director implements CRUDEntity {
   @Column({ length: 255, name: 'eng_name', nullable: true })
   public engName?: string;
 
-  @Column({ length: 255, name: 'poster_img_name', nullable: true })
-  public posterImgName?: string;
+  @OneToOne(type => Image)
+  @JoinColumn({ name: 'poster_img_id' })
+  public posterImg?: Image | string;
 
   @Column({ length: 255, name: 'birth_place', nullable: true })
   public birthPlace?: string;
@@ -40,7 +44,10 @@ export class Director implements CRUDEntity {
   public updatedAt: Date;
 
   public toResponseObject() {
-    const { updatedAt, ...directorRest } = this;
-    return directorRest;
+    if (this.posterImg instanceof Image) {
+      this.posterImg = this.posterImg.toResponseValue();
+    }
+
+    return this;
   }
 }
