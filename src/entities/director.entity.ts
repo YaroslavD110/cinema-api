@@ -7,9 +7,9 @@ import {
   UpdateDateColumn
 } from 'typeorm';
 
-import { CRUDEntity } from 'src/shared/crud/crud.entity';
+import { CRUDEntity } from '../shared/crud/crud.entity';
 
-@Entity('director')
+@Entity('directors')
 @Unique(['slug'])
 export class Director implements CRUDEntity {
   @PrimaryGeneratedColumn()

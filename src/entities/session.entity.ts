@@ -11,7 +11,7 @@ import {
 
 import { User } from './user.entity';
 
-@Entity()
+@Entity('sessions')
 @Unique(['token'])
 export class Session {
   @PrimaryGeneratedColumn()

@@ -10,12 +10,12 @@ import {
   UpdateDateColumn
 } from 'typeorm';
 
-import { CRUDEntity } from 'src/shared/crud/crud.entity';
+import { CRUDEntity } from '../shared/crud/crud.entity';
 import { Genre } from './genre.entity';
 import { Director } from './director.entity';
 import { Country } from './country.entity';
 
-@Entity('film')
+@Entity('films')
 @Unique(['slug'])
 export class Film implements CRUDEntity {
   @PrimaryGeneratedColumn()

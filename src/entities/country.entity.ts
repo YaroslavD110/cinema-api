@@ -1,6 +1,6 @@
 import { PrimaryGeneratedColumn, Column, Entity, Unique } from 'typeorm';
 
-import { CRUDEntity } from 'src/shared/crud/crud.entity';
+import { CRUDEntity } from '../shared/crud/crud.entity';
 
 @Entity('countries')
 @Unique(['slug'])

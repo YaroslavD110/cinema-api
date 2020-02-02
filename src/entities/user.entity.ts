@@ -14,7 +14,7 @@ import { hash } from 'bcrypt';
 
 import { Permission } from './permission.entity';
 
-@Entity()
+@Entity('users')
 @Unique(['username', 'email'])
 export class User {
   @PrimaryGeneratedColumn()

@@ -9,7 +9,7 @@ import {
 
 import { User } from './user.entity';
 
-@Entity('permission')
+@Entity('permissions')
 @Unique(['name'])
 export class Permission {
   @PrimaryGeneratedColumn('uuid')
