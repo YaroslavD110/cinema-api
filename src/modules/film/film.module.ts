@@ -1,6 +1,7 @@
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Module } from '@nestjs/common';
 
+import { APIService } from './APIs.service';
 import { FilmsService } from './film.service';
 import { FilmsController } from './film.controller';
 
@@ -15,7 +16,7 @@ import { Genre } from './../../entities/genre.entity';
   imports: [
     TypeOrmModule.forFeature([Film, Genre, Actor, Country, Director, Image])
   ],
-  providers: [FilmsService],
+  providers: [FilmsService, APIService],
   controllers: [FilmsController]
 })
 export class FilmsModule {}

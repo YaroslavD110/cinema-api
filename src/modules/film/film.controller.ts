@@ -1,3 +1,4 @@
+import { GetByIdParams } from './../../shared/dto/params.dto';
 import {
   Controller,
   Get,
@@ -7,7 +8,8 @@ import {
   UseInterceptors,
   HttpException,
   HttpStatus,
-  UploadedFiles
+  UploadedFiles,
+  Param
 } from '@nestjs/common';
 import { FileFieldsInterceptor } from '@nestjs/platform-express';
 import { ApiTags } from '@nestjs/swagger';
@@ -28,6 +30,19 @@ export class FilmsController extends CRUDController<FilmDTO> {
   @Get('/')
   public getAll(@Query() params: FilmQueryDTO) {
     return this.filmsService.getAllFilms(params);
+  }
+
+  @Get('/:id/update')
+  public async updateFilmData(@Param() params: GetByIdParams) {
+    const updatedEntity = await this.filmsService.updateDataAboutFilm(
+      params.id
+    );
+
+    if (!updatedEntity) {
+      throw new HttpException('Film not found!', HttpStatus.NOT_FOUND);
+    }
+
+    return updatedEntity;
   }
 
   @Get('/minimized')

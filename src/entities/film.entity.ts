@@ -48,6 +48,24 @@ export class Film implements CRUDEntity {
   @Column({ type: 'text' })
   public description: string;
 
+  @Column({ length: 255, name: 'iframe_url', nullable: true })
+  public iframeURL?: string;
+
+  @Column({ type: 'date', name: 'release_date', nullable: true })
+  public releaseDate?: Date;
+
+  @Column({ type: 'smallint', nullable: true })
+  public runtime?: number;
+
+  @Column({ length: 255, name: 'imdb_id', nullable: true })
+  public IMDBid?: string;
+
+  @Column({ type: 'decimal', nullable: true })
+  public IMDBRating?: number;
+
+  @Column({ length: 255, nullable: true })
+  public production?: string;
+
   @OneToOne(type => Image)
   @JoinColumn({ name: 'poster_img_id' })
   public posterImg?: Image | string;

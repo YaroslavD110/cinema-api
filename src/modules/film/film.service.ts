@@ -1,12 +1,16 @@
-import { plainToClass } from 'class-transformer';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { plainToClass } from 'class-transformer';
 import { Repository } from 'typeorm';
+
+import { APIService, IFilmDataResponse } from './APIs.service';
 
 import { createImageEntity } from './../../shared/utils/files.util';
 import { CRUDService } from './../../shared/crud/crud.service';
+
 import { FilmDTO } from './dto/film.dto';
 import { FilmQueryDTO } from './dto/params.dto';
+
 import { Film } from '../../entities/film.entity';
 import { Director } from './../../entities/director.entity';
 import { Country } from './../../entities/country.entity';
@@ -26,6 +30,7 @@ const allFilmRelations = [
 @Injectable()
 export class FilmsService extends CRUDService<FilmDTO> {
   constructor(
+    private readonly apiService: APIService,
     @InjectRepository(Film)
     private readonly filmsRepository: Repository<Film>,
     @InjectRepository(Director)
@@ -69,6 +74,34 @@ export class FilmsService extends CRUDService<FilmDTO> {
 
   public countFilms() {
     return this.filmsRepository.count();
+  }
+
+  public async updateDataAboutFilm(id: number): Promise<Film> {
+    const film = await this.filmsRepository.findOne(id);
+
+    if (!film) {
+      return null;
+    }
+
+    let filmData: IFilmDataResponse | null;
+    if (film.IMDBid) {
+      filmData = await this.apiService.getFilmData({ IMDBid: film.IMDBid });
+    } else {
+      filmData = await this.apiService.getFilmData({ title: film.title });
+    }
+
+    if (!filmData) {
+      return null;
+    }
+
+    const filmKeys = Object.keys(film);
+    for (let key in filmData) {
+      if (filmKeys.includes(key) && filmData[key]) {
+        film[key] = filmData[key];
+      }
+    }
+
+    return await this.filmsRepository.save(film);
   }
 
   public async getBySlug(slug: string) {
