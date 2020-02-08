@@ -76,13 +76,7 @@ export class FilmsService extends CRUDService<FilmDTO> {
     return this.filmsRepository.count();
   }
 
-  public async updateDataAboutFilm(id: number): Promise<Film> {
-    const film = await this.filmsRepository.findOne(id);
-
-    if (!film) {
-      return null;
-    }
-
+  private async updateFilm(film: Film) {
     let filmData: IFilmDataResponse | null;
     if (film.IMDBid) {
       filmData = await this.apiService.getFilmData({ IMDBid: film.IMDBid });
@@ -104,6 +98,26 @@ export class FilmsService extends CRUDService<FilmDTO> {
     return await this.filmsRepository.save(film);
   }
 
+  public async updateDataAboutFilm(id: number): Promise<Film> {
+    const film = await this.filmsRepository.findOne(id);
+
+    if (!film) {
+      return null;
+    }
+
+    return await this.updateFilm(film);
+  }
+
+  private async setMetaForFilm(film: Film) {
+    this.filmsRepository.increment({ id: film.id }, 'viewsNumber', 1);
+
+    if (!film.IMDBid || film.updatedAt.getTime() < new Date().setMonth(-1)) {
+      return await this.updateFilm(film);
+    }
+
+    return film;
+  }
+
   public async getBySlug(slug: string) {
     const film = await this.filmsRepository.findOne({
       where: { slug },
@@ -114,9 +128,12 @@ export class FilmsService extends CRUDService<FilmDTO> {
       return null;
     }
 
-    this.filmsRepository.increment({ id: film.id }, 'viewsNumber', 1);
+    const updatedFilmData = await this.setMetaForFilm(film);
 
-    return film.toResponseObject();
+    return {
+      ...film.toResponseObject(),
+      ...updatedFilmData.toResponseObject()
+    };
   }
 
   public async getById(id: number) {
@@ -128,9 +145,12 @@ export class FilmsService extends CRUDService<FilmDTO> {
       return null;
     }
 
-    this.filmsRepository.increment({ id: film.id }, 'viewsNumber', 1);
+    const updatedFilmData = await this.setMetaForFilm(film);
 
-    return film.toResponseObject();
+    return {
+      ...film.toResponseObject(),
+      ...updatedFilmData.toResponseObject()
+    };
   }
 
   public async add(data: FilmDTO) {
